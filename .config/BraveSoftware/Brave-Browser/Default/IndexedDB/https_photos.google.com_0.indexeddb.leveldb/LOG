@@ -1,3 +1,13 @@
-2024/08/19-22:09:02.434 1431 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/19-22:09:02.434 1431 Recovering log #7
-2024/08/19-22:09:02.454 1431 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000007.log 
+2024/08/22-21:59:47.047 1be6 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/22-21:59:47.048 1be6 Recovering log #7
+2024/08/22-21:59:47.066 1be6 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000007.log 
+2024/08/22-21:59:50.060 1be4 Level-0 table #11: started
+2024/08/22-21:59:50.084 1be4 Level-0 table #11: 2371972 bytes OK
+2024/08/22-21:59:50.088 1be4 Delete type=0 #7
+2024/08/22-21:59:50.424 1be5 Compacting 1@0 + 1@1 files
+2024/08/22-21:59:50.454 1be5 Generated table #12@0: 16961 keys, 2159149 bytes
+2024/08/22-21:59:50.478 1be5 Generated table #13@0: 8373 keys, 1829584 bytes
+2024/08/22-21:59:50.478 1be5 Compacted 1@0 + 1@1 files => 3988733 bytes
+2024/08/22-21:59:50.479 1be5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/22-21:59:50.480 1be5 Delete type=2 #8
+2024/08/22-21:59:50.480 1be5 Delete type=2 #11

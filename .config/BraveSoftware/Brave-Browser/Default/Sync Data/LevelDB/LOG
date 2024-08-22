@@ -148,3 +148,12 @@
 2024/08/22-21:23:51.393 1bfe Delete type=2 #455
 2024/08/22-21:23:51.393 1bfe Delete type=2 #457
 2024/08/22-21:23:51.393 1bfe Delete type=2 #459
+2024/08/22-21:51:34.045 1c00 Level-0 table #462: started
+2024/08/22-21:51:34.050 1c00 Level-0 table #462: 69839 bytes OK
+2024/08/22-21:51:34.052 1c00 Delete type=0 #458
+2024/08/22-21:59:15.912 1be4 Level-0 table #464: started
+2024/08/22-21:59:15.916 1be4 Level-0 table #464: 87877 bytes OK
+2024/08/22-21:59:15.918 1be4 Delete type=0 #461
+2024/08/22-22:06:22.714 1be6 Level-0 table #466: started
+2024/08/22-22:06:22.718 1be6 Level-0 table #466: 75983 bytes OK
+2024/08/22-22:06:22.720 1be6 Delete type=0 #463

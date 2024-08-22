@@ -69,3 +69,21 @@
 2024/08/22-21:11:22.397 1be4 Level-0 table #433: started
 2024/08/22-21:11:22.414 1be4 Level-0 table #433: 4443847 bytes OK
 2024/08/22-21:11:22.417 1be4 Delete type=0 #430
+2024/08/22-21:49:19.871 1be5 Level-0 table #435: started
+2024/08/22-21:49:19.887 1be5 Level-0 table #435: 4343779 bytes OK
+2024/08/22-21:49:19.890 1be5 Delete type=0 #432
+2024/08/22-21:49:19.891 1be5 Compacting 4@0 + 1@1 files
+2024/08/22-21:49:19.916 1be5 Generated table #436@0: 3 keys, 2176409 bytes
+2024/08/22-21:49:19.928 1be5 Compacted 4@0 + 1@1 files => 2176409 bytes
+2024/08/22-21:49:19.930 1be5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/22-21:49:19.931 1be5 Delete type=2 #427
+2024/08/22-21:49:19.931 1be5 Delete type=2 #429
+2024/08/22-21:49:19.931 1be5 Delete type=2 #431
+2024/08/22-21:49:19.931 1be5 Delete type=2 #433
+2024/08/22-21:49:19.931 1be5 Delete type=2 #435
+2024/08/22-21:54:30.760 1be5 Level-0 table #438: started
+2024/08/22-21:54:30.779 1be5 Level-0 table #438: 4462036 bytes OK
+2024/08/22-21:54:30.782 1be5 Delete type=0 #434
+2024/08/22-21:58:49.305 1be5 Level-0 table #440: started
+2024/08/22-21:58:49.330 1be5 Level-0 table #440: 6497313 bytes OK
+2024/08/22-21:58:49.333 1be5 Delete type=0 #437

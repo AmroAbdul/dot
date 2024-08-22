@@ -7,6 +7,7 @@ ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/dracula-spooky.png
+File10[$e]=gdrive:/google3/Clipped_image_20240712_212432.png?id=143p2joxzNKWODGH1O2GGZT-th2XIthUJ
 File2[$e]=$HOME/Downloads/dracula-mnt-6272a4.png
 File3[$e]=$HOME/Downloads/dracula-galaxy.png
 File4[$e]=$HOME/Downloads/CSSNotesForProfessionals.pdf
@@ -16,6 +17,7 @@ File7[$e]=$HOME/Pictures/clearoff.jpeg
 File8[$e]=$HOME/Pictures/Screenshot_20240213_183842.png
 File9[$e]=$HOME/Pictures/IMG_20230929_223038.jpg
 Name1[$e]=dracula-spooky.png
+Name10[$e]=Clipped_image_20240712_212432.png
 Name2[$e]=dracula-mnt-6272a4.png
 Name3[$e]=dracula-galaxy.png
 Name4[$e]=CSSNotesForProfessionals.pdf
@@ -31,4 +33,4 @@ RedEyeReductionDiameter=2
 [SideBar]
 InformationSplitterSizes=226,249
 IsVisible ViewMode=true
-SideBarSplitterSizes=225,1691
+SideBarSplitterSizes=226,1690
