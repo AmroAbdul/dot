@@ -655,3 +655,36 @@
 2024/08/22-21:17:08.599 1be5 Level-0 table #3266: started
 2024/08/22-21:17:08.604 1be5 Level-0 table #3266: 458703 bytes OK
 2024/08/22-21:17:08.606 1be5 Delete type=0 #3263
+2024/08/22-21:20:30.856 1be6 Level-0 table #3268: started
+2024/08/22-21:20:30.863 1be6 Level-0 table #3268: 469894 bytes OK
+2024/08/22-21:20:30.865 1be6 Delete type=0 #3265
+2024/08/22-21:20:30.866 1be6 Compacting 4@0 + 1@1 files
+2024/08/22-21:20:30.875 1be6 Generated table #3269@0: 2 keys, 58928 bytes
+2024/08/22-21:20:30.875 1be6 Compacted 4@0 + 1@1 files => 58928 bytes
+2024/08/22-21:20:30.876 1be6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/22-21:20:30.877 1be6 Delete type=2 #3260
+2024/08/22-21:20:30.877 1be6 Delete type=2 #3262
+2024/08/22-21:20:30.877 1be6 Delete type=2 #3264
+2024/08/22-21:20:30.877 1be6 Delete type=2 #3266
+2024/08/22-21:20:30.877 1be6 Delete type=2 #3268
+2024/08/22-21:20:38.289 1be5 Level-0 table #3271: started
+2024/08/22-21:20:38.295 1be5 Level-0 table #3271: 469868 bytes OK
+2024/08/22-21:20:38.297 1be5 Delete type=0 #3267
+2024/08/22-21:21:20.979 1be5 Level-0 table #3273: started
+2024/08/22-21:21:20.987 1be5 Level-0 table #3273: 586811 bytes OK
+2024/08/22-21:21:20.990 1be5 Delete type=0 #3270
+2024/08/22-21:23:56.532 1be5 Level-0 table #3275: started
+2024/08/22-21:23:56.539 1be5 Level-0 table #3275: 573739 bytes OK
+2024/08/22-21:23:56.542 1be5 Delete type=0 #3272
+2024/08/22-21:38:40.224 1be6 Level-0 table #3277: started
+2024/08/22-21:38:40.229 1be6 Level-0 table #3277: 473752 bytes OK
+2024/08/22-21:38:40.233 1be6 Delete type=0 #3274
+2024/08/22-21:38:40.234 1be6 Compacting 4@0 + 1@1 files
+2024/08/22-21:38:40.241 1be6 Generated table #3278@0: 2 keys, 47128 bytes
+2024/08/22-21:38:40.242 1be6 Compacted 4@0 + 1@1 files => 47128 bytes
+2024/08/22-21:38:40.244 1be6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/22-21:38:40.244 1be6 Delete type=2 #3269
+2024/08/22-21:38:40.244 1be6 Delete type=2 #3271
+2024/08/22-21:38:40.244 1be6 Delete type=2 #3273
+2024/08/22-21:38:40.244 1be6 Delete type=2 #3275
+2024/08/22-21:38:40.244 1be6 Delete type=2 #3277

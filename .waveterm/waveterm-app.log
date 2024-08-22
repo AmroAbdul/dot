@@ -1,0 +1,10 @@
+2023-12-18 08:43:02 waveterm-app starting, WAVETERM_HOME=/home/amro/.waveterm, apppath=/opt/waveterm/resources/app arch=linux/amd64
+2023-12-18 08:43:02 trying to run local server /opt/waveterm/resources/app/bin/wavesrv
+2023-12-18 08:43:03 spawnned wavesrv
+2023-12-18 08:43:03 error getting client-data from wavesrv, will retry (1)
+2024-01-30 19:30:43 waveterm-app starting, WAVETERM_HOME=/home/amro/.waveterm, apppath=/opt/waveterm/resources/app arch=linux/amd64
+2024-01-30 19:30:43 trying to run local server /opt/waveterm/resources/app/bin/wavesrv
+2024-01-30 19:30:43 spawnned wavesrv
+2024-03-14 17:40:37 waveterm-app starting, WAVETERM_HOME=/home/amro/.waveterm, apppath=/opt/waveterm/resources/app arch=linux/amd64
+2024-03-14 17:40:37 trying to run local server /opt/waveterm/resources/app/bin/wavesrv
+2024-03-14 17:40:37 spawnned wavesrv

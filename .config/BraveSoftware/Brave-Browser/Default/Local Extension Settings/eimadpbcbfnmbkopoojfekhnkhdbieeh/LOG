@@ -346,3 +346,24 @@
 2024/08/22-21:15:35.441 1bfe Level-0 table #697: started
 2024/08/22-21:15:35.453 1bfe Level-0 table #697: 1779430 bytes OK
 2024/08/22-21:15:35.456 1bfe Delete type=0 #694
+2024/08/22-21:20:32.756 1be6 Level-0 table #699: started
+2024/08/22-21:20:32.767 1be6 Level-0 table #699: 1788151 bytes OK
+2024/08/22-21:20:32.769 1be6 Delete type=0 #696
+2024/08/22-21:20:32.770 1be6 Compacting 4@0 + 1@1 files
+2024/08/22-21:20:32.779 1be6 Generated table #700@0: 2 keys, 113709 bytes
+2024/08/22-21:20:32.779 1be6 Compacted 4@0 + 1@1 files => 113709 bytes
+2024/08/22-21:20:32.781 1be6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/22-21:20:32.782 1be6 Delete type=2 #691
+2024/08/22-21:20:32.782 1be6 Delete type=2 #693
+2024/08/22-21:20:32.782 1be6 Delete type=2 #695
+2024/08/22-21:20:32.782 1be6 Delete type=2 #697
+2024/08/22-21:20:32.782 1be6 Delete type=2 #699
+2024/08/22-21:38:33.780 1be6 Level-0 table #702: started
+2024/08/22-21:38:33.790 1be6 Level-0 table #702: 1790515 bytes OK
+2024/08/22-21:38:33.793 1be6 Delete type=0 #698
+2024/08/22-21:39:11.376 1be5 Level-0 table #704: started
+2024/08/22-21:39:11.385 1be5 Level-0 table #704: 1805403 bytes OK
+2024/08/22-21:39:11.387 1be5 Delete type=0 #701
+2024/08/22-21:43:41.919 1be5 Level-0 table #706: started
+2024/08/22-21:43:41.931 1be5 Level-0 table #706: 1821452 bytes OK
+2024/08/22-21:43:41.933 1be5 Delete type=0 #703

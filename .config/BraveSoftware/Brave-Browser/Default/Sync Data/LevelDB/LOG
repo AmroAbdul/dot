@@ -136,3 +136,15 @@
 2024/08/22-21:15:35.434 1c01 Level-0 table #457: started
 2024/08/22-21:15:35.439 1c01 Level-0 table #457: 75596 bytes OK
 2024/08/22-21:15:35.442 1c01 Delete type=0 #454
+2024/08/22-21:23:51.380 1bfe Level-0 table #459: started
+2024/08/22-21:23:51.383 1bfe Level-0 table #459: 84467 bytes OK
+2024/08/22-21:23:51.385 1bfe Delete type=0 #456
+2024/08/22-21:23:51.385 1bfe Compacting 4@0 + 1@1 files
+2024/08/22-21:23:51.391 1bfe Generated table #460@0: 1460 keys, 131204 bytes
+2024/08/22-21:23:51.391 1bfe Compacted 4@0 + 1@1 files => 131204 bytes
+2024/08/22-21:23:51.393 1bfe compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/22-21:23:51.393 1bfe Delete type=2 #451
+2024/08/22-21:23:51.393 1bfe Delete type=2 #453
+2024/08/22-21:23:51.393 1bfe Delete type=2 #455
+2024/08/22-21:23:51.393 1bfe Delete type=2 #457
+2024/08/22-21:23:51.393 1bfe Delete type=2 #459

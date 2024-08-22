@@ -1,0 +1,5 @@
+CBUF01             1048576                   0                   0                 230
+                                                                                                                                                                        
+find-the-command: "ls\" is not found locally, searching in repositories...
+find-the-command: /var/cache/pkgfile/*.files are out of date, update? [Y/n] ^[[A^[[B        n
+find-the-command: command not found: "ls\"

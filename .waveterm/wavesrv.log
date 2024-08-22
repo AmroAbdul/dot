@@ -1,0 +1,118 @@
+2023/12/18 08:43:03 [wave] *** starting wavesrv version v0.5.1+202312060154
+2023/12/18 08:43:03 [wave] homedir = "/home/amro/.waveterm"
+2023/12/18 08:43:03 [base] acquiring lock on /home/amro/.waveterm/waveterm.lock
+2023/12/18 08:43:03 [db] db version = 0
+2023/12/18 08:43:03 [db] migrating from 0 to 24
+2023/12/18 08:43:03 [db] backing up database waveterm.db to backup.waveterm.db
+2023/12/18 08:43:03 [db] migration v1, elapsed 98.087103ms
+2023/12/18 08:43:03 [db] migration v2, elapsed 70.157545ms
+2023/12/18 08:43:03 [db] migration v3, elapsed 90.993658ms
+2023/12/18 08:43:03 [db] migration v4, elapsed 55.100051ms
+2023/12/18 08:43:03 [db] migration v5, elapsed 53.285153ms
+2023/12/18 08:43:03 [db] migration v6, elapsed 15.816169ms
+2023/12/18 08:43:03 [db] migration v7, elapsed 51.646247ms
+2023/12/18 08:43:03 [db] migration v8, elapsed 51.753679ms
+2023/12/18 08:43:03 [db] migration v9, elapsed 49.715303ms
+2023/12/18 08:43:03 [db] migration v10, elapsed 54.432007ms
+2023/12/18 08:43:03 [db] migration v11, elapsed 51.361533ms
+2023/12/18 08:43:03 [db] migration v12, elapsed 52.313831ms
+2023/12/18 08:43:03 [db] successfully opened db /home/amro/.waveterm/waveterm.db
+2023/12/18 08:43:03 [db] got 0 cmd-screen migrations
+2023/12/18 08:43:03 [db] cmd screen migration done: 40.334784ms
+2023/12/18 08:43:03 [db] migration v13, elapsed 98.938451ms
+2023/12/18 08:43:03 [db] migration v14, elapsed 5.829703ms
+2023/12/18 08:43:03 [db] migration v15, elapsed 645.392µs
+2023/12/18 08:43:03 [db] migration v16, elapsed 410.52µs
+2023/12/18 08:43:03 [db] migration v17, elapsed 460.214µs
+2023/12/18 08:43:03 [db] migration v18, elapsed 2.293115ms
+2023/12/18 08:43:03 [db] migration v19, elapsed 2.046211ms
+2023/12/18 08:43:03 [db] got 0 cmd-line migrations
+2023/12/18 08:43:03 [db] cmd line migration done: 253.967µs
+2023/12/18 08:43:03 [db] migration v20, elapsed 3.941408ms
+2023/12/18 08:43:03 [db] migration v21, elapsed 412.064µs
+2023/12/18 08:43:03 [db] migration v22, elapsed 403.267µs
+2023/12/18 08:43:03 [db] migration v23, elapsed 248.356µs
+2023/12/18 08:43:03 [db] migration v24, elapsed 330.981µs
+2023/12/18 08:43:03 [db] migration done, new version = 24
+2023/12/18 08:43:03 [db] version=24
+2023/12/18 08:43:03 create new clientid[8ae8f59e-4f43-494e-85bf-b5fefe3fd3ff] userid[4b7032f1-65dd-4cb6-8d22-bb6e54903671] with public/private keypair
+2023/12/18 08:43:03 userid = 4b7032f1-65dd-4cb6-8d22-bb6e54903671
+2023/12/18 08:43:03 [db] added local remote 'amro@amro-aspirea71542g', id=61f5057d-68f8-483b-a108-117a8e7b9ed3
+2023/12/18 08:43:03 [db] added sudo remote 'sudo@amro@amro-aspirea71542g', id=6c087ce5-758f-4881-b688-ffe4aadc9975
+2023/12/18 08:43:03 local mshell binary: /opt/waveterm/resources/app/bin/mshell/mshell-v0.3-linux.amd64 --server
+2023/12/18 08:43:03 PCLOUD_ENDPOINT=https://api.getprompt.dev/central
+2023/12/18 08:43:03 invalid uname -r output: [6.6.5-zen1-1-zen]
+2023/12/18 08:43:03 Running websocket server on 127.0.0.1:1623
+2023/12/18 08:43:03 Running main server on 127.0.0.1:1619
+2023/12/18 08:43:05 WebSocket opened 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4 127.0.0.1:57738
+2023/12/18 08:43:05 [ws] unwatch screen clientid=9d8590dc-8416-4c3d-90da-2a05d0a6723d:4
+2023/12/18 08:43:05 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/29caec2f-e14e-4233-8036-8038b68b6cbd
+2023/12/18 08:43:07 client no-telemetry setting updated to true
+2023/12/18 08:43:07 [error] sending no-telemetry update: cannot retrieve client data: context canceled
+2023/12/18 08:43:07 note that telemetry update has still taken effect locally, and will be respected by the client
+2023/12/18 08:43:13 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen 862f3562-0c9d-4145-a172-1a1fccc114db/325c8ad2-19f8-47af-98ee-a156d92dcb98
+2023/12/18 08:43:13 [pcloud] starting update writer
+2023/12/18 08:43:15 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/29caec2f-e14e-4233-8036-8038b68b6cbd
+2023/12/18 08:43:15 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen 862f3562-0c9d-4145-a172-1a1fccc114db/325c8ad2-19f8-47af-98ee-a156d92dcb98
+2023/12/18 08:43:21 [wave] created directory "/home/amro/.waveterm/screens/325c8ad2-19f8-47af-98ee-a156d92dcb98"
+2023/12/18 08:43:21 remove-all /home/amro/.waveterm/screens/325c8ad2-19f8-47af-98ee-a156d92dcb98
+2023/12/18 08:43:21 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/29caec2f-e14e-4233-8036-8038b68b6cbd
+2023/12/18 08:43:53 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/ee5ebae2-aede-4e9b-9c20-9a63d25f81da
+2023/12/18 08:43:56 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/507b984c-ff09-4981-a0c1-ec0bc4198ac4
+2023/12/18 08:44:00 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen d7bad2cc-d60b-431d-93a9-439a772c6a2d/ee5ebae2-aede-4e9b-9c20-9a63d25f81da
+2023/12/18 08:44:23 [wave] created directory "/home/amro/.waveterm/screens/ee5ebae2-aede-4e9b-9c20-9a63d25f81da"
+2023/12/18 08:50:34 local mshell binary: sudo /opt/waveterm/resources/app/bin/mshell/mshell-v0.3-linux.amd64 --server
+2023/12/18 08:50:54 [ws 9d8590dc-8416-4c3d-90da-2a05d0a6723d:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/678569ba-c4be-46d1-acb2-a340c7f4fc73
+2023/12/18 08:51:04 [wave] created directory "/home/amro/.waveterm/screens/678569ba-c4be-46d1-acb2-a340c7f4fc73"
+2023/12/18 08:51:45 ReadPump 127.0.0.1:57738 Err: websocket: close 1001 (going away)
+2023/12/18 08:51:45 [wave] local server stdin closed/error (EOF), start shutdown
+2023/12/18 08:51:45 [wave] closing db connection
+2023/12/18 08:51:45 [wave] *** shutting down local server
+2023/12/18 08:51:46 WritePump 127.0.0.1:57738 err: websocket: close sent
+2024/01/30 19:30:43 [wave] *** starting wavesrv version v0.5.3+202312270551
+2024/01/30 19:30:43 [wave] homedir = "/home/amro/.waveterm"
+2024/01/30 19:30:43 [base] acquiring lock on /home/amro/.waveterm/waveterm.lock
+2024/01/30 19:30:43 [db] db version = 24
+2024/01/30 19:30:43 [db] migrating from 24 to 26
+2024/01/30 19:30:43 [db] backing up database waveterm.db to backup.waveterm.db
+2024/01/30 19:30:43 [db] migration v25, elapsed 864.848µs
+2024/01/30 19:30:43 [db] migration v26, elapsed 639.534µs
+2024/01/30 19:30:43 [db] migration done, new version = 26
+2024/01/30 19:30:43 [db] version=26
+2024/01/30 19:30:43 [db] successfully opened db /home/amro/.waveterm/waveterm.db
+2024/01/30 19:30:43 userid = 4b7032f1-65dd-4cb6-8d22-bb6e54903671
+2024/01/30 19:30:43 PCLOUD_ENDPOINT=https://api.waveterm.dev/central
+2024/01/30 19:30:43 invalid uname -r output: [6.6.10-zen1-1-zen]
+2024/01/30 19:30:43 Running main server on 127.0.0.1:1619
+2024/01/30 19:30:43 Running websocket server on 127.0.0.1:1623
+2024/01/30 19:30:45 WebSocket opened b23fecdc-026b-42b7-9abb-280cce7ba4d1:4 127.0.0.1:41610
+2024/01/30 19:30:45 [ws] unwatch screen clientid=b23fecdc-026b-42b7-9abb-280cce7ba4d1:4
+2024/01/30 19:30:45 [ws b23fecdc-026b-42b7-9abb-280cce7ba4d1:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/678569ba-c4be-46d1-acb2-a340c7f4fc73
+2024/01/30 19:30:53 [pcloud] starting update writer
+2024/01/30 19:31:13 [error] checking for new release: error getting latest release: Get "https://api.github.com/repos/wavetermdev/waveterm/releases/latest": dial tcp: lookup api.github.com on [::1]:53: read udp [::1]:49853->[::1]:53: read: connection refused
+2024/01/30 19:31:58 [ws b23fecdc-026b-42b7-9abb-280cce7ba4d1:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/68eb3d18-bcf9-41bc-9ae8-42d90ace0b41
+2024/01/30 19:32:26 [wave] created directory "/home/amro/.waveterm/screens/68eb3d18-bcf9-41bc-9ae8-42d90ace0b41"
+2024/01/30 19:52:13 ReadPump 127.0.0.1:41610 Err: websocket: close 1006 (abnormal closure): unexpected EOF
+2024/01/30 19:52:13 WebSocket opened b23fecdc-026b-42b7-9abb-280cce7ba4d1:4 127.0.0.1:39268
+2024/01/30 19:52:13 [ws b23fecdc-026b-42b7-9abb-280cce7ba4d1:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/68eb3d18-bcf9-41bc-9ae8-42d90ace0b41
+2024/01/30 19:52:13 [ws b23fecdc-026b-42b7-9abb-280cce7ba4d1:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/68eb3d18-bcf9-41bc-9ae8-42d90ace0b41
+2024/01/30 21:56:33 WritePump 127.0.0.1:41610 err: write tcp 127.0.0.1:1623->127.0.0.1:41610: use of closed network connection
+2024/01/30 21:56:58 ReadPump 127.0.0.1:39268 Err: websocket: close 1001 (going away)
+2024/01/30 21:56:58 [wave] local server stdin closed/error (EOF), start shutdown
+2024/01/30 21:56:58 [wave] closing db connection
+2024/01/30 21:56:58 [wave] *** shutting down local server
+2024/03/14 17:40:37 [wave] *** starting wavesrv version v0.5.3+202312270551
+2024/03/14 17:40:37 [wave] homedir = "/home/amro/.waveterm"
+2024/03/14 17:40:37 [base] acquiring lock on /home/amro/.waveterm/waveterm.lock
+2024/03/14 17:40:37 [db] db version = 26
+2024/03/14 17:40:37 [db] successfully opened db /home/amro/.waveterm/waveterm.db
+2024/03/14 17:40:37 userid = 4b7032f1-65dd-4cb6-8d22-bb6e54903671
+2024/03/14 17:40:37 PCLOUD_ENDPOINT=https://api.waveterm.dev/central
+2024/03/14 17:40:37 invalid uname -r output: [6.7.4-zen1-1-zen]
+2024/03/14 17:40:37 Running main server on 127.0.0.1:1619
+2024/03/14 17:40:37 Running websocket server on 127.0.0.1:1623
+2024/03/14 17:40:40 WebSocket opened 05f8993c-7586-4168-9ee6-012899dcacc2:4 127.0.0.1:52576
+2024/03/14 17:40:40 [ws] unwatch screen clientid=05f8993c-7586-4168-9ee6-012899dcacc2:4
+2024/03/14 17:40:40 [ws 05f8993c-7586-4168-9ee6-012899dcacc2:4] watchscreen 2dc3b5ab-de2e-4c03-bf2d-5ef126b8feab/68eb3d18-bcf9-41bc-9ae8-42d90ace0b41
+2024/03/14 17:40:47 [pcloud] starting update writer
+2024/03/14 17:41:12 [error] checking for new release: error getting latest release: context deadline exceeded
