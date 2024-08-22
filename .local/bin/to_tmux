@@ -1,0 +1,10 @@
+#!/usr/bin/eval fish
+
+
+function to_tmux -d "execute command in a tmux pane"
+  if test -z $TMUX
+    echo "tmux not running" && return 1 && exit
+  else
+    command tmux $argv
+  end
+end

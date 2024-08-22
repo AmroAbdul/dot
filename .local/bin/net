@@ -1,0 +1,13 @@
+#!/bin/bash
+
+wget -q --spider http://google.com
+
+
+
+if [ $? -eq 0 ]; then
+  NOCOLOR='\033[0;34m'
+  echo -e "${NOCOLOR}󰣺"
+else
+  RED='\033[0;31m'
+  echo -e "${RED}󰣼"
+fi

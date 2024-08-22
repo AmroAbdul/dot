@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+hijridate=$(idate --simple | awk '{print $1,$2}' |  sed 's/ //g' | sed 's/\//-/g')
+echo "$hijridate هجري"

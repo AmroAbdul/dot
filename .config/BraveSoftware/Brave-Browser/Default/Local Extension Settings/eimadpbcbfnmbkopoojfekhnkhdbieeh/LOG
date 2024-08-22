@@ -337,3 +337,12 @@
 2024/08/22-20:42:38.996 1be5 Delete type=2 #686
 2024/08/22-20:42:38.996 1be5 Delete type=2 #688
 2024/08/22-20:42:38.996 1be5 Delete type=2 #690
+2024/08/22-20:59:58.515 1be5 Level-0 table #693: started
+2024/08/22-20:59:58.523 1be5 Level-0 table #693: 1768336 bytes OK
+2024/08/22-20:59:58.526 1be5 Delete type=0 #689
+2024/08/22-21:11:28.689 1be5 Level-0 table #695: started
+2024/08/22-21:11:28.701 1be5 Level-0 table #695: 1768086 bytes OK
+2024/08/22-21:11:28.705 1be5 Delete type=0 #692
+2024/08/22-21:15:35.441 1bfe Level-0 table #697: started
+2024/08/22-21:15:35.453 1bfe Level-0 table #697: 1779430 bytes OK
+2024/08/22-21:15:35.456 1bfe Delete type=0 #694

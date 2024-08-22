@@ -63,3 +63,9 @@
 2024/08/22-20:23:01.439 1be5 Level-0 table #429: started
 2024/08/22-20:23:01.463 1be5 Level-0 table #429: 6261135 bytes OK
 2024/08/22-20:23:01.470 1be5 Delete type=0 #425
+2024/08/22-20:59:51.498 1be5 Level-0 table #431: started
+2024/08/22-20:59:51.516 1be5 Level-0 table #431: 4492285 bytes OK
+2024/08/22-20:59:51.519 1be5 Delete type=0 #428
+2024/08/22-21:11:22.397 1be4 Level-0 table #433: started
+2024/08/22-21:11:22.414 1be4 Level-0 table #433: 4443847 bytes OK
+2024/08/22-21:11:22.417 1be4 Delete type=0 #430

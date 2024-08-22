@@ -1,0 +1,6 @@
+2024/08/22-21:15:26.401 1be4 Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.rezi.ai_0.indexeddb.leveldb since it was missing.
+2024/08/22-21:15:26.404 1be4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.rezi.ai_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/22-21:15:26.435 1c00 Level-0 table #5: started
+2024/08/22-21:15:26.436 1c00 Level-0 table #5: 1262 bytes OK
+2024/08/22-21:15:26.438 1c00 Delete type=0 #3
+2024/08/22-21:15:26.438 1bfe Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
