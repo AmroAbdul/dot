@@ -1,0 +1,8 @@
+2024-07-15 20:17:06.059 [info] Deleted uninstalled extension from disk enkia.tokyo-night /home/amro/.cursor/extensions/enkia.tokyo-night-1.0.6
+2024-07-15 20:17:06.121 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/enkia.tokyo-night-1.0.6.-480d2555.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/enkia.tokyo-night-1.0.6.-480d2555.vsctmp'
+    at a.create (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30393)
+    at d (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30503)
+    at t.hb (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36621)
+    at t.stat (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29061)
+    at async w.stat (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16207)
+    at async ee.sb (/tmp/.mount_cursor9bpfx3/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:106:31292)

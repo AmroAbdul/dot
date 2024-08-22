@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "App description",
+      "message": "настраиваемую страницу Новая Вкладка с виджетами и красивыми фонами"
+   },
+   "appName": {
+      "description": "The name of the app",
+      "message": "Renewed Tab"
+   }
+}

@@ -1,0 +1,113 @@
+{
+   "config_deleteButton": {
+      "description": "Text inside 'delete button' in configuration page",
+      "message": "Удалить"
+   },
+   "config_editButton": {
+      "description": "Text inside 'edit button' in configuration page",
+      "message": "Редактировать"
+   },
+   "config_pattern_name": {
+      "description": "Input label",
+      "message": "Название"
+   },
+   "config_pattern_urlTemplate": {
+      "description": "Input label",
+      "message": "Шаблон URL-адреса"
+   },
+   "config_saveButton": {
+      "description": "Text inside 'save button' in configuration page",
+      "message": "Сохранить"
+   },
+   "configurationLink": {
+      "description": "Link to configuration page inside main popup.",
+      "message": "Конфигурация"
+   },
+   "extensionName": {
+      "message": "OSM Smart Menu"
+   },
+   "extensionShortName": {
+      "message": "OSMenu"
+   },
+   "newOptionDetected_added": {
+      "description": "Shown in popup when an unknown website seems compatible with OpenStreetMap. After the button is clicked.",
+      "message": "Добавлено как $PAGE_TITLE$",
+      "placeholders": {
+         "PAGE_TITLE": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "newOptionDetected_buttonText": {
+      "description": "Shown in popup (inside the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Добавить ссылку"
+   },
+   "newOptionDetected_notice": {
+      "description": "Shown in popup (before the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Хотите добавить этот сайт в меню?"
+   },
+   "site_bingmaps": {
+      "message": "Bing Maps"
+   },
+   "site_f4map": {
+      "message": "F4 Map (3D демо)"
+   },
+   "site_googlemaps": {
+      "message": "Карты Google"
+   },
+   "site_historicmap": {
+      "message": "Исторические объекты"
+   },
+   "site_level0": {
+      "message": "Редактор Level0"
+   },
+   "site_mapillary": {
+      "message": "Mapillary"
+   },
+   "site_opencyclemap": {
+      "message": "OpenCycleMap"
+   },
+   "site_openmapsurfer": {
+      "message": "OpenMapSurfer"
+   },
+   "site_openseamap": {
+      "message": "OpenSeaMap"
+   },
+   "site_opensnowmap": {
+      "message": "OpenSnowMap"
+   },
+   "site_openstreetbrowser": {
+      "message": "OpenStreetBrowser"
+   },
+   "site_openstreetcam": {
+      "message": "OpenStreetCam"
+   },
+   "site_openstreetmap": {
+      "message": "OpenStreetMap"
+   },
+   "site_opentopomap": {
+      "message": "OpenTopoMap"
+   },
+   "site_opnvkarte": {
+      "message": "ÖPNVKarte"
+   },
+   "site_osmcha": {
+      "message": "OSMCha"
+   },
+   "site_osmwiki": {
+      "message": "OpenStreetMap вики"
+   },
+   "site_sentinelhub": {
+      "message": "Sentinel Hub"
+   },
+   "site_stamen": {
+      "message": "Stamen Maps"
+   },
+   "site_umap": {
+      "message": "uMap"
+   },
+   "site_waze": {
+      "message": "Waze"
+   }
+}

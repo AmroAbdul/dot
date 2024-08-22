@@ -1,0 +1,81 @@
+# Common special characters, whose ALT-key shortcuts are hard to remember
+
+name: characters 
+package_author: Alicia Sykes <https://aliciasykes.com>
+parent: default
+
+matches:
+# ASCII Arrows
+- triggers: ["~-->", "~rarrow"]
+  replace: "→"
+- triggers: ["~<--", "~larrow"]
+  replace: "←"
+- triggers: ["~uarrow"]
+  replace: "↑"
+- triggers: ["~darrow"]
+  replace: "↓"
+
+# Common Currency Symbols
+- trigger: ':eur'
+  replace: '€'
+- trigger: ':gbp'
+  replace: '£'
+- trigger: ':usd'
+  replace: '$'
+- trigger: ':jpy'
+  replace: '¥'
+- trigger: ':inr'
+  replace: '₹'
+- trigger: ':btc'
+  replace: '฿'
+- trigger: ':eth'
+  replace: 'Ξ'
+- trigger: ':try'
+  replace: '₺'
+
+- trigger: ':ar1'
+  replace: 'ا'
+- trigger: ':ar2'
+  replace: 'ب'
+- trigger: ':ar3'
+  replace: 'ت'
+- trigger: ':ar4'
+  replace: 'ث'
+- trigger: ':ar5'
+  replace: 'ج'
+- trigger: ':ar6'
+  replace: 'ح'
+- trigger: ':ar7'
+  replace: 'خ'
+- trigger: ':ar8'
+  replace: 'د'
+- trigger: ':ar9'
+  replace: 'ذ'
+- trigger: ':ar10'
+  replace: 'ر'
+- trigger: ':ar11'
+  replace: 'ز'
+
+  
+# Easily inputs ASCII emojis from a dropdown
+- trigger: :lenny
+  form: "{{smileys}}"
+  form_fields:
+    smileys:
+      type: choice
+      values:
+      - '¯\\_(ツ)_/¯'
+      - '(╯°□°）╯︵ ┻━┻'
+      - '( ͡ಠ ʖ̯ ͡ಠ)'
+      - '☉ ‿ ⚆'
+      - 'ʕ•ᴥ•ʔ'
+      - '⋆｡˚ ☁︎ ˚｡⋆｡˚☽˚｡⋆'
+      - '◤◢◣◥◤◢◣◥'
+      - '(づᵔ◡ᵔ)づ'
+      - '|ᵔ‿ᵔ|'
+      - '⤜(*﹏*)⤏'
+      - 'ツ'
+        
+
+- triggers: [':(c)', ':copyright:']
+  replace: '©'

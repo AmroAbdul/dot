@@ -1,0 +1,4 @@
+2024-07-15 20:17:01.862 [info] update#setState disabled
+2024-07-15 20:17:01.876 [info] update#ctor - updates are disabled as there is no update URL
+2024-07-15 20:17:01.974 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-07-15 20:17:04.787 [error] vscode-file: Refused to load resource /tmp/.mount_cursor35PDnN/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/extensions/theme-seti/icons/seti.woff)

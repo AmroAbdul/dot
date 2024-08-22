@@ -1,0 +1,12 @@
+{
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 325,
+    "y": 224,
+    "width": 1280,
+    "height": 720
+  },
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true,
+  "chromiumSwitches": {}
+}

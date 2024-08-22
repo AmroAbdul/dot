@@ -1,0 +1,7 @@
+2024/08/13-13:35:37.228 17cf Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/13-13:35:37.228 17cf Recovering log #3
+2024/08/13-13:35:37.229 17cf Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000003.log 
+2024/08/13-13:36:09.240 17d0 Level-0 table #5: started
+2024/08/13-13:36:09.243 17d0 Level-0 table #5: 72500 bytes OK
+2024/08/13-13:36:09.244 17d0 Delete type=0 #3
+2024/08/13-13:36:09.245 17d0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

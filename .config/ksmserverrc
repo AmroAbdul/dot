@@ -1,0 +1,15 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10249254223240000172363266900000084230004
+clientId2=10249254223240000172363266900000084230007
+count=2
+program1=/usr/bin/garuda-system-maintenance
+program2=/usr/bin/firewall-applet
+restartCommand1=/usr/bin/garuda-system-maintenance,-session,10249254223240000172363266900000084230004_1723635189_186273
+restartCommand2=/usr/bin/firewall-applet,-session,10249254223240000172363266900000084230007_1723635189_186260,-name,firewall-applet
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=amro
+userId2=amro

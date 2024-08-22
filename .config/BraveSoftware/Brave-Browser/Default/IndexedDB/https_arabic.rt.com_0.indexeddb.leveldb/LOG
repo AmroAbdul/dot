@@ -1,0 +1,6 @@
+2024/06/18-01:01:07.847 11a2 Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_arabic.rt.com_0.indexeddb.leveldb since it was missing.
+2024/06/18-01:01:07.850 11a2 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_arabic.rt.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/18-01:01:41.628 11a3 Level-0 table #5: started
+2024/06/18-01:01:41.630 11a3 Level-0 table #5: 1256 bytes OK
+2024/06/18-01:01:41.631 11a3 Delete type=0 #3
+2024/06/18-01:01:41.632 11a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

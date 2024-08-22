@@ -1,0 +1,333 @@
+{
+   "April": {
+      "message": "Nisan"
+   },
+   "August": {
+      "message": "Ağustos"
+   },
+   "December": {
+      "message": "Aralık"
+   },
+   "Dhu_al_Hijjah": {
+      "message": "Dhū al-Ḥijjah"
+   },
+   "Dhu_al_Qa_dah": {
+      "message": "Dhū al-Qaʿdah"
+   },
+   "February": {
+      "message": "Şubat"
+   },
+   "Friday": {
+      "message": "Cuma"
+   },
+   "January": {
+      "message": "Ocak"
+   },
+   "July": {
+      "message": "Temmuz"
+   },
+   "Jumada_al_akhirah": {
+      "message": "Jumādá-al-ākhirah"
+   },
+   "Jumada_al_ula": {
+      "message": "Jumādá al-ūlá"
+   },
+   "June": {
+      "message": "Haziran"
+   },
+   "March": {
+      "message": "Mart"
+   },
+   "May": {
+      "message": "Mayıs"
+   },
+   "Monday": {
+      "message": "Pazartesi"
+   },
+   "Muharram": {
+      "message": "Muharram"
+   },
+   "November": {
+      "message": "Kasım"
+   },
+   "October": {
+      "message": "Ekim"
+   },
+   "Rabi__al_awwal": {
+      "message": "Rabīʿ al-awwal"
+   },
+   "Rabi__al_thani": {
+      "message": "Rabīʿ al-thānī"
+   },
+   "Rajab": {
+      "message": "Rajab"
+   },
+   "Ramadan": {
+      "message": "Ramadan"
+   },
+   "Safar": {
+      "message": "Ṣafar"
+   },
+   "Saturday": {
+      "message": "Cumartesi"
+   },
+   "September": {
+      "message": "Eylül"
+   },
+   "Sha_ban": {
+      "message": "Shaʿbān"
+   },
+   "Shawwal": {
+      "message": "Shawwāl"
+   },
+   "Sunday": {
+      "message": "Pazar"
+   },
+   "Thursday": {
+      "message": "Perşembe"
+   },
+   "Tuesday": {
+      "message": "Salı"
+   },
+   "Wednesday": {
+      "message": "Çarşamba"
+   },
+   "ar": {
+      "message": "Arapça"
+   },
+   "athkar": {
+      "message": "Zikr"
+   },
+   "az": {
+      "message": "Azerbaycanca"
+   },
+   "bn": {
+      "message": "Bengalce"
+   },
+   "calendar": {
+      "message": "Takvim"
+   },
+   "cancel": {
+      "message": "İptal"
+   },
+   "cs": {
+      "message": "Çekçe"
+   },
+   "de": {
+      "message": "Almanca"
+   },
+   "dv": {
+      "message": "Divehi"
+   },
+   "en": {
+      "message": "İngilizce"
+   },
+   "enable_notification_notice": {
+      "message": "Bir gün öncesinden bildirim almak için Sünnet Oruç günleri için bildirimleri etkinleştirdiğinizden emin olun!"
+   },
+   "error": {
+      "message": "Bir hata oluştu, lütfen daha sonra tekrar deneyiniz."
+   },
+   "es": {
+      "message": "İspanyolca"
+   },
+   "fa": {
+      "message": "Farsça"
+   },
+   "fasting": {
+      "message": "Oruç Günü"
+   },
+   "fasting_notification": {
+      "description": "Text of the notification that will be sent before a fasting day.",
+      "message": "Yarın Sünnet Oruç Günü"
+   },
+   "fasting_reminder_title": {
+      "message": "Oruç Hatırlatma"
+   },
+   "feedback": {
+      "message": "Bize geri bildirim verin"
+   },
+   "feedback_window_content": {
+      "message": "\u003Cp class='lead'>Thank you for using our extension. We want to keep improving and making this extension better for you \u003Cbr> Please give us your feedback by answering just few questions \u003Cb>\u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\" target=\"_blank\">here\u003C/a>\u003C/b>\u003C/p>"
+   },
+   "feedback_window_title": {
+      "message": "Bize geri bildirim verin"
+   },
+   "fr": {
+      "message": "Fransızca"
+   },
+   "general": {
+      "message": "Genel"
+   },
+   "ha": {
+      "message": "Hausa"
+   },
+   "hi": {
+      "message": "Hintçe"
+   },
+   "id": {
+      "message": "Endonezce"
+   },
+   "it": {
+      "message": "İtalyanca"
+   },
+   "ja": {
+      "message": "Japonca"
+   },
+   "ko": {
+      "message": "Korece"
+   },
+   "ku": {
+      "message": "Kürtçe"
+   },
+   "ml": {
+      "message": "Malayalam"
+   },
+   "new_feature_top_sites": {
+      "message": "You can now remove sites from the \"Top Sites\" list! Just hover the site and then click on the \"X\" icon that will appear. "
+   },
+   "new_features_calendar_content": {
+      "message": "We have added the following new features:\u003Cul>\u003Cli>\u003Cb>Calendar:\u003C/b> You can now view each gregorian month's calendar with the hijri dates by clicking on the calendar icon at the top right\u003C/li>\u003Cli>\u003Cb>Fasting Days and Holidays:\u003C/b> In the calendar you can see which days have holidays and/or have Sunnah Fasting Days\u003C/li>\u003Cli>\u003Cb>Notifications for Sunnah Fasting Days:\u003C/b> You can receive a notification a day before a sunnah fasting day by enabling it \u003Ca href=\"#\" class=\"notifications-reminder\">in the settings\u003C/a>\u003C/li>\u003C/ul>\u003Cb>Upcoming features:\u003C/b>\u003Cul>\u003Cli>We are working on translating this extension into different languages including Arabic, French, Indonesian, and other languages as well. If you would like to help please go \u003Ca href=\"https://crowdin.com/project/quran-in-new-tab-extension\">here\u003C/a>.\u003C/li>\u003Cli>Reminders/Notifications for prayer times\u003C/li>\u003C/ul>If you have any other ideas you would like to see \u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\">submit them in our survey.\u003C/a>\u003Cb/>Thank you for using Quran In New Tab extension!"
+   },
+   "new_features_title": {
+      "message": "Yeni özellikler!"
+   },
+   "nl": {
+      "message": "Dutch"
+   },
+   "no": {
+      "message": "Norwegian"
+   },
+   "none": {
+      "message": "Hiçbiri"
+   },
+   "notification_setting": {
+      "message": "Sünnet Orucundan Bir Gün Önce Bildirim Gönder"
+   },
+   "pl": {
+      "message": "Polish"
+   },
+   "pt": {
+      "message": "Portuguese"
+   },
+   "quran": {
+      "message": "Kuran-ı Kerim"
+   },
+   "quran_translation": {
+      "message": "Kuran Tercümesi"
+   },
+   "rate_extension": {
+      "message": "Bu Uzantıyı Değerlendirin"
+   },
+   "recitation": {
+      "message": "Recitation"
+   },
+   "reload": {
+      "message": "Yenile"
+   },
+   "remove": {
+      "message": "Sil"
+   },
+   "remove_top_site_content": {
+      "message": "Are you sure you want to remove the site?"
+   },
+   "remove_top_site_title": {
+      "message": "Remove Top Site"
+   },
+   "report_image": {
+      "message": "Fotoğrafı şikayet et"
+   },
+   "report_image_window_content": {
+      "message": "Görselin uygunsuz olduğunu düşünüyorsanız veya beğenmediyseniz, lütfen görseli bildirin ve bir daha görmeyeceksiniz."
+   },
+   "report_image_window_title": {
+      "message": "Fotoğrafı şikayet et"
+   },
+   "reporting_window_content": {
+      "message": "If there are any images that you don't like or find inappropriate, press the \u003Cb>Report\u003C/b> icon on the top left to report these images and never show them again!"
+   },
+   "reporting_window_title": {
+      "message": "You can now report images!"
+   },
+   "ro": {
+      "message": "Romanian"
+   },
+   "ru": {
+      "message": "Russian"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "saved": {
+      "message": "Ayarlar başarıyla kaydedildi"
+   },
+   "sd": {
+      "message": "Sindhi"
+   },
+   "settings": {
+      "message": "Ayarlar"
+   },
+   "show_hijri_date": {
+      "message": "Hicri Tarihi Göster"
+   },
+   "show_hijri_date_description": {
+      "message": "Checking this will show Hijri date with Gregorian date and holidays (if there are any on the day)."
+   },
+   "show_random_athkar": {
+      "message": "Show Random Athkar"
+   },
+   "show_top_sites": {
+      "message": "Show Top Sites"
+   },
+   "show_top_sites_description": {
+      "message": "If you don't have top sites, none will show."
+   },
+   "show_translation": {
+      "message": "Çeviriyi göster"
+   },
+   "so": {
+      "message": "Somali"
+   },
+   "sq": {
+      "message": "Albanian"
+   },
+   "sv": {
+      "message": "Swedish"
+   },
+   "sw": {
+      "message": "Swahili"
+   },
+   "ta": {
+      "message": "Tamil"
+   },
+   "tg": {
+      "message": "Tajik"
+   },
+   "th": {
+      "message": "Thau"
+   },
+   "tr": {
+      "message": "Türkçe"
+   },
+   "translation_language": {
+      "message": "Çevirme Dili"
+   },
+   "translation_link": {
+      "message": "Bu uzantıyı çevirmeye yardım edin"
+   },
+   "tt": {
+      "message": "Tatarca"
+   },
+   "ug": {
+      "message": "Uygurca"
+   },
+   "ur": {
+      "message": "Urduca"
+   },
+   "uz": {
+      "message": "Özbekçe"
+   },
+   "week_start_date": {
+      "message": "Hafta Başlangıç ​​Günü"
+   }
+}

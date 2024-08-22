@@ -1,0 +1,336 @@
+2024-07-15 20:07:22.127 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.128 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.128 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.129 [warning] Missing property "autopilotFeatureEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.129 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.130 [warning] Missing property "bigCmdKEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.130 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.130 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.130 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.130 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.131 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.131 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.131 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.131 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.131 [warning] Missing property "hfUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.132 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.132 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.132 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.132 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.132 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.133 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.133 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.133 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.133 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.134 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.134 [warning] Missing property "contextAstPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.134 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.134 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.134 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.135 [warning] Missing property "hallucinatedFunctionsPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.135 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.135 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.135 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.136 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.136 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.136 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.136 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.136 [warning] Missing property "contextGraphEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.137 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.137 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.137 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.137 [warning] Missing property "SPECIAL_KEY_lastUpdatedTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.137 [warning] Missing property "aiHyperModeUXType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.138 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.138 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.138 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.138 [warning] Missing property "isFileSyncEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.139 [warning] Missing property "isAiReviewInputExpanded" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.139 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.139 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.139 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.140 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.140 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.140 [warning] Missing property "aiDocAgentEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.141 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.141 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.141 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.141 [warning] Missing property "isCursorSmallEnabledForTheFirstTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.141 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.142 [warning] Missing property "aiReviewPersistentStorage" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.142 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.142 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.142 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.143 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.143 [warning] Missing property "persistentThoughtAnnotationState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.143 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.143 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.143 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:22.203 [warning] Creation of workbench contribution 'workbench.contrib.onboarding.onStart.cursor' took 46ms.
+2024-07-15 20:07:22.614 [info] Started local extension host with pid 403537.
+2024-07-15 20:07:22.679 [info] Started initializing default profile extensions in extensions installation folder. file:///home/amro/.cursor/extensions
+2024-07-15 20:07:23.100 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/amro/.cursor/extensions
+2024-07-15 20:07:26.400 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async He.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23304:10052)
+    at async He.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23315:16280)
+2024-07-15 20:07:26.808 [info] [perf] Render performance baseline is 205ms
+2024-07-15 20:07:56.374 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.375 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.375 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.375 [warning] Missing property "persistentThoughtAnnotationState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.376 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.376 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.376 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:07:56.751 [info] Started local extension host with pid 405306.
+2024-07-15 20:07:59.556 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async He.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23304:10052)
+    at async He.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23315:16280)
+2024-07-15 20:07:59.558 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.shouldTurnOnCppOnboarding (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async N.run (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:22712:11093)
+2024-07-15 20:07:59.796 [info] [perf] Render performance baseline is 206ms
+2024-07-15 20:08:28.597 [warning] Missing property "repositoryData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.598 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.598 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.598 [warning] Missing property "persistentThoughtAnnotationState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.599 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.599 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.599 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-07-15 20:08:28.822 [info] Started local extension host with pid 406188.
+2024-07-15 20:08:31.671 [error] [unauthenticated] User provided no bearer token: ConnectError: [unauthenticated] User provided no bearer token
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async He.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23304:10052)
+    at async He.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/workbench.desktop.main.js:23315:16280)
+2024-07-15 20:08:31.949 [info] [perf] Render performance baseline is 196ms
+2024-07-15 20:10:39.204 [info] Starting polling for login
+2024-07-15 20:10:39.405 [info] Beginning of Login Poll
+2024-07-15 20:10:39.605 [info] Beginning of Login Poll
+2024-07-15 20:10:39.804 [info] Beginning of Login Poll
+2024-07-15 20:10:39.946 [info] Got login result 404
+2024-07-15 20:10:40.004 [info] Beginning of Login Poll
+2024-07-15 20:10:40.075 [info] Got login result 404
+2024-07-15 20:10:40.205 [info] Beginning of Login Poll
+2024-07-15 20:10:40.231 [info] Got login result 404
+2024-07-15 20:10:40.384 [info] Got login result 404
+2024-07-15 20:10:40.404 [info] Beginning of Login Poll
+2024-07-15 20:10:40.538 [info] Got login result 404
+2024-07-15 20:10:40.604 [info] Beginning of Login Poll
+2024-07-15 20:10:40.674 [info] Got login result 404
+2024-07-15 20:10:40.804 [info] Beginning of Login Poll
+2024-07-15 20:10:40.818 [info] Got login result 404
+2024-07-15 20:10:40.990 [info] Got login result 404
+2024-07-15 20:10:41.004 [info] Beginning of Login Poll
+2024-07-15 20:10:41.139 [info] Got login result 404
+2024-07-15 20:10:41.204 [info] Beginning of Login Poll
+2024-07-15 20:10:41.345 [info] Got login result 404
+2024-07-15 20:10:41.404 [info] Beginning of Login Poll
+2024-07-15 20:10:41.558 [info] Got login result 404
+2024-07-15 20:10:41.604 [info] Beginning of Login Poll
+2024-07-15 20:10:41.741 [info] Got login result 404
+2024-07-15 20:10:41.804 [info] Beginning of Login Poll
+2024-07-15 20:10:41.973 [info] Got login result 404
+2024-07-15 20:10:42.004 [info] Beginning of Login Poll
+2024-07-15 20:10:42.165 [info] Got login result 404
+2024-07-15 20:10:42.204 [info] Beginning of Login Poll
+2024-07-15 20:10:42.340 [info] Got login result 404
+2024-07-15 20:10:42.404 [info] Beginning of Login Poll
+2024-07-15 20:10:42.542 [info] Got login result 404
+2024-07-15 20:10:42.604 [info] Beginning of Login Poll
+2024-07-15 20:10:42.752 [info] Got login result 404
+2024-07-15 20:10:42.804 [info] Beginning of Login Poll
+2024-07-15 20:10:42.939 [info] Got login result 404
+2024-07-15 20:10:43.004 [info] Beginning of Login Poll
+2024-07-15 20:10:43.168 [info] Got login result 404
+2024-07-15 20:10:43.204 [info] Beginning of Login Poll
+2024-07-15 20:10:43.339 [info] Got login result 404
+2024-07-15 20:10:43.404 [info] Beginning of Login Poll
+2024-07-15 20:10:43.549 [info] Got login result 404
+2024-07-15 20:10:43.604 [info] Beginning of Login Poll
+2024-07-15 20:10:43.759 [info] Got login result 404
+2024-07-15 20:10:43.804 [info] Beginning of Login Poll
+2024-07-15 20:10:43.955 [info] Got login result 404
+2024-07-15 20:10:44.004 [info] Beginning of Login Poll
+2024-07-15 20:10:44.144 [info] Got login result 404
+2024-07-15 20:10:44.204 [info] Beginning of Login Poll
+2024-07-15 20:10:44.367 [info] Got login result 404
+2024-07-15 20:10:44.404 [info] Beginning of Login Poll
+2024-07-15 20:10:44.554 [info] Got login result 404
+2024-07-15 20:10:44.604 [info] Beginning of Login Poll
+2024-07-15 20:10:44.804 [info] Beginning of Login Poll
+2024-07-15 20:10:44.813 [info] Got login result 404
+2024-07-15 20:10:44.941 [info] Got login result 404
+2024-07-15 20:10:45.004 [info] Beginning of Login Poll
+2024-07-15 20:10:45.183 [info] Got login result 404
+2024-07-15 20:10:45.204 [info] Beginning of Login Poll
+2024-07-15 20:10:45.345 [info] Got login result 404
+2024-07-15 20:10:45.404 [info] Beginning of Login Poll
+2024-07-15 20:10:45.537 [info] Got login result 404
+2024-07-15 20:10:45.604 [info] Beginning of Login Poll
+2024-07-15 20:10:45.743 [info] Got login result 404
+2024-07-15 20:10:45.804 [info] Beginning of Login Poll
+2024-07-15 20:10:45.973 [info] Got login result 404
+2024-07-15 20:10:46.004 [info] Beginning of Login Poll
+2024-07-15 20:10:46.147 [info] Got login result 404
+2024-07-15 20:10:46.204 [info] Beginning of Login Poll
+2024-07-15 20:10:46.396 [info] Got login result 404
+2024-07-15 20:10:46.404 [info] Beginning of Login Poll
+2024-07-15 20:10:46.604 [info] Beginning of Login Poll
+2024-07-15 20:10:46.618 [info] Got login result 404
+2024-07-15 20:10:46.804 [info] Beginning of Login Poll
+2024-07-15 20:10:47.004 [info] Beginning of Login Poll
+2024-07-15 20:10:47.057 [info] Got login result 404
+2024-07-15 20:10:47.204 [info] Beginning of Login Poll
+2024-07-15 20:10:47.205 [info] Got login result 404
+2024-07-15 20:10:47.337 [info] Got login result 404
+2024-07-15 20:10:47.404 [info] Beginning of Login Poll
+2024-07-15 20:10:47.468 [info] Got login result 404
+2024-07-15 20:10:47.604 [info] Beginning of Login Poll
+2024-07-15 20:10:47.646 [info] Got login result 404
+2024-07-15 20:10:47.784 [info] Got login result 404
+2024-07-15 20:10:47.804 [info] Beginning of Login Poll
+2024-07-15 20:10:47.936 [info] Got login result 404
+2024-07-15 20:10:48.004 [info] Beginning of Login Poll
+2024-07-15 20:10:48.158 [info] Got login result 404
+2024-07-15 20:10:48.204 [info] Beginning of Login Poll
+2024-07-15 20:10:48.343 [info] Got login result 404
+2024-07-15 20:10:48.404 [info] Beginning of Login Poll
+2024-07-15 20:10:48.554 [info] Got login result 404
+2024-07-15 20:10:48.604 [info] Beginning of Login Poll
+2024-07-15 20:10:48.741 [info] Got login result 404
+2024-07-15 20:10:48.804 [info] Beginning of Login Poll
+2024-07-15 20:10:48.983 [info] Got login result 404
+2024-07-15 20:10:49.004 [info] Beginning of Login Poll
+2024-07-15 20:10:49.175 [info] Got login result 404
+2024-07-15 20:10:49.204 [info] Beginning of Login Poll
+2024-07-15 20:10:49.340 [info] Got login result 404
+2024-07-15 20:10:49.404 [info] Beginning of Login Poll
+2024-07-15 20:10:49.556 [info] Got login result 404
+2024-07-15 20:10:49.604 [info] Beginning of Login Poll
+2024-07-15 20:10:49.792 [info] Got login result 404
+2024-07-15 20:10:49.804 [info] Beginning of Login Poll
+2024-07-15 20:10:49.985 [info] Got login result 404
+2024-07-15 20:10:50.004 [info] Beginning of Login Poll
+2024-07-15 20:10:50.137 [info] Got login result 404
+2024-07-15 20:10:50.204 [info] Beginning of Login Poll
+2024-07-15 20:10:50.346 [info] Got login result 404
+2024-07-15 20:10:50.404 [info] Beginning of Login Poll
+2024-07-15 20:10:50.538 [info] Got login result 404
+2024-07-15 20:10:50.604 [info] Beginning of Login Poll
+2024-07-15 20:10:50.740 [info] Got login result 404
+2024-07-15 20:10:50.804 [info] Beginning of Login Poll
+2024-07-15 20:10:50.952 [info] Got login result 404
+2024-07-15 20:10:51.004 [info] Beginning of Login Poll
+2024-07-15 20:10:51.140 [info] Got login result 404
+2024-07-15 20:10:51.204 [info] Beginning of Login Poll
+2024-07-15 20:10:51.341 [info] Got login result 404
+2024-07-15 20:10:51.404 [info] Beginning of Login Poll
+2024-07-15 20:10:51.540 [info] Got login result 404
+2024-07-15 20:10:51.604 [info] Beginning of Login Poll
+2024-07-15 20:10:51.755 [info] Got login result 404
+2024-07-15 20:10:51.804 [info] Beginning of Login Poll
+2024-07-15 20:10:51.941 [info] Got login result 404
+2024-07-15 20:10:52.004 [info] Beginning of Login Poll
+2024-07-15 20:10:52.142 [info] Got login result 404
+2024-07-15 20:10:52.204 [info] Beginning of Login Poll
+2024-07-15 20:10:52.336 [info] Got login result 404
+2024-07-15 20:10:52.404 [info] Beginning of Login Poll
+2024-07-15 20:10:52.554 [info] Got login result 404
+2024-07-15 20:10:52.604 [info] Beginning of Login Poll
+2024-07-15 20:10:52.738 [info] Got login result 404
+2024-07-15 20:10:52.804 [info] Beginning of Login Poll
+2024-07-15 20:10:52.943 [info] Got login result 404
+2024-07-15 20:10:53.004 [info] Beginning of Login Poll
+2024-07-15 20:10:53.173 [info] Got login result 404
+2024-07-15 20:10:53.204 [info] Beginning of Login Poll
+2024-07-15 20:10:53.337 [info] Got login result 404
+2024-07-15 20:10:53.404 [info] Beginning of Login Poll
+2024-07-15 20:10:53.566 [info] Got login result 404
+2024-07-15 20:10:53.604 [info] Beginning of Login Poll
+2024-07-15 20:10:53.746 [info] Got login result 404
+2024-07-15 20:10:53.804 [info] Beginning of Login Poll
+2024-07-15 20:10:54.005 [info] Beginning of Login Poll
+2024-07-15 20:10:54.205 [info] Beginning of Login Poll
+2024-07-15 20:10:54.405 [info] Beginning of Login Poll
+2024-07-15 20:10:54.604 [info] Beginning of Login Poll
+2024-07-15 20:10:54.804 [info] Beginning of Login Poll
+2024-07-15 20:10:54.817 [info] Got login result 404
+2024-07-15 20:10:54.956 [info] Got login result 404
+2024-07-15 20:10:55.004 [info] Beginning of Login Poll
+2024-07-15 20:10:55.130 [info] Got login result 404
+2024-07-15 20:10:55.204 [info] Beginning of Login Poll
+2024-07-15 20:10:55.260 [info] Got login result 404
+2024-07-15 20:10:55.396 [info] Got login result 404
+2024-07-15 20:10:55.404 [info] Beginning of Login Poll
+2024-07-15 20:10:55.561 [info] Got login result 404
+2024-07-15 20:10:55.604 [info] Beginning of Login Poll
+2024-07-15 20:10:55.690 [info] Got login result 404
+2024-07-15 20:10:55.805 [info] Beginning of Login Poll
+2024-07-15 20:10:55.822 [info] Got login result 404
+2024-07-15 20:10:55.951 [info] Got login result 404
+2024-07-15 20:10:56.005 [info] Beginning of Login Poll
+2024-07-15 20:10:56.089 [info] Got login result 404
+2024-07-15 20:10:56.205 [info] Beginning of Login Poll
+2024-07-15 20:10:56.219 [info] Got login result 404
+2024-07-15 20:10:56.352 [info] Got login result 404
+2024-07-15 20:10:56.404 [info] Beginning of Login Poll
+2024-07-15 20:10:56.482 [info] Got login result 404
+2024-07-15 20:10:56.604 [info] Beginning of Login Poll
+2024-07-15 20:10:56.615 [info] Got login result 404
+2024-07-15 20:10:56.804 [info] Beginning of Login Poll
+2024-07-15 20:10:56.805 [info] Got login result 404
+2024-07-15 20:10:56.943 [info] Got login result 404
+2024-07-15 20:10:57.005 [info] Beginning of Login Poll
+2024-07-15 20:10:57.204 [info] Beginning of Login Poll
+2024-07-15 20:10:57.405 [info] Beginning of Login Poll
+2024-07-15 20:10:57.604 [info] Beginning of Login Poll
+2024-07-15 20:10:57.804 [info] Beginning of Login Poll
+2024-07-15 20:10:58.004 [info] Beginning of Login Poll
+2024-07-15 20:10:58.204 [info] Beginning of Login Poll
+2024-07-15 20:10:58.392 [info] Got login result 404
+2024-07-15 20:10:58.404 [info] Beginning of Login Poll
+2024-07-15 20:10:58.520 [info] Got login result 404
+2024-07-15 20:10:58.604 [info] Beginning of Login Poll
+2024-07-15 20:10:58.658 [info] Got login result 404
+2024-07-15 20:10:58.790 [info] Got login result 404
+2024-07-15 20:10:58.804 [info] Beginning of Login Poll
+2024-07-15 20:10:58.924 [info] Got login result 404
+2024-07-15 20:10:59.004 [info] Beginning of Login Poll
+2024-07-15 20:10:59.091 [info] Got login result 404
+2024-07-15 20:10:59.204 [info] Beginning of Login Poll
+2024-07-15 20:10:59.236 [info] Got login result 200
+2024-07-15 20:10:59.237 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:10:59.384 [info] Got login result 200
+2024-07-15 20:10:59.385 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:10:59.404 [info] Beginning of Login Poll
+2024-07-15 20:10:59.545 [info] Got login result 200
+2024-07-15 20:10:59.547 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:10:59.604 [info] Beginning of Login Poll
+2024-07-15 20:10:59.673 [info] Got login result 200
+2024-07-15 20:10:59.674 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:10:59.806 [info] Beginning of Login Poll
+2024-07-15 20:10:59.919 [info] Got login result 200
+2024-07-15 20:10:59.921 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.004 [info] Beginning of Login Poll
+2024-07-15 20:11:00.055 [info] Got login result 200
+2024-07-15 20:11:00.056 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.204 [info] Beginning of Login Poll
+2024-07-15 20:11:00.249 [info] Got login result 200
+2024-07-15 20:11:00.250 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.379 [info] Got login result 200
+2024-07-15 20:11:00.382 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.538 [info] Got login result 200
+2024-07-15 20:11:00.539 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.713 [info] Got login result 200
+2024-07-15 20:11:00.735 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:00.819 [info] Got login result 200
+2024-07-15 20:11:00.832 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKMlZQMEdTM0NKTlpaN0ZLMlhONjhQWjMiLCJ0aW1lIjoiMTcyMTA2MzQ1OCIsInJhbmRvbW5lc3MiOiJjZjgyNjk3Ni0yYTMzLTQxYWIiLCJleHAiOjQzMTMwNjM0NTgsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.5zu65LEE3RLVn-UjpNdPyE16j6loeJow-ByWAgrQQLs","challenge":"_4XBjKphblBIKlLd1FdGdpG8L5H_lhWatiKM64KgUks","authId":"google-oauth2|user_01J2VP0GS3CJNZZ7FK2XN68PZ3","uuid":"8a40109e-f93d-41aa-abef-3988a14a4fd1"}
+2024-07-15 20:11:14.015 [error] Error: ENOENT: no such file or directory, stat '/home/amro/Downloads/Learning/frontend/My_Project1/bookshop.jpg': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/Downloads/Learning/frontend/My_Project1/bookshop.jpg'
+    at Function.e (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:6084)
+    at Object.stat (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:3892)
+2024-07-15 20:12:08.826 [error] Failed to update model, rebuilding

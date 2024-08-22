@@ -1,0 +1,138 @@
+2024-07-15 20:07:25.194 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:517:28)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)
+2024-07-15 20:07:25.417 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-07-15 20:07:55.641 [info] Search by message took 33.09691999992356ms for query ""
+2024-07-15 20:07:55.646 [info] Search by sha took 21.39835899975151ms for query ""
+2024-07-15 20:07:58.518 [error] Error: Command failed: git config --get remote.origin.url
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:517:28)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12)
+2024-07-15 20:07:58.816 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-07-15 20:08:30.590 [error] Error: Command failed: git config --get remote.origin.url
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:517:28)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12)
+2024-07-15 20:08:30.794 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-07-15 20:10:59.312 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:10:59.314 [info] Creating merkle client.
+2024-07-15 20:10:59.314 [info] Done creating merkle client.
+2024-07-15 20:10:59.314 [info] Doing a startup handshake.
+2024-07-15 20:10:59.335 [info] Finished initializing merkle tree in 20.845613999757916 ms.
+2024-07-15 20:10:59.336 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:10:59.343 [info] Handshake start
+2024-07-15 20:10:59.353 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/amro/.config/Cursor/User/workspaceStorage/873019a80fc3b179dfd5ce89260dcf04/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-07-15 20:10:59.386 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:10:59.388 [info] Creating merkle client.
+2024-07-15 20:10:59.388 [info] Done creating merkle client.
+2024-07-15 20:10:59.388 [info] Doing a startup handshake.
+2024-07-15 20:10:59.389 [info] Indexing job successfully done or aborted.
+2024-07-15 20:10:59.408 [info] Finished initializing merkle tree in 19.49021299974993 ms.
+2024-07-15 20:10:59.408 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:10:59.410 [info] Handshake start
+2024-07-15 20:10:59.548 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:10:59.549 [info] Creating merkle client.
+2024-07-15 20:10:59.549 [info] Done creating merkle client.
+2024-07-15 20:10:59.549 [info] Doing a startup handshake.
+2024-07-15 20:10:59.549 [info] Indexing job successfully done or aborted.
+2024-07-15 20:10:59.569 [info] Finished initializing merkle tree in 20.07610800024122 ms.
+2024-07-15 20:10:59.570 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:10:59.572 [info] Handshake start
+2024-07-15 20:10:59.676 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:10:59.677 [info] Creating merkle client.
+2024-07-15 20:10:59.677 [info] Done creating merkle client.
+2024-07-15 20:10:59.677 [info] Doing a startup handshake.
+2024-07-15 20:10:59.677 [info] Indexing job successfully done or aborted.
+2024-07-15 20:10:59.699 [info] Finished initializing merkle tree in 21.76890999963507 ms.
+2024-07-15 20:10:59.700 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:10:59.702 [info] Handshake start
+2024-07-15 20:10:59.922 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:10:59.923 [info] Creating merkle client.
+2024-07-15 20:10:59.923 [info] Done creating merkle client.
+2024-07-15 20:10:59.923 [info] Doing a startup handshake.
+2024-07-15 20:10:59.923 [info] Indexing job successfully done or aborted.
+2024-07-15 20:10:59.942 [info] Finished initializing merkle tree in 19.147013999987394 ms.
+2024-07-15 20:10:59.943 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:10:59.945 [info] Handshake start
+2024-07-15 20:11:00.057 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.058 [info] Creating merkle client.
+2024-07-15 20:11:00.058 [info] Done creating merkle client.
+2024-07-15 20:11:00.058 [info] Doing a startup handshake.
+2024-07-15 20:11:00.058 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.077 [info] Finished initializing merkle tree in 19.110348000191152 ms.
+2024-07-15 20:11:00.080 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.081 [info] Handshake start
+2024-07-15 20:11:00.251 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.252 [info] Creating merkle client.
+2024-07-15 20:11:00.252 [info] Done creating merkle client.
+2024-07-15 20:11:00.252 [info] Doing a startup handshake.
+2024-07-15 20:11:00.252 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.274 [info] Finished initializing merkle tree in 21.679096000269055 ms.
+2024-07-15 20:11:00.275 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.276 [info] Handshake start
+2024-07-15 20:11:00.383 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.384 [info] Creating merkle client.
+2024-07-15 20:11:00.384 [info] Done creating merkle client.
+2024-07-15 20:11:00.384 [info] Doing a startup handshake.
+2024-07-15 20:11:00.385 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.408 [info] Finished initializing merkle tree in 23.58107199985534 ms.
+2024-07-15 20:11:00.409 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.411 [info] Handshake start
+2024-07-15 20:11:00.541 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.542 [info] Creating merkle client.
+2024-07-15 20:11:00.542 [info] Done creating merkle client.
+2024-07-15 20:11:00.542 [info] Doing a startup handshake.
+2024-07-15 20:11:00.542 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.560 [info] Finished initializing merkle tree in 18.17050000000745 ms.
+2024-07-15 20:11:00.561 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.563 [info] Handshake start
+2024-07-15 20:11:00.736 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.737 [info] Creating merkle client.
+2024-07-15 20:11:00.737 [info] Done creating merkle client.
+2024-07-15 20:11:00.737 [info] Doing a startup handshake.
+2024-07-15 20:11:00.737 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.758 [info] Finished initializing merkle tree in 21.459166000131518 ms.
+2024-07-15 20:11:00.783 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.785 [info] Handshake start
+2024-07-15 20:11:00.836 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-15 20:11:00.839 [info] Creating merkle client.
+2024-07-15 20:11:00.839 [info] Done creating merkle client.
+2024-07-15 20:11:00.839 [info] Doing a startup handshake.
+2024-07-15 20:11:00.839 [info] Indexing job successfully done or aborted.
+2024-07-15 20:11:00.842 [info] Finished initializing merkle tree in 3.5308750001713634 ms.
+2024-07-15 20:11:00.868 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:00.870 [info] Handshake start
+2024-07-15 20:11:01.533 [info] Handshake timing: 665.1206209999509
+2024-07-15 20:11:01.534 [info] Handshake result:
+2024-07-15 20:11:01.534 [info] Starting fast remote sync.
+2024-07-15 20:11:01.538 [info] Total num embeddable files: 1
+2024-07-15 20:11:01.540 [info] Root hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-15 20:11:01.540 [info] Starting repository upload from scratch.
+2024-07-15 20:11:01.542 [info] Uploading 1 files.
+2024-07-15 20:11:03.932 [info] Finished indexing repository.
+2024-07-15 20:11:03.933 [info] Indexing job successfully done or aborted.
+2024-07-15 20:12:01.975 [info] Search by message took 35.0730179999955ms for query ""
+2024-07-15 20:12:01.980 [info] Search by sha took 23.619378000032157ms for query ""
+2024-07-15 20:12:09.105 [info] Search by message took 37.6553239999339ms for query ""
+2024-07-15 20:12:09.110 [info] Search by sha took 23.62196599971503ms for query ""
+2024-07-15 20:12:10.962 [info] Search by message took 38.16767799993977ms for query ""
+2024-07-15 20:12:10.969 [info] Search by sha took 26.0319699998945ms for query ""
+2024-07-15 20:12:11.828 [info] Search by message took 35.470000999979675ms for query ""
+2024-07-15 20:12:11.832 [info] Search by sha took 23.082376000005752ms for query ""
+2024-07-15 20:12:12.599 [info] Search by message took 34.68463999964297ms for query ""
+2024-07-15 20:12:12.604 [info] Search by sha took 23.139088000170887ms for query ""
+2024-07-15 20:12:13.354 [info] Search by message took 36.55833499971777ms for query ""
+2024-07-15 20:12:13.359 [info] Search by sha took 23.9704049997963ms for query ""

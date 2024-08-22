@@ -1,0 +1,1 @@
+(async()=>{await import(chrome.runtime.getURL("assets/src/browser-extension/content_script/index-9debb24c.js"))})();

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Openfreebuds
+Categories=GNOME;GTK;Utility;
+Exec=/usr/bin/openfreebuds
+Icon=/opt/openfreebuds/openfreebuds_assets/icon.png
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true

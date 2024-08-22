@@ -1,0 +1,6 @@
+2024/07/19-13:20:26.732 12b4 Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ketabonline.com_0.indexeddb.leveldb since it was missing.
+2024/07/19-13:20:26.735 12b4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ketabonline.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/19-13:22:09.086 12b4 Level-0 table #5: started
+2024/07/19-13:22:09.087 12b4 Level-0 table #5: 1113 bytes OK
+2024/07/19-13:22:09.089 12b4 Delete type=0 #3
+2024/07/19-13:22:09.089 12b4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

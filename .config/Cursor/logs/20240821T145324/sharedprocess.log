@@ -1,0 +1,68 @@
+2024-08-21 14:53:32.002 [info] Getting Manifest... enkia.tokyo-night
+2024-08-21 14:53:37.611 [info] Installing extension: enkia.tokyo-night
+2024-08-21 14:53:37.717 [info] Started downloading extension: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/cursor-enkia.tokyo-night-1.0.9
+2024-08-21 14:53:37.718 [info] Downloading extension to temp location: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.06ec929a-bd12-4691-a79e-a3c6347c6b97
+2024-08-21 14:53:41.832 [info] Started downloading extension: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/enkia.tokyo-night-1.0.9.sigzip
+2024-08-21 14:53:41.833 [info] Downloading extension to temp location: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.a02d26a1-3c26-4ae1-901e-3df0574cae04
+2024-08-21 14:53:41.972 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-fork.js
+2024-08-21 14:53:41.972 [info] Extension signature verification is not done: enkia.tokyo-night
+2024-08-21 14:53:42.014 [info] Extracted extension to file:///home/amro/.cursor/extensions/enkia.tokyo-night-1.0.9: enkia.tokyo-night
+2024-08-21 14:53:42.017 [info] Renamed to /home/amro/.cursor/extensions/enkia.tokyo-night-1.0.9
+2024-08-21 14:53:42.018 [info] Extracting extension completed. enkia.tokyo-night
+2024-08-21 14:53:42.028 [info] Extension installed successfully: enkia.tokyo-night
+2024-08-21 14:53:42.033 [info] Marked extension as uninstalled enkia.tokyo-night-1.0.9-universal
+2024-08-21 14:53:42.102 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp'
+    at a.create (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30393)
+    at d (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30503)
+    at t.hb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36621)
+    at t.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29061)
+    at async w.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16207)
+    at async ee.sb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:106:31292)
+2024-08-21 14:53:42.107 [info] Extensions added from another source enkia.tokyo-night vscode-userdata:/home/amro/.cursor/extensions/extensions.json
+2024-08-21 14:54:16.874 [info] Getting Manifest... arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:16.891 [info] Installing extension: arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:17.051 [info] Started downloading extension: arcticicestudio.nord-visual-studio-code 0.19.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/cursor-arcticicestudio.nord-visual-studio-code-0.19.0
+2024-08-21 14:54:17.052 [info] Downloading extension to temp location: arcticicestudio.nord-visual-studio-code 0.19.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.9b73987b-5737-4382-ba8e-93560d20d1e7
+2024-08-21 14:54:17.616 [info] Started downloading extension: arcticicestudio.nord-visual-studio-code 0.19.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/arcticicestudio.nord-visual-studio-code-0.19.0.sigzip
+2024-08-21 14:54:17.616 [info] Downloading extension to temp location: arcticicestudio.nord-visual-studio-code 0.19.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.102ac7c7-97eb-433c-b410-cbb843b21c57
+2024-08-21 14:54:17.672 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-fork.js
+2024-08-21 14:54:17.672 [info] Extension signature verification is not done: arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:17.684 [info] Extracted extension to file:///home/amro/.cursor/extensions/arcticicestudio.nord-visual-studio-code-0.19.0: arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:17.686 [info] Renamed to /home/amro/.cursor/extensions/arcticicestudio.nord-visual-studio-code-0.19.0
+2024-08-21 14:54:17.687 [info] Extracting extension completed. arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:17.694 [info] Extension installed successfully: arcticicestudio.nord-visual-studio-code
+2024-08-21 14:54:17.771 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp'
+    at a.create (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30393)
+    at d (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30503)
+    at t.hb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36621)
+    at t.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29061)
+    at async w.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16207)
+    at async ee.sb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:106:31292)
+2024-08-21 14:54:49.482 [info] Getting Manifest... naumovs.color-highlight
+2024-08-21 14:54:49.488 [info] Installing extension: naumovs.color-highlight
+2024-08-21 14:54:49.632 [info] Started downloading extension: naumovs.color-highlight 2.8.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/cursor-naumovs.color-highlight-2.8.0
+2024-08-21 14:54:49.632 [info] Downloading extension to temp location: naumovs.color-highlight 2.8.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.5b782f5b-f747-4b3b-abf5-460a49a7e24e
+2024-08-21 14:54:50.560 [info] Started downloading extension: naumovs.color-highlight 2.8.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/naumovs.color-highlight-2.8.0.sigzip
+2024-08-21 14:54:50.561 [info] Downloading extension to temp location: naumovs.color-highlight 2.8.0 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.e3d26e32-1001-4bd4-886e-1bae72631332
+2024-08-21 14:54:50.630 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorR5FUOg/resources/app/out/bootstrap-fork.js
+2024-08-21 14:54:50.630 [info] Extension signature verification is not done: naumovs.color-highlight
+2024-08-21 14:54:50.825 [info] Extracted extension to file:///home/amro/.cursor/extensions/naumovs.color-highlight-2.8.0: naumovs.color-highlight
+2024-08-21 14:54:50.827 [info] Renamed to /home/amro/.cursor/extensions/naumovs.color-highlight-2.8.0
+2024-08-21 14:54:50.829 [info] Extracting extension completed. naumovs.color-highlight
+2024-08-21 14:54:50.835 [info] Extension installed successfully: naumovs.color-highlight
+2024-08-21 14:54:50.909 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp'
+    at a.create (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30393)
+    at d (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30503)
+    at t.hb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36621)
+    at t.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29061)
+    at async w.stat (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16207)
+    at async ee.sb (/tmp/.mount_cursorR5FUOg/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:106:31292)

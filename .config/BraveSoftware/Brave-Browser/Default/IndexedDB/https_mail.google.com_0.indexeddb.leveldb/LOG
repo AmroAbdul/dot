@@ -1,0 +1,21 @@
+2024/08/22-16:29:08.278 1be4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/22-16:29:08.278 1be4 Recovering log #24
+2024/08/22-16:29:08.280 1be4 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000024.log 
+2024/08/22-16:29:10.268 1be4 Compacting 1@1 + 1@2 files
+2024/08/22-16:29:10.281 1be4 Generated table #27@1: 140 keys, 140003 bytes
+2024/08/22-16:29:10.281 1be4 Compacted 1@1 + 1@2 files => 140003 bytes
+2024/08/22-16:29:10.283 1be4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-16:29:10.284 1be4 Delete type=2 #22
+2024/08/22-16:29:10.285 1be4 Delete type=2 #25
+2024/08/22-16:52:57.858 1bfe Level-0 table #29: started
+2024/08/22-16:52:57.893 1bfe Level-0 table #29: 2838752 bytes OK
+2024/08/22-16:52:57.898 1bfe Delete type=0 #24
+2024/08/22-16:53:01.799 1be5 Compacting 1@1 + 1@2 files
+2024/08/22-16:53:01.810 1be5 Generated table #30@1: 184 keys, 317027 bytes
+2024/08/22-16:53:01.810 1be5 Compacted 1@1 + 1@2 files => 317027 bytes
+2024/08/22-16:53:01.812 1be5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-16:53:01.812 1be5 Delete type=2 #27
+2024/08/22-16:53:01.812 1be5 Delete type=2 #29
+2024/08/22-16:53:12.174 1be4 Level-0 table #32: started
+2024/08/22-16:53:12.200 1be4 Level-0 table #32: 2955997 bytes OK
+2024/08/22-16:53:12.203 1be4 Delete type=0 #28

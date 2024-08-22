@@ -1,0 +1,9 @@
+[Game]
+Losses=0
+Wins=0
+
+[KgDifficulty]
+Level=Medium
+
+[MainWindow]
+ToolBarsMovable=Disabled

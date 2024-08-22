@@ -1,0 +1,96 @@
+ls | where size > 10kb | sort-by modified
+cd Downloads/
+ls | where size > 10kb | sort-by modified
+http get https://api.github.com/repos/nushell/nushell | get license
+ansi 
+ansi red
+cal
+cal -m 
+cal -y 
+cal --help 
+cal --as-table --full-year 2024 | where mo == 1
+cal --as-table --full-year 2024 | where mo == 1 | length 
+cal --as-table --full-year 2024 | where to == 1 | length 
+cal --as-table --full-year 2024 | where th == 1 | length 
+cal --as-table --full-year 2024 | where fr == 1 | length 
+cal --as-table --full-year 2024 | where tu == 1 | length 
+cal --as-table --full-year 2024 | where we == 1 | length 
+commandline --help 
+commandline get-cursor 
+commandline edit 
+config nu 
+config env 
+config 
+date now 
+date to-table 
+date --help 
+date now | date to-table 
+date to-table 2024-8-17
+date to-table "2024-8-17"
+date humanize 
+date now | date humanize 
+"2021-10-22 20:00:12 +01:00" | date humanize
+date list-timezone 
+date list-timezone | compact 
+date list-timezone | compact --empty 
+compact --help 
+g
+shells 
+g
+shells 
+exit --help 
+exit 
+nu
+wrap 
+url
+sys cpu 
+seq date 
+seq date --days 
+seq date --days  12
+pwd
+(http get https://api.chucknorris.io/jokes/random)
+(http get https://api.chucknorris.io/jokes/random).value
+alias whereami='curl ifconfig.co/json'<\n>
+exit
+$env.APPDATA
+$env.VISUAL
+$env.TERM
+$env.TERMINFO
+$env.BROWSER
+$env.config.cursor_shape
+$env.config.hooks
+$env.config.hooks.pre_prompt
+pacman --help
+pacman -F
+pacman -F nushell
+help commands 
+help http get
+which http
+ls | where  type == file
+cd Downloads/
+ls | where  type == file
+ls | where  type == dir
+ls | where  type == directory
+ls | where  type == dir
+ps | where cpu > 0 | sort-by cpu | reverse 
+df -h | str replace 
+df -h | str replace "Mounted On" Mounted_On | detect columns 
+df -h 
+df -h | detect columns 
+df -h | str replace "Mounted on" Mounted_On | detect columns<\n>
+df -h | str replace "Mounted On" Mounted_On | detect columns 
+df -h | str replace "Mounted on" Mounted_On | detect columns<\n>
+df -h | str replace "Mounted on" Mounted_On | from ssv --aligned-columns --minimum-spaces 1
+poweroff 
+let audience: string = "World"
+$"Hello, ($audience)"
+let mybool: bool = (2 > 1)
+$mybool
+poweroff 
+0.5KB
+1GiB / 1B
+1..5
+[Sam Fred George]
+ls | to json 
+x
+exit

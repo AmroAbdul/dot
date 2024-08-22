@@ -1,0 +1,44 @@
+{
+   "author": "João Guilherme Packer",
+   "background": {
+      "scripts": [ "background-listeners-setup.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+         "16": "icons/osm16x16.png",
+         "48": "icons/osm48x48.png",
+         "96": "icons/osm96x96.png"
+      },
+      "default_popup": "popup/index.html",
+      "default_title": "__MSG_extensionName__"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "osm-smart-menu@jgpacker.me.br"
+      }
+   },
+   "commands": {
+      "_execute_browser_action": {
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "homepage_url": "https://github.com/jgpacker/osm-smart-menu",
+   "icons": {
+      "128": "icons/osm128x128.png",
+      "48": "icons/osm48x48.png",
+      "96": "icons/osm96x96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgDj1rT2ICXriuca0MNW6L7BWMZ6R1AopBr53V+Yh64cftMq4Pxl4R96pObKKJRq9PE2iOrk9HDIkPqPFBYJv1DWTGOvhCPDexUFFdJKuby1aDNAkJb8vahf/KvimtEDaMBy6xsJLNZn3FICJk3eMeQfUmPPuIRdJftj4A5ljkwppEwUJAREWac32YVt8mbrXD4eq5oeVYBc9ER+ACteywIj9kcPM8LB8IECP56TRW09y47rLLaZb52G0jmDlVUftSnuLKr8ZzPJZAOgpiOv57TmRsOWUYwOCr9riOqt4e7RWlJzalEbiOvFcLYk1l4JqeKLXGsT5+/9fza7QSHhFaQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "45",
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "page": "options/index.html"
+   },
+   "permissions": [ "storage", "activeTab" ],
+   "short_name": "__MSG_extensionShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.17.0"
+}

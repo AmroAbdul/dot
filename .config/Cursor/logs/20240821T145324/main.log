@@ -1,0 +1,4 @@
+2024-08-21 14:53:25.034 [info] update#setState disabled
+2024-08-21 14:53:25.044 [info] update#ctor - updates are disabled as there is no update URL
+2024-08-21 14:53:25.119 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-08-21 15:39:44.439 [info] Extension host with pid 297472 exited with code: 0, signal: unknown.

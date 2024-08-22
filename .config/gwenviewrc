@@ -1,0 +1,34 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/dracula-spooky.png
+File2[$e]=$HOME/Downloads/dracula-mnt-6272a4.png
+File3[$e]=$HOME/Downloads/dracula-galaxy.png
+File4[$e]=$HOME/Downloads/CSSNotesForProfessionals.pdf
+File5[$e]=$HOME/Pictures/Screenshot.png
+File6[$e]=$HOME/Pictures/clearoff_upscayl_4x_realesrgan-x4plus-anime.png
+File7[$e]=$HOME/Pictures/clearoff.jpeg
+File8[$e]=$HOME/Pictures/Screenshot_20240213_183842.png
+File9[$e]=$HOME/Pictures/IMG_20230929_223038.jpg
+Name1[$e]=dracula-spooky.png
+Name2[$e]=dracula-mnt-6272a4.png
+Name3[$e]=dracula-galaxy.png
+Name4[$e]=CSSNotesForProfessionals.pdf
+Name5[$e]=Screenshot.png
+Name6[$e]=clearoff_upscayl_4x_realesrgan-x4plus-anime.png
+Name7[$e]=clearoff.jpeg
+Name8[$e]=Screenshot_20240213_183842.png
+Name9[$e]=IMG_20230929_223038.jpg
+
+[RedEyeReduction]
+RedEyeReductionDiameter=2
+
+[SideBar]
+InformationSplitterSizes=226,249
+IsVisible ViewMode=true
+SideBarSplitterSizes=225,1691

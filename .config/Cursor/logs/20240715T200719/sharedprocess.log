@@ -1,0 +1,29 @@
+2024-07-15 20:07:23.102 [info] Started initializing default profile extensions in extensions installation folder. file:///home/amro/.cursor/extensions
+2024-07-15 20:07:23.421 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/amro/.cursor/extensions Unable to create file 'vscode-userdata:/home/amro/.cursor/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-07-15 20:07:23.421 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/amro/.cursor/extensions
+2024-07-15 20:07:44.742 [info] Extensions added from another source drewxs.tokyo-night-dark vscode-userdata:/home/amro/.cursor/extensions/extensions.json
+2024-07-15 20:07:44.742 [info] Extensions added from another source enkia.tokyo-night vscode-userdata:/home/amro/.cursor/extensions/extensions.json
+2024-07-15 20:07:44.743 [info] Extensions added from another source formulahendry.auto-rename-tag vscode-userdata:/home/amro/.cursor/extensions/extensions.json
+2024-07-15 20:07:47.319 [info] Getting Manifest... enkia.tokyo-night
+2024-07-15 20:07:48.388 [info] Installing extension: enkia.tokyo-night
+2024-07-15 20:07:48.666 [info] Started downloading extension: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/cursor-enkia.tokyo-night-1.0.9-universal
+2024-07-15 20:07:48.669 [info] Downloading extension to temp location: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.53f00361-146a-4d11-adff-f31a425c6ca4
+2024-07-15 20:07:49.298 [info] Started downloading extension: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/enkia.tokyo-night-1.0.9-universal.sigzip
+2024-07-15 20:07:49.298 [info] Downloading extension to temp location: enkia.tokyo-night 1.0.9 file:///home/amro/.config/Cursor/CachedExtensionVSIXs/.43eddc86-7ac7-4432-9ab8-8c04e4f92475
+2024-07-15 20:07:49.533 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursor35PDnN/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursor35PDnN/resources/app/out/bootstrap-fork.js
+2024-07-15 20:07:49.534 [info] Extension signature verification is not done: enkia.tokyo-night
+2024-07-15 20:07:49.592 [info] Extracted extension to file:///home/amro/.cursor/extensions/enkia.tokyo-night-1.0.9-universal: enkia.tokyo-night
+2024-07-15 20:07:49.596 [info] Renamed to /home/amro/.cursor/extensions/enkia.tokyo-night-1.0.9-universal
+2024-07-15 20:07:49.598 [info] Extracting extension completed. enkia.tokyo-night
+2024-07-15 20:07:49.610 [info] Extension installed successfully: enkia.tokyo-night
+2024-07-15 20:07:49.614 [info] Marked extension as uninstalled enkia.tokyo-night-1.0.6
+2024-07-15 20:07:49.687 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.cursor/extensions/extensions.json.vsctmp'
+    at a.create (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30393)
+    at d (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:52:30503)
+    at t.hb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36621)
+    at t.stat (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29061)
+    at async w.stat (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16207)
+    at async ee.sb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:106:31292)

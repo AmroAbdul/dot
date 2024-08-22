@@ -1,0 +1,71 @@
+{
+   "config_deleteButton": {
+      "description": "Text inside 'delete button' in configuration page",
+      "message": "Supprimer"
+   },
+   "config_editButton": {
+      "description": "Text inside 'edit button' in configuration page",
+      "message": "Modifier"
+   },
+   "config_linkDeleted": {
+      "description": "Shown inline when a link is deleted inside configuration page",
+      "message": "Lien $LINK_NAME$ supprimé. Cliquez ici pour annuler.",
+      "placeholders": {
+         "LINK_NAME": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "config_pattern_createOption": {
+      "description": "Button",
+      "message": "Créer une option"
+   },
+   "config_pattern_name": {
+      "description": "Input label",
+      "message": "Nom"
+   },
+   "config_pattern_urlTemplate": {
+      "description": "Input label",
+      "message": "Modèle d'URL"
+   },
+   "config_saveButton": {
+      "description": "Text inside 'save button' in configuration page",
+      "message": "Enregistrer"
+   },
+   "configurationLink": {
+      "description": "Link to configuration page inside main popup.",
+      "message": "Configuration"
+   },
+   "extensionDescription": {
+      "message": "Aide les contributeurs d'OpenStreetMap à passer facilement d'une carte à l'autre et d'un outil d'analyse à l'autre de la communauté."
+   },
+   "extensionName": {
+      "message": "OSM Smart Menu"
+   },
+   "extensionShortName": {
+      "message": "OSMenu"
+   },
+   "loading": {
+      "description": "Shown in popup shortly before menu appears.",
+      "message": "Chargement…\nSi le chargement ne s'arrête pas, rechargez la page et réessayez."
+   },
+   "newOptionDetected_added": {
+      "description": "Shown in popup when an unknown website seems compatible with OpenStreetMap. After the button is clicked.",
+      "message": "Ajouté comme $PAGE_TITLE$",
+      "placeholders": {
+         "PAGE_TITLE": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "newOptionDetected_buttonText": {
+      "description": "Shown in popup (inside the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Ajouter un lien"
+   },
+   "newOptionDetected_notice": {
+      "description": "Shown in popup (before the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Souhaitez-vous ajouter ce site Web au menu ?"
+   }
+}

@@ -1,0 +1,7 @@
+2024/05/23-21:44:44.806 19af Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.trendyol.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/23-21:44:44.806 19af Recovering log #3
+2024/05/23-21:44:44.806 19af Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.trendyol.com_0.indexeddb.leveldb/000003.log 
+2024/05/24-01:38:02.325 19b0 Level-0 table #5: started
+2024/05/24-01:38:02.327 19b0 Level-0 table #5: 1379 bytes OK
+2024/05/24-01:38:02.330 19b0 Delete type=0 #3
+2024/05/24-01:38:02.331 19b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

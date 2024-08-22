@@ -1,0 +1,19 @@
+:root {
+    --color-0: #000000;
+    --color-100: #303030;
+    --color-200: #353535;
+    --color-300: #575757;
+    --color-400: #717171;
+    --color-500: #8b8b8b;
+    --color-600: #d4d4d4;
+    --color-999: #ffffff;
+
+    --error-light: #c1121f;
+    --error-dark: #780000;
+    
+    --primary-100: #204d89;
+    --primary-200: #2e70c5;
+    --primary-300: #c1d9ff;
+
+    --transparent: rgba(0,0,0,0);
+} 

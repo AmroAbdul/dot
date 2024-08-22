@@ -1,0 +1,233 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.arabicLexicon_body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+.arabicLexicon_body #DictionaryDialog {
+  max-width: 700px;
+  min-width: 400px;
+  min-height: 180px;
+  border: 1px solid #50505047;
+  background-color: white;
+  box-shadow: 0 0 20px 4px rgba(38, 78, 118, 0.12);
+  border-radius: 8px;
+  padding: 15px;
+}
+.arabicLexicon_body #ArabicLexiconDiv {
+  border-width: 0 1px 1px 1px;
+  border-radius: 0 0 30px 30px;
+  border-color: silver;
+  border-style: solid;
+  box-shadow: 0px 5px 8px #6a606335;
+}
+.arabicLexicon_body #ArabicLexiconDiv #ArabicLexiconCLoseBtn {
+  float: left;
+}
+.arabicLexicon_body #ArabicLexiconDiv * {
+  font-family: "Montserrat", Tahoma;
+  text-align: right;
+  direction: rtl;
+  text-decoration: none !important;
+  color: #555;
+}
+.arabicLexicon_body #ArabicLexiconDiv .tip {
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+.arabicLexicon_body #ArabicLexiconDiv .ResultBG {
+  background-color: #fff;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+}
+.arabicLexicon_body #ArabicLexiconDiv .tip span {
+  display: block;
+  text-align: center;
+}
+.arabicLexicon_body #ArabicLexiconDiv .b-arw::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-left: -0.5em;
+  bottom: -2em;
+  left: 50%;
+  box-sizing: border-box;
+  border: 1em solid #000;
+  border-color: transparent transparent #fbfbfb #fefdfb;
+  transform-origin: 0 0;
+  transform: rotate(-45deg);
+  box-shadow: -3px 3px 3px 0 rgba(47, 47, 47, 0.4);
+}
+.arabicLexicon_body #ArabicLexiconDiv .t-arw::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-left: 2.3em;
+  top: 0;
+  left: 50%;
+  box-sizing: border-box;
+  border: 1em solid #000;
+  border-color: transparent transparent #fbfbfb #fefdfb;
+  transform-origin: 0 0;
+  transform: rotate(-225deg);
+  box-shadow: -3px 3px 3px 0 rgba(47, 47, 47, 0.4);
+}
+.arabicLexicon_body #ArabicLexiconDiv .load {
+  width: 30px;
+  position: relative;
+}
+.arabicLexicon_body #ArabicLexiconDiv .dummy {
+  padding: 30px;
+}
+.arabicLexicon_body #ArabicLexiconDiv #title {
+  font-size: 27px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color: #007A82;
+}
+.arabicLexicon_body #ArabicLexiconDiv .result span {
+  text-align: right;
+}
+.arabicLexicon_body #ArabicLexiconDiv .result label {
+  text-align: left;
+  direction: ltr;
+  display: block;
+}
+
+.arabicLexicon_body #ArabicLexiconDiv .ResultBG a,
+.arabicLexicon_body #ArabicLexiconDiv .tip a {
+  margin: 0 5px;
+}
+.arabicLexicon_body #ArabicLexiconDiv .tip label a {
+  color: #500000;
+}
+.arabicLexicon_body #ArabicLexiconDiv .tip a:focus,
+.arabicLexicon_body #ArabicLexiconDiv .tip a:focus span,
+.arabicLexicon_body #ArabicLexiconDiv .tip a:hover,
+.arabicLexicon_body #ArabicLexiconDiv .tip a:hover span {
+  color: #a23734 !important;
+  text-decoration: none !important;
+}
+.arabicLexicon_body #ArabicLexiconDiv .search {
+  position: relative;
+  margin-top: 10px;
+}
+.arabicLexicon_body #ArabicLexiconDiv .search input {
+  border-radius: 50px;
+  width: 100%;
+  padding-right: 10px;
+  height: 45px;
+  padding-left: 2px;
+  outline: 0;
+  border: 1px solid silver;
+  font-size: 1.1rem;
+  padding-top: 2px;
+}
+.arabicLexicon_body #ArabicLexiconDiv .search button {
+  cursor: pointer;
+  background: #02a4ac;
+  border: none;
+  color: #fff;
+  padding-left: 8px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  border-radius: 50px;
+  outline: 0;
+  height: 45px;
+  font-size: 1.1rem;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+.arabicLexicon_body #ArabicLexiconDiv .search button:hover {
+  background-image: linear-gradient(-90deg, #006971, #006971);
+}
+.arabicLexicon_body #ArabicLexiconDiv i {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.arabicLexicon_body #ArabicLexiconDiv .NoWordSearchPopUp {
+  padding: 35px;
+  font-weight: 700;
+}
+.arabicLexicon_body #ArabicLexiconDiv .BlueSpeaker {
+  color: #5080d1;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.arabicLexicon_body #ArabicLexiconDiv .GraySpeaker {
+  color: #b6babe;
+  font-size: 20px;
+  /* transform: rotate(180deg); */
+  vertical-align: top;
+  width: 25px;
+  margin: 0 5px;
+}
+.arabicLexicon_body #EnPlayAudio, #playAudio { display: none;}
+.arabicLexicon_body #EnPlayAudio .GraySpeaker {
+  transform: rotate(180deg);
+}
+.arabicLexicon_body #ArabicLexiconDiv .txtOrange {
+  color: #f39c70;
+  font-size: 18px;
+}
+.arabicLexicon_body #ArabicLexiconDiv .txtGreen {
+  color: #0abc7b;
+  padding-right: 15px;
+  font-size: 18px;
+}
+.arabicLexicon_body #ArabicLexiconDiv .txtGray {
+  color: #DEDEDE;
+  font-size: 18px;
+  font-weight: bold;
+}
+.arabicLexicon_body #mInfo img {
+  width: 22px;
+  margin: 0 20px 0 6px;
+}
+
+.arabicLexicon_body .sense-wrap {
+  border: 1px solid #70707029;
+  border-radius: 13px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.arabicLexicon_body #ArabicLexiconDiv #sense {
+  text-align: right;
+  direction: rtl;
+  font-size: 16px;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.arabicLexicon_body #header {
+  padding: 10px 10px 20px 10px;
+  height: 40px;
+  background-image: url(../img/hero-bg.png);
+  background-size: contain;
+  background-repeat: round;
+  z-index: 10;
+  position: relative;
+}
+.arabicLexicon_body .content {
+  padding: 12px;
+  padding-top: 0;
+  margin-top: -6px;
+}
+.arabicLexicon_body .b-white {
+  background-color: #fff;
+}
+.arabicLexicon_body .flag {
+  width: 25px;
+  vertical-align: sub;
+  padding-right: 5px;
+}
+.arabicLexicon_body #ArabicLexiconDiv #englishTranslation {
+  color: #007A82;
+  display: inline;
+  text-align: left;
+  font-size: 18px;
+}

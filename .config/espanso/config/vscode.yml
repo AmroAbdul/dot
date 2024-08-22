@@ -1,0 +1,9 @@
+filter_title: "Visual Studio Code"
+# filter_exec: "code"
+# filter_class: ""
+
+
+extra_includes:
+  - "../match/coding.yml"
+  - "../match/base.yml"
+

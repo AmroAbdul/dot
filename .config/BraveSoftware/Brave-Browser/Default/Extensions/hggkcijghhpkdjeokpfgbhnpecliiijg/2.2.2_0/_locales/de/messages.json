@@ -1,0 +1,339 @@
+{
+   "April": {
+      "message": "April"
+   },
+   "August": {
+      "message": "August"
+   },
+   "December": {
+      "message": "Dezember"
+   },
+   "Dhu_al_Hijjah": {
+      "message": "Dhū al-Ḥijjah"
+   },
+   "Dhu_al_Qa_dah": {
+      "message": "Dhū al-Qaʿdah"
+   },
+   "February": {
+      "message": "Februar"
+   },
+   "Friday": {
+      "message": "Freitag"
+   },
+   "January": {
+      "message": "Januar"
+   },
+   "July": {
+      "message": "Juli"
+   },
+   "Jumada_al_akhirah": {
+      "message": "Jumādá-al-ākhirah"
+   },
+   "Jumada_al_ula": {
+      "message": "Jumādá al-ūlá"
+   },
+   "June": {
+      "message": "Juni"
+   },
+   "March": {
+      "message": "März"
+   },
+   "May": {
+      "message": "Mai"
+   },
+   "Monday": {
+      "message": "Montag"
+   },
+   "Muharram": {
+      "message": "Muḥarram"
+   },
+   "November": {
+      "message": "November"
+   },
+   "October": {
+      "message": "Oktober"
+   },
+   "Rabi__al_awwal": {
+      "message": "Rabīʿ al-awwal"
+   },
+   "Rabi__al_thani": {
+      "message": "Rabīʿ al-thānī"
+   },
+   "Rajab": {
+      "message": "Rajab"
+   },
+   "Ramadan": {
+      "message": "Ramadan"
+   },
+   "Safar": {
+      "message": "Ṣafar"
+   },
+   "Saturday": {
+      "message": "Samstag"
+   },
+   "September": {
+      "message": "September"
+   },
+   "Sha_ban": {
+      "message": "Shaʿbān"
+   },
+   "Shawwal": {
+      "message": "Shawwāl"
+   },
+   "Sunday": {
+      "message": "Sonntag"
+   },
+   "Thursday": {
+      "message": "Donnerstag"
+   },
+   "Tuesday": {
+      "message": "Dienstag"
+   },
+   "Wednesday": {
+      "message": "Mittwoch"
+   },
+   "ar": {
+      "message": "Arabisch"
+   },
+   "athkar": {
+      "message": "Athkar"
+   },
+   "az": {
+      "message": "Aserbaidschanisch"
+   },
+   "bn": {
+      "message": "Bengalisch"
+   },
+   "calendar": {
+      "message": "Kalender"
+   },
+   "cancel": {
+      "message": "Abbrechen"
+   },
+   "contact_developer": {
+      "message": "Entwickler kontaktieren"
+   },
+   "cs": {
+      "message": "Tschechisch"
+   },
+   "de": {
+      "message": "Deutsch"
+   },
+   "dv": {
+      "message": "Dhivehi"
+   },
+   "en": {
+      "message": "Englisch"
+   },
+   "enable_notification_notice": {
+      "message": "Achten Sie darauf die Benachrichtigungen für die Sunnah Fastentage zu aktivieren, um eine Benachrichtigung ein Tag vorher zu erhalten!"
+   },
+   "error": {
+      "message": "Ein Fehler ist erschienen, bitte versuchen Sie es später wieder."
+   },
+   "es": {
+      "message": "Spanisch"
+   },
+   "fa": {
+      "message": "Farsi"
+   },
+   "fasting": {
+      "message": "Fasten"
+   },
+   "fasting_notification": {
+      "description": "Text of the notification that will be sent before a fasting day.",
+      "message": "Morgen ist eine Sunnah Fastentag"
+   },
+   "fasting_reminder_title": {
+      "message": "Fasten Erinnerung"
+   },
+   "feedback": {
+      "message": "Geben Sie uns Ihr Feedback"
+   },
+   "feedback_window_content": {
+      "message": "\u003Cp class='lead'>Danke, dass Sie unsere Erweiterung benutzen. Wir möchten uns ständig verbessern und machen diese Erweiterung besser für Sie\u003Cbr> Bitte geben Sie uns durch Beantworten einiger Fragen Feedback \u003Cb>\u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\" target=\"_blank\">hier\u003C/a>\u003C/b>\u003C/p>"
+   },
+   "feedback_window_title": {
+      "message": "Geben Sie uns Feedback"
+   },
+   "fr": {
+      "message": "Französisch"
+   },
+   "general": {
+      "message": "Allgemein"
+   },
+   "ha": {
+      "message": "Hausa"
+   },
+   "hi": {
+      "message": "Indisch"
+   },
+   "id": {
+      "message": "Indonesisch"
+   },
+   "it": {
+      "message": "Italienisch"
+   },
+   "ja": {
+      "message": "Japanisch"
+   },
+   "ko": {
+      "message": "Koreanisch"
+   },
+   "ku": {
+      "message": "Kurdisch"
+   },
+   "ml": {
+      "message": "Malaysisch"
+   },
+   "new_feature_top_sites": {
+      "message": "Sie können jetzt die Seiten von der \"Top Sites\" Liste entfernen! Einfach die Maus über die gewünschte Seite halten und auf das \"X\" Symbol klicken. "
+   },
+   "new_features_calendar_content": {
+      "message": "Wir haben folgende neue Funktionen hinzugefügt:\u003Cul>\u003Cli>\u003Cb>Kalendar:\u003C/b>Sie können jetzt jeden Gregorianischen Kalender mit dem Hijri Datum ansehen durch Klicken auf das Kalender Symbol oben rechts\u003C/li>\u003Cli>\u003Cb>Fasten- und Feiertage\u003C/b> Im Kalender können Sie die Feier- und/oder die Sunnah Fastentage sehen\u003C/li>\u003Cli>\u003Cb>Benachrichtigungen für die Sunnah Fastentage\u003C/b> Sie können jetzt ein Tag vor den Sunnah Fastentagen eine Benachrichtigung bekommen durch Aktivieren \u003Ca href=\"#\" class=\"notifications-reminder\">in den Einstellungen\u003C/a>\u003C/li>\u003C/ul>\u003Cb>Kommende Funktionen:\u003C/b>\u003Cul>\u003Cli>Wir arbeiten gerade daran diese Erweiterung in verschiedenen Sprachen zu übersetzen einschließlich Arabisch, Französisch, Indonesisch und viele weitere. Wenn Sie helfen möchten gehen Sie bitte \u003Ca href=\"https://crowdin.com/project/quran-in-new-tab-extension\">hier\u003C/a>.\u003C/li>\u003Cli>Erinnerung/Benachrichtigung zu Gebetszeiten\u003C/li>\u003C/ul>Wenn Sie weitere Ideen haben, die Sie gerne sehen möchten \u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\">teilen Sie es uns in diesem Formular mit.\u003C/a>\u003Cb/>Danke, dass Sie die Quran In New Tab Erweiterung benutzen!"
+   },
+   "new_features_title": {
+      "message": "Neue Funktionen!"
+   },
+   "nl": {
+      "message": "Niederländisch"
+   },
+   "no": {
+      "message": "Norwegisch"
+   },
+   "none": {
+      "message": "Nichts"
+   },
+   "notification_setting": {
+      "message": "Sende eine Benachrichtigung ein Tag vor den Sunnah Fastentagen"
+   },
+   "pl": {
+      "message": "Polnisch"
+   },
+   "pt": {
+      "message": "Portugiesisch"
+   },
+   "quran": {
+      "message": "Koran"
+   },
+   "quran_translation": {
+      "message": "Koran Übersetzung"
+   },
+   "rate_extension": {
+      "message": "Bewerte diese Erweiterung"
+   },
+   "recitation": {
+      "message": "Rezitation"
+   },
+   "reload": {
+      "message": "Neu laden"
+   },
+   "remove": {
+      "message": "Entfernen"
+   },
+   "remove_top_site_content": {
+      "message": "Wollen Sie wirklich diese Seite entfernen?"
+   },
+   "remove_top_site_title": {
+      "message": "Top Site entfernen"
+   },
+   "report_bug": {
+      "message": "Ein Bug melden"
+   },
+   "report_image": {
+      "message": "Bild melden"
+   },
+   "report_image_window_content": {
+      "message": "Wenn Sie denken, dass das Bild unangemessen ist oder es Ihnen nicht gefällt, melden Sie bitte das Bild und Sie werden es nicht mehr sehen."
+   },
+   "report_image_window_title": {
+      "message": "Bild melden"
+   },
+   "reporting_window_content": {
+      "message": "Wenn irgendwelche Bilder da sind, die Sie nicht mögen oder unangemessen finden, drücken Sie das \u003Cb>Report\u003C/b> Symbol oben links, um diese Bilder zu melden und nie wieder zu zeigen!"
+   },
+   "reporting_window_title": {
+      "message": "Jetzt kannst du Bilder melden!"
+   },
+   "ro": {
+      "message": "Rumänisch"
+   },
+   "ru": {
+      "message": "Russisch"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "saved": {
+      "message": "Die Einstellungen wurden erfolgreich gespeichert"
+   },
+   "sd": {
+      "message": "Sindhi"
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "show_hijri_date": {
+      "message": "Zeige Hijri Datum"
+   },
+   "show_hijri_date_description": {
+      "message": "Wenn Sie das aktivieren wird das Hijri Datum mit dem Gregorianischem Datum und die Feiertage (falls verfügbar) angezeigt."
+   },
+   "show_random_athkar": {
+      "message": "Zufälligen Athkar zeigen"
+   },
+   "show_top_sites": {
+      "message": "Zeige die Top Seiten"
+   },
+   "show_top_sites_description": {
+      "message": "Wenn du keine Top Seiten hast, wird keine angezeigt."
+   },
+   "show_translation": {
+      "message": "Zeige die Übersetzung"
+   },
+   "so": {
+      "message": "Somalisch"
+   },
+   "sq": {
+      "message": "Albanisch"
+   },
+   "sv": {
+      "message": "Schwedisch"
+   },
+   "sw": {
+      "message": "Suahelisch"
+   },
+   "ta": {
+      "message": "Tamilisch"
+   },
+   "tg": {
+      "message": "Tadschikisch"
+   },
+   "th": {
+      "message": "Thau"
+   },
+   "tr": {
+      "message": "Türkisch"
+   },
+   "translation_language": {
+      "message": "Übersetzungssprache"
+   },
+   "translation_link": {
+      "message": "Helfen Sie uns diese Erweiterung zu übersetzen"
+   },
+   "tt": {
+      "message": "Tatarisch"
+   },
+   "ug": {
+      "message": "Uigurisch"
+   },
+   "ur": {
+      "message": "Urdu"
+   },
+   "uz": {
+      "message": "Usbekisch"
+   },
+   "week_start_date": {
+      "message": "Wochenanfang"
+   }
+}

@@ -1,0 +1,95 @@
+2024-08-10 22:11:46.546 [info] Log level: Info
+2024-08-10 22:11:46.546 [info] Validating found git in: "git"
+2024-08-10 22:11:46.546 [info] Using git "2.46.0" from "git"
+2024-08-10 22:11:46.546 [info] > git rev-parse --show-toplevel [37ms]
+2024-08-10 22:11:46.546 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:46.546 [info] > git rev-parse --show-toplevel [16ms]
+2024-08-10 22:11:46.546 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:46.548 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 22:11:46.548 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:46.573 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 22:11:46.573 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:47.873 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-10 22:11:47.873 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:52.742 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 22:11:52.742 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-10 22:11:55.041 [info] Log level: Info
+2024-08-10 22:11:55.041 [info] Validating found git in: "git"
+2024-08-10 22:11:55.041 [info] Using git "2.46.0" from "git"
+2024-08-10 22:12:14.783 [info] Log level: Info
+2024-08-10 22:12:14.783 [info] Validating found git in: "git"
+2024-08-10 22:12:14.783 [info] Using git "2.46.0" from "git"
+2024-08-10 22:12:14.783 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 22:12:14.829 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2024-08-10 22:12:14.849 [info] Open repository: /home/amro/Downloads/gtk
+2024-08-10 22:12:14.902 [info] > git config --get commit.template [21ms]
+2024-08-10 22:12:14.907 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-10 22:12:14.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2024-08-10 22:12:14.975 [warning] ENOENT: no such file or directory, open '/home/amro/Downloads/gtk/.git/refs/remotes/origin/master'
+2024-08-10 22:12:14.977 [info] > git rev-parse --show-toplevel [27ms]
+2024-08-10 22:12:14.997 [info] > git rev-parse refs/remotes/origin/master [21ms]
+2024-08-10 22:12:15.022 [info] > git rev-parse --show-toplevel [26ms]
+2024-08-10 22:12:15.053 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 22:12:15.073 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 22:12:15.094 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 22:12:15.176 [info] > git status -z -uall [159ms]
+2024-08-10 22:12:15.189 [info] > git rev-parse --show-toplevel [75ms]
+2024-08-10 22:12:15.228 [info] > git config --get commit.template [20ms]
+2024-08-10 22:12:15.230 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 22:12:15.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-08-10 22:12:15.288 [warning] ENOENT: no such file or directory, open '/home/amro/Downloads/gtk/.git/refs/remotes/origin/master'
+2024-08-10 22:12:15.289 [info] > git rev-parse --show-toplevel [21ms]
+2024-08-10 22:12:15.309 [info] > git rev-parse refs/remotes/origin/master [21ms]
+2024-08-10 22:12:15.329 [info] > git rev-parse --show-toplevel [20ms]
+2024-08-10 22:12:15.349 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 22:12:15.371 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 22:12:15.396 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 22:12:15.417 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-10 22:12:15.465 [info] > git status -z -uall [138ms]
+2024-08-10 22:12:15.968 [info] > git check-ignore -v -z --stdin [7ms]
+2024-08-10 22:12:23.270 [info] > git config --get commit.template [24ms]
+2024-08-10 22:12:23.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-08-10 22:12:23.293 [warning] ENOENT: no such file or directory, open '/home/amro/Downloads/gtk/.git/refs/remotes/origin/master'
+2024-08-10 22:12:23.296 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-08-10 22:12:23.460 [info] > git status -z -uall [143ms]
+2024-08-10 22:12:29.161 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-10 22:12:30.846 [info] > git check-ignore -v -z --stdin [3ms]
+2024-08-10 22:12:39.599 [info] > git config --get commit.template [25ms]
+2024-08-10 22:12:39.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-08-10 22:12:39.622 [warning] ENOENT: no such file or directory, open '/home/amro/Downloads/gtk/.git/refs/remotes/origin/master'
+2024-08-10 22:12:39.625 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-08-10 22:12:39.782 [info] > git status -z -uall [135ms]
+2024-08-10 22:12:44.863 [info] > git config --get commit.template [25ms]
+2024-08-10 22:12:44.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-08-10 22:12:44.888 [warning] ENOENT: no such file or directory, open '/home/amro/Downloads/gtk/.git/refs/remotes/origin/master'
+2024-08-10 22:12:44.891 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-08-10 22:12:45.042 [info] > git status -z -uall [127ms]
+2024-08-10 22:12:47.570 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-10 22:12:50.151 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-10 22:12:57.179 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-10 22:13:03.183 [info] > git check-ignore -v -z --stdin [9ms]
+2024-08-10 22:13:11.603 [info] > git check-ignore -v -z --stdin [7ms]
+2024-08-10 22:13:15.049 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-10 22:13:17.405 [info] > git check-ignore -v -z --stdin [4ms]
+2024-08-10 22:13:18.603 [info] > git show --textconv :gtk-2.0/apps/chrome.rc [30ms]
+2024-08-10 22:13:18.607 [info] > git ls-files --stage -- /home/amro/Downloads/gtk/gtk-2.0/apps/chrome.rc [4ms]
+2024-08-10 22:13:18.641 [info] > git cat-file -s 0c37ab339a657b7d89f254dd09a06ded586d75a0 [8ms]
+2024-08-10 22:13:29.801 [info] > git show --textconv :gtk-2.0/apps/gimp.rc [5ms]
+2024-08-10 22:13:29.833 [info] > git ls-files --stage -- /home/amro/Downloads/gtk/gtk-2.0/apps/gimp.rc [4ms]
+2024-08-10 22:13:29.864 [info] > git cat-file -s 490880394803afe55a3f2ec43f7b58b8522c9ce1 [4ms]
+2024-08-10 22:13:34.005 [info] > git show --textconv :gtk-2.0/assets.svg [44ms]
+2024-08-10 22:13:34.030 [info] > git ls-files --stage -- /home/amro/Downloads/gtk/gtk-2.0/assets.svg [29ms]
+2024-08-10 22:13:34.070 [info] > git cat-file -s 6e14ca5d00306c3ed0828c682ab947c46f0995d0 [9ms]
+2024-08-10 22:13:34.682 [info] > git show --textconv :gtk-2.0/assets.txt [34ms]
+2024-08-10 22:13:34.682 [info] > git ls-files --stage -- /home/amro/Downloads/gtk/gtk-2.0/assets.txt [6ms]
+2024-08-10 22:13:34.716 [info] > git cat-file -s d3e28540d02458620e9445dbc54ccaef6f369827 [5ms]
+2024-08-10 22:13:39.935 [info] > git show --textconv :gtk-2.0/gtkrc [6ms]
+2024-08-10 22:13:39.969 [info] > git ls-files --stage -- /home/amro/Downloads/gtk/gtk-2.0/gtkrc [4ms]
+2024-08-10 22:13:40.002 [info] > git cat-file -s a97cb4f858a035c90a8cdac53514fe9313c9d3ab [3ms]
+2024-08-10 22:15:37.848 [info] > git check-ignore -v -z --stdin [5ms]

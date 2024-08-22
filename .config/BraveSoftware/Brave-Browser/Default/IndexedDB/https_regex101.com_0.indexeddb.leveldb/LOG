@@ -1,0 +1,6 @@
+2024/08/22-18:20:35.789 1be4 Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_regex101.com_0.indexeddb.leveldb since it was missing.
+2024/08/22-18:20:35.793 1be4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_regex101.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/22-18:21:26.695 1be5 Level-0 table #5: started
+2024/08/22-18:21:26.696 1be5 Level-0 table #5: 1815 bytes OK
+2024/08/22-18:21:26.697 1be5 Delete type=0 #3
+2024/08/22-18:21:26.698 1be5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,10 @@
+2024-08-10 22:11:44.217 [info] Started local extension host with pid 58029.
+2024-08-10 22:11:48.061 [info] [perf] Render performance baseline is 279ms
+2024-08-10 22:11:52.536 [warning] [backup tracker] suspended, ignoring content change event untitled:Untitled-1 
+2024-08-10 22:11:52.542 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2024-08-10 22:11:52.565 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
+2024-08-10 22:11:52.615 [warning] [backup tracker] suspended, ignoring register event file:///home/amro/Downloads/Learning/css/index.html 
+2024-08-10 22:11:54.032 [info] Started local extension host with pid 58189.
+2024-08-10 22:11:57.210 [info] [perf] Render performance baseline is 258ms
+2024-08-10 22:12:11.492 [info] Started local extension host with pid 59469.
+2024-08-10 22:12:14.780 [info] [perf] Render performance baseline is 270ms

@@ -1,0 +1,14 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+ShowWelcomeScreenOnStartup=false
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+[Viewer]
+ToolBarsMovable=Disabled

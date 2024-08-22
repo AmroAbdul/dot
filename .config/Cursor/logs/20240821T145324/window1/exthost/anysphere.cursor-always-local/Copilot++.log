@@ -1,0 +1,698 @@
+2024-08-21 14:53:28.251 [info] CURSOR LOG: Finished creating provider!
+2024-08-21 14:54:23.839 [info] CURSOR LOG: restFunc initiated 8e44c2b7-11f5-445f-b44a-cc3a7c859673
+2024-08-21 14:54:24.623 [info] CURSOR LOG: Done streaming cpp with id 8e44c2b7-11f5-445f-b44a-cc3a7c859673
+2024-08-21 14:54:24.623 [info] CPP RT LOG: Time taken for streaming cpp 785.655029296875 with request 8e44c2b7-11f5-445f-b44a-cc3a7c859673
+2024-08-21 14:54:24.623 [info] CPP Request Log with id 8e44c2b7-11f5-445f-b44a-cc3a7c859673
+2024-08-21 14:54:24.623 [info] =======>Model input 
+2024-08-21 14:54:24.623 [info] =======>Model output .SettingsDrawer { box-shadow: none !important; }
+}
+2024-08-21 14:54:24.623 [info] =======>Debug stream time 136.72270200029016
+2024-08-21 14:54:24.623 [info] =======>Debug ttft time 126.43628100026399
+2024-08-21 14:54:24.624 [info] Average of latest 20 ttft time 126.43628100026399
+2024-08-21 14:54:24.624 [info] Average of latest 20 stream time 136.72270200029016
+2024-08-21 14:54:24.624 [info] Average of latest 20 total time NaN
+2024-08-21 14:54:24.624 [info] Average of latest 20 client time 785.655029296875
+2024-08-21 14:54:24.624 [info] CPP RT LOG: All stats {"streamingtime":785.655029296875,"actualTtftFromStart":933.48876953125,"timeTillServerRequest":155.710693359375,"requestToTtft":777.778076171875,"totalTime":940.74853515625}
+2024-08-21 14:54:24.624 [info] CURSOR LOG: restFunc done 8e44c2b7-11f5-445f-b44a-cc3a7c859673
+2024-08-21 14:55:21.817 [info] CURSOR LOG: restFunc initiated 7ab32d1a-7844-4e8f-a82f-951f795132a2
+2024-08-21 14:55:22.163 [info] CURSOR LOG: Done streaming cpp with id 7ab32d1a-7844-4e8f-a82f-951f795132a2
+2024-08-21 14:55:22.164 [info] CPP RT LOG: Time taken for streaming cpp 346.329833984375 with request 7ab32d1a-7844-4e8f-a82f-951f795132a2
+2024-08-21 14:55:22.164 [info] CPP Request Log with id 7ab32d1a-7844-4e8f-a82f-951f795132a2
+2024-08-21 14:55:22.164 [info] =======>Model input 
+2024-08-21 14:55:22.164 [info] =======>Model output     --bg-dark: #16161E;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+    --bg-2: #282B3C;
+2024-08-21 14:55:22.164 [info] =======>Debug stream time 183.23666899930686
+2024-08-21 14:55:22.164 [info] =======>Debug ttft time 175.97167999949306
+2024-08-21 14:55:22.164 [info] Average of latest 20 ttft time 151.20398049987853
+2024-08-21 14:55:22.164 [info] Average of latest 20 stream time 159.9796854997985
+2024-08-21 14:55:22.164 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:22.164 [info] Average of latest 20 client time 565.992431640625
+2024-08-21 14:55:22.164 [info] CPP RT LOG: All stats {"streamingtime":346.329833984375,"actualTtftFromStart":347.121826171875,"timeTillServerRequest":9.33349609375,"requestToTtft":337.788330078125,"totalTime":355.615478515625}
+2024-08-21 14:55:22.164 [info] CURSOR LOG: restFunc done 7ab32d1a-7844-4e8f-a82f-951f795132a2
+2024-08-21 14:55:22.287 [info] CURSOR LOG: restFunc initiated f8603403-45a9-4914-a569-ea3605f028af
+2024-08-21 14:55:22.576 [info] CURSOR LOG: Done streaming cpp with id f8603403-45a9-4914-a569-ea3605f028af
+2024-08-21 14:55:22.576 [info] CPP RT LOG: Time taken for streaming cpp 289.5673828125 with request f8603403-45a9-4914-a569-ea3605f028af
+2024-08-21 14:55:22.576 [info] CPP Request Log with id f8603403-45a9-4914-a569-ea3605f028af
+2024-08-21 14:55:22.576 [info] =======>Model input 
+2024-08-21 14:55:22.576 [info] =======>Model output * {
+    --bg-dark: #16161E;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:22.576 [info] =======>Debug stream time 126.92812000028789
+2024-08-21 14:55:22.576 [info] =======>Debug ttft time 122.1863069999963
+2024-08-21 14:55:22.577 [info] Average of latest 20 ttft time 141.53142266658446
+2024-08-21 14:55:22.577 [info] Average of latest 20 stream time 148.96249699996164
+2024-08-21 14:55:22.577 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:22.577 [info] Average of latest 20 client time 473.8507486979167
+2024-08-21 14:55:22.577 [info] CPP RT LOG: All stats {"streamingtime":289.5673828125,"actualTtftFromStart":286.50439453125,"timeTillServerRequest":1.243896484375,"requestToTtft":285.260498046875,"totalTime":290.77001953125}
+2024-08-21 14:55:22.577 [info] CURSOR LOG: restFunc done f8603403-45a9-4914-a569-ea3605f028af
+2024-08-21 14:55:23.157 [info] CURSOR LOG: restFunc initiated 44bc0957-59fc-4fd4-90a7-203f552d21e4
+2024-08-21 14:55:23.205 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 14:55:23.205 [info] CURSOR LOG: restFunc done 44bc0957-59fc-4fd4-90a7-203f552d21e4
+2024-08-21 14:55:23.208 [info] CURSOR LOG: restFunc initiated 5736f624-0074-41a7-9588-7a7bf86134f9
+2024-08-21 14:55:23.737 [info] CURSOR LOG: Done streaming cpp with id 5736f624-0074-41a7-9588-7a7bf86134f9
+2024-08-21 14:55:23.737 [info] CPP RT LOG: Time taken for streaming cpp 528.76123046875 with request 5736f624-0074-41a7-9588-7a7bf86134f9
+2024-08-21 14:55:23.737 [info] CPP Request Log with id 5736f624-0074-41a7-9588-7a7bf86134f9
+2024-08-21 14:55:23.737 [info] =======>Model input 
+2024-08-21 14:55:23.737 [info] =======>Model output     --bg-dark: #2e3440;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:23.737 [info] =======>Debug stream time 355.07714800164104
+2024-08-21 14:55:23.737 [info] =======>Debug ttft time 185.48921200074255
+2024-08-21 14:55:23.737 [info] Average of latest 20 ttft time 152.52087000012398
+2024-08-21 14:55:23.737 [info] Average of latest 20 stream time 200.49115975038148
+2024-08-21 14:55:23.737 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:23.737 [info] Average of latest 20 client time 487.578369140625
+2024-08-21 14:55:23.737 [info] CPP RT LOG: All stats {"streamingtime":528.76123046875,"actualTtftFromStart":360.447021484375,"timeTillServerRequest":2.9970703125,"requestToTtft":357.449951171875,"totalTime":531.71728515625}
+2024-08-21 14:55:23.737 [info] CURSOR LOG: restFunc done 5736f624-0074-41a7-9588-7a7bf86134f9
+2024-08-21 14:55:24.593 [info] CURSOR LOG: restFunc initiated 4ffc0a5c-5b57-41a8-9aa8-89a111e9104b
+2024-08-21 14:55:25.023 [info] CURSOR LOG: Done streaming cpp with id 4ffc0a5c-5b57-41a8-9aa8-89a111e9104b
+2024-08-21 14:55:25.023 [info] CPP RT LOG: Time taken for streaming cpp 430.093505859375 with request 4ffc0a5c-5b57-41a8-9aa8-89a111e9104b
+2024-08-21 14:55:25.023 [info] CPP Request Log with id 4ffc0a5c-5b57-41a8-9aa8-89a111e9104b
+2024-08-21 14:55:25.023 [info] =======>Model input 
+2024-08-21 14:55:25.023 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:25.023 [info] =======>Debug stream time 257.8468030001968
+2024-08-21 14:55:25.023 [info] =======>Debug ttft time 137.91479800082743
+2024-08-21 14:55:25.024 [info] Average of latest 20 ttft time 149.59965560026467
+2024-08-21 14:55:25.024 [info] Average of latest 20 stream time 211.96228840034456
+2024-08-21 14:55:25.024 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:25.024 [info] Average of latest 20 client time 476.081396484375
+2024-08-21 14:55:25.024 [info] CPP RT LOG: All stats {"streamingtime":430.093505859375,"actualTtftFromStart":318.427490234375,"timeTillServerRequest":8.044677734375,"requestToTtft":310.3828125,"totalTime":438.104248046875}
+2024-08-21 14:55:25.024 [info] CURSOR LOG: restFunc done 4ffc0a5c-5b57-41a8-9aa8-89a111e9104b
+2024-08-21 14:55:26.210 [info] CURSOR LOG: restFunc initiated 12eabe30-7eb3-4691-9c17-7d84b3f19814
+2024-08-21 14:55:26.725 [info] CURSOR LOG: Done streaming cpp with id 12eabe30-7eb3-4691-9c17-7d84b3f19814
+2024-08-21 14:55:26.725 [info] CPP RT LOG: Time taken for streaming cpp 514.099365234375 with request 12eabe30-7eb3-4691-9c17-7d84b3f19814
+2024-08-21 14:55:26.725 [info] CPP Request Log with id 12eabe30-7eb3-4691-9c17-7d84b3f19814
+2024-08-21 14:55:26.725 [info] =======>Model input 
+2024-08-21 14:55:26.725 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:26.725 [info] =======>Debug stream time 347.0048860013485
+2024-08-21 14:55:26.725 [info] =======>Debug ttft time 251.17684600129724
+2024-08-21 14:55:26.725 [info] Average of latest 20 ttft time 166.5291873337701
+2024-08-21 14:55:26.725 [info] Average of latest 20 stream time 234.46938800051188
+2024-08-21 14:55:26.725 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:26.725 [info] Average of latest 20 client time 482.417724609375
+2024-08-21 14:55:26.725 [info] CPP RT LOG: All stats {"streamingtime":514.099365234375,"actualTtftFromStart":424.763671875,"timeTillServerRequest":7.642333984375,"requestToTtft":417.121337890625,"totalTime":521.70849609375}
+2024-08-21 14:55:26.725 [info] CURSOR LOG: restFunc done 12eabe30-7eb3-4691-9c17-7d84b3f19814
+2024-08-21 14:55:27.856 [info] CURSOR LOG: restFunc initiated 4c3731e9-e0d5-43d1-970b-0b4197504219
+2024-08-21 14:55:28.116 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 14:55:28.116 [info] CURSOR LOG: restFunc done 4c3731e9-e0d5-43d1-970b-0b4197504219
+2024-08-21 14:55:28.189 [info] CURSOR LOG: restFunc initiated a495fe57-32bd-4f3e-9667-72dac8bc87e4
+2024-08-21 14:55:28.435 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 14:55:28.435 [info] CURSOR LOG: restFunc done a495fe57-32bd-4f3e-9667-72dac8bc87e4
+2024-08-21 14:55:28.507 [info] CURSOR LOG: restFunc initiated 9c91df9f-eb89-4f62-9b54-6b93725910ce
+2024-08-21 14:55:28.811 [info] CURSOR LOG: Done streaming cpp with id 9c91df9f-eb89-4f62-9b54-6b93725910ce
+2024-08-21 14:55:28.811 [info] CPP RT LOG: Time taken for streaming cpp 304.113525390625 with request 9c91df9f-eb89-4f62-9b54-6b93725910ce
+2024-08-21 14:55:28.811 [info] CPP Request Log with id 9c91df9f-eb89-4f62-9b54-6b93725910ce
+2024-08-21 14:55:28.811 [info] =======>Model input 
+2024-08-21 14:55:28.811 [info] =======>Model output * {
+    --bg-dark: #2e3440 ;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:28.811 [info] =======>Debug stream time 138.16352999955416
+2024-08-21 14:55:28.811 [info] =======>Debug ttft time 124.87976099923253
+2024-08-21 14:55:28.812 [info] Average of latest 20 ttft time 160.57926928597902
+2024-08-21 14:55:28.812 [info] Average of latest 20 stream time 220.71140828608935
+2024-08-21 14:55:28.812 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:28.812 [info] Average of latest 20 client time 456.94569614955356
+2024-08-21 14:55:28.812 [info] CPP RT LOG: All stats {"streamingtime":304.113525390625,"actualTtftFromStart":296.535888671875,"timeTillServerRequest":5.469970703125,"requestToTtft":291.06591796875,"totalTime":309.542236328125}
+2024-08-21 14:55:28.812 [info] CURSOR LOG: restFunc done 9c91df9f-eb89-4f62-9b54-6b93725910ce
+2024-08-21 14:55:28.932 [info] CURSOR LOG: restFunc initiated 86582a24-0e7a-4a97-a8ea-da5aec8f1f14
+2024-08-21 14:55:29.275 [info] CURSOR LOG: Done streaming cpp with id 86582a24-0e7a-4a97-a8ea-da5aec8f1f14
+2024-08-21 14:55:29.275 [info] CPP RT LOG: Time taken for streaming cpp 344.583740234375 with request 86582a24-0e7a-4a97-a8ea-da5aec8f1f14
+2024-08-21 14:55:29.276 [info] CPP Request Log with id 86582a24-0e7a-4a97-a8ea-da5aec8f1f14
+2024-08-21 14:55:29.276 [info] =======>Model input 
+2024-08-21 14:55:29.276 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+2024-08-21 14:55:29.276 [info] =======>Debug stream time 172.1935779992491
+2024-08-21 14:55:29.276 [info] =======>Debug ttft time 164.88716299925
+2024-08-21 14:55:29.276 [info] Average of latest 20 ttft time 161.1177560001379
+2024-08-21 14:55:29.276 [info] Average of latest 20 stream time 214.6466795002343
+2024-08-21 14:55:29.277 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:29.277 [info] Average of latest 20 client time 442.90045166015625
+2024-08-21 14:55:29.277 [info] CPP RT LOG: All stats {"streamingtime":344.583740234375,"actualTtftFromStart":345.983154296875,"timeTillServerRequest":6.606201171875,"requestToTtft":339.376953125,"totalTime":351.154541015625}
+2024-08-21 14:55:29.277 [info] CURSOR LOG: restFunc done 86582a24-0e7a-4a97-a8ea-da5aec8f1f14
+2024-08-21 14:55:35.834 [info] CURSOR LOG: restFunc initiated 07250698-4e8e-4113-9c02-d4c602e4bfa2
+2024-08-21 14:55:36.129 [info] CURSOR LOG: Done streaming cpp with id 07250698-4e8e-4113-9c02-d4c602e4bfa2
+2024-08-21 14:55:36.129 [info] CPP RT LOG: Time taken for streaming cpp 294.8935546875 with request 07250698-4e8e-4113-9c02-d4c602e4bfa2
+2024-08-21 14:55:36.129 [info] CPP Request Log with id 07250698-4e8e-4113-9c02-d4c602e4bfa2
+2024-08-21 14:55:36.129 [info] =======>Model input 
+2024-08-21 14:55:36.129 [info] =======>Model output     --bg-dark: #2e3440;
+    --bg-code: #12121a;
+    --bg: #1A1B26;
+    --bg-2: #282B3C;
+2024-08-21 14:55:36.129 [info] =======>Debug stream time 130.13888300023973
+2024-08-21 14:55:36.129 [info] =======>Debug ttft time 128.42476199939847
+2024-08-21 14:55:36.130 [info] Average of latest 20 ttft time 157.48520111116684
+2024-08-21 14:55:36.130 [info] Average of latest 20 stream time 205.25692433356824
+2024-08-21 14:55:36.130 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:36.130 [info] Average of latest 20 client time 426.4552408854167
+2024-08-21 14:55:36.130 [info] CPP RT LOG: All stats {"streamingtime":294.8935546875,"actualTtftFromStart":298.03955078125,"timeTillServerRequest":3.8974609375,"requestToTtft":294.14208984375,"totalTime":298.74951171875}
+2024-08-21 14:55:36.130 [info] CURSOR LOG: restFunc done 07250698-4e8e-4113-9c02-d4c602e4bfa2
+2024-08-21 14:55:36.747 [info] CURSOR LOG: restFunc initiated 27b1c2fe-8356-497c-8116-c964f2e1314a
+2024-08-21 14:55:37.066 [info] CURSOR LOG: Done streaming cpp with id 27b1c2fe-8356-497c-8116-c964f2e1314a
+2024-08-21 14:55:37.066 [info] CPP RT LOG: Time taken for streaming cpp 319.48193359375 with request 27b1c2fe-8356-497c-8116-c964f2e1314a
+2024-08-21 14:55:37.066 [info] CPP Request Log with id 27b1c2fe-8356-497c-8116-c964f2e1314a
+2024-08-21 14:55:37.066 [info] =======>Model input 
+2024-08-21 14:55:37.066 [info] =======>Model output     --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #1A1B26;
+    --bg-2: #282B3C;
+2024-08-21 14:55:37.066 [info] =======>Debug stream time 131.59788599982858
+2024-08-21 14:55:37.066 [info] =======>Debug ttft time 120.73170499969274
+2024-08-21 14:55:37.066 [info] Average of latest 20 ttft time 153.80985150001942
+2024-08-21 14:55:37.066 [info] Average of latest 20 stream time 197.8910205001943
+2024-08-21 14:55:37.066 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:37.066 [info] Average of latest 20 client time 415.75791015625
+2024-08-21 14:55:37.066 [info] CPP RT LOG: All stats {"streamingtime":319.48193359375,"actualTtftFromStart":316.360107421875,"timeTillServerRequest":5.323974609375,"requestToTtft":311.0361328125,"totalTime":324.7626953125}
+2024-08-21 14:55:37.066 [info] CURSOR LOG: restFunc done 27b1c2fe-8356-497c-8116-c964f2e1314a
+2024-08-21 14:55:37.790 [info] CURSOR LOG: restFunc initiated 6b65bb69-c8c9-4d96-894f-6abef28941f3
+2024-08-21 14:55:38.504 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 14:55:38.504 [info] CURSOR LOG: restFunc done 6b65bb69-c8c9-4d96-894f-6abef28941f3
+2024-08-21 14:55:45.220 [info] CURSOR LOG: restFunc initiated 16c853ec-e8e1-44c4-839c-134e88d6a24b
+2024-08-21 14:55:45.601 [info] CURSOR LOG: Done streaming cpp with id 16c853ec-e8e1-44c4-839c-134e88d6a24b
+2024-08-21 14:55:45.601 [info] CPP RT LOG: Time taken for streaming cpp 381.36279296875 with request 16c853ec-e8e1-44c4-839c-134e88d6a24b
+2024-08-21 14:55:45.601 [info] CPP Request Log with id 16c853ec-e8e1-44c4-839c-134e88d6a24b
+2024-08-21 14:55:45.601 [info] =======>Model input 
+2024-08-21 14:55:45.601 [info] =======>Model output     --bg-code: #434c5e;
+    --bg: #4c566a;
+    --bg-2: #3b4252;
+    --bg-3: #434c5e;
+2024-08-21 14:55:45.601 [info] =======>Debug stream time 219.99273299984634
+2024-08-21 14:55:45.601 [info] =======>Debug ttft time 100.42312199994922
+2024-08-21 14:55:45.602 [info] Average of latest 20 ttft time 148.9565124545585
+2024-08-21 14:55:45.602 [info] Average of latest 20 stream time 199.90026709107175
+2024-08-21 14:55:45.602 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:45.602 [info] Average of latest 20 client time 412.63108132102275
+2024-08-21 14:55:45.602 [info] CPP RT LOG: All stats {"streamingtime":381.36279296875,"actualTtftFromStart":268.591552734375,"timeTillServerRequest":6.2734375,"requestToTtft":262.318115234375,"totalTime":387.594482421875}
+2024-08-21 14:55:45.602 [info] CURSOR LOG: restFunc done 16c853ec-e8e1-44c4-839c-134e88d6a24b
+2024-08-21 14:55:46.063 [info] CURSOR LOG: restFunc initiated 8fdcebd0-2d6a-4e73-a602-e2136d471255
+2024-08-21 14:55:46.385 [info] CURSOR LOG: Done streaming cpp with id 8fdcebd0-2d6a-4e73-a602-e2136d471255
+2024-08-21 14:55:46.385 [info] CPP RT LOG: Time taken for streaming cpp 323.427001953125 with request 8fdcebd0-2d6a-4e73-a602-e2136d471255
+2024-08-21 14:55:46.385 [info] CPP Request Log with id 8fdcebd0-2d6a-4e73-a602-e2136d471255
+2024-08-21 14:55:46.385 [info] =======>Model input 
+2024-08-21 14:55:46.385 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #4c566a;
+2024-08-21 14:55:46.385 [info] =======>Debug stream time 154.94847000017762
+2024-08-21 14:55:46.385 [info] =======>Debug ttft time 144.88258500024676
+2024-08-21 14:55:46.385 [info] Average of latest 20 ttft time 148.61701850003251
+2024-08-21 14:55:46.385 [info] Average of latest 20 stream time 196.1542840001639
+2024-08-21 14:55:46.385 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:46.385 [info] Average of latest 20 client time 405.19740804036456
+2024-08-21 14:55:46.385 [info] CPP RT LOG: All stats {"streamingtime":323.427001953125,"actualTtftFromStart":313.34375,"timeTillServerRequest":1.3349609375,"requestToTtft":312.0087890625,"totalTime":324.730712890625}
+2024-08-21 14:55:46.385 [info] CURSOR LOG: restFunc done 8fdcebd0-2d6a-4e73-a602-e2136d471255
+2024-08-21 14:55:48.718 [info] CURSOR LOG: restFunc initiated 1dfb3183-2fa2-4612-a2e9-9632f36a3df2
+2024-08-21 14:55:49.133 [info] CURSOR LOG: Done streaming cpp with id 1dfb3183-2fa2-4612-a2e9-9632f36a3df2
+2024-08-21 14:55:49.133 [info] CPP RT LOG: Time taken for streaming cpp 415.276611328125 with request 1dfb3183-2fa2-4612-a2e9-9632f36a3df2
+2024-08-21 14:55:49.133 [info] CPP Request Log with id 1dfb3183-2fa2-4612-a2e9-9632f36a3df2
+2024-08-21 14:55:49.133 [info] =======>Model input 
+2024-08-21 14:55:49.133 [info] =======>Model output     --bg-code: #434c5e;
+    --bg: #4c566a;
+    --bg-2: #3b4252;
+    --bg-3: #434c5e;
+2024-08-21 14:55:49.133 [info] =======>Debug stream time 248.43390700034797
+2024-08-21 14:55:49.133 [info] =======>Debug ttft time 127.13140599988401
+2024-08-21 14:55:49.134 [info] Average of latest 20 ttft time 146.96427907694417
+2024-08-21 14:55:49.134 [info] Average of latest 20 stream time 200.17579346171652
+2024-08-21 14:55:49.134 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:49.134 [info] Average of latest 20 client time 405.9727313701923
+2024-08-21 14:55:49.134 [info] CPP RT LOG: All stats {"streamingtime":415.276611328125,"actualTtftFromStart":300.7490234375,"timeTillServerRequest":5.701416015625,"requestToTtft":295.047607421875,"totalTime":420.947998046875}
+2024-08-21 14:55:49.134 [info] CURSOR LOG: restFunc done 1dfb3183-2fa2-4612-a2e9-9632f36a3df2
+2024-08-21 14:55:49.391 [info] CURSOR LOG: restFunc initiated bcb68628-d775-4835-ba83-ed8d8651d4b4
+2024-08-21 14:55:49.889 [info] CURSOR LOG: Done streaming cpp with id bcb68628-d775-4835-ba83-ed8d8651d4b4
+2024-08-21 14:55:49.889 [info] CPP RT LOG: Time taken for streaming cpp 498.173583984375 with request bcb68628-d775-4835-ba83-ed8d8651d4b4
+2024-08-21 14:55:49.889 [info] CPP Request Log with id bcb68628-d775-4835-ba83-ed8d8651d4b4
+2024-08-21 14:55:49.889 [info] =======>Model input 
+2024-08-21 14:55:49.889 [info] =======>Model output     --bg: #4c566a;
+    --bg-2: #3b4252;
+    --bg-3: #434c5e;
+    --bg-4: #4c566a;
+2024-08-21 14:55:49.889 [info] =======>Debug stream time 335.0427029998973
+2024-08-21 14:55:49.889 [info] =======>Debug ttft time 141.88223699945956
+2024-08-21 14:55:49.890 [info] Average of latest 20 ttft time 146.60127607140956
+2024-08-21 14:55:49.890 [info] Average of latest 20 stream time 209.80914414301515
+2024-08-21 14:55:49.890 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:49.890 [info] Average of latest 20 client time 412.55850655691967
+2024-08-21 14:55:49.890 [info] CPP RT LOG: All stats {"streamingtime":498.173583984375,"actualTtftFromStart":307.231201171875,"timeTillServerRequest":1.32470703125,"requestToTtft":305.906494140625,"totalTime":499.46728515625}
+2024-08-21 14:55:49.890 [info] CURSOR LOG: restFunc done bcb68628-d775-4835-ba83-ed8d8651d4b4
+2024-08-21 14:55:50.288 [info] CURSOR LOG: restFunc initiated 259b794c-0bd1-44df-ad40-60a4a38a69fc
+2024-08-21 14:55:50.607 [info] CURSOR LOG: Done streaming cpp with id 259b794c-0bd1-44df-ad40-60a4a38a69fc
+2024-08-21 14:55:50.607 [info] CPP RT LOG: Time taken for streaming cpp 319.00341796875 with request 259b794c-0bd1-44df-ad40-60a4a38a69fc
+2024-08-21 14:55:50.607 [info] CPP Request Log with id 259b794c-0bd1-44df-ad40-60a4a38a69fc
+2024-08-21 14:55:50.607 [info] =======>Model input 
+2024-08-21 14:55:50.607 [info] =======>Model output     --bg: #4c566a;
+    --bg-2: #2e3440;
+    --bg-3: #3F4256;
+    --bg-4: #444B6A;
+2024-08-21 14:55:50.608 [info] =======>Debug stream time 155.98508699983358
+2024-08-21 14:55:50.608 [info] =======>Debug ttft time 151.27581699937582
+2024-08-21 14:55:50.610 [info] Average of latest 20 ttft time 146.91291213327398
+2024-08-21 14:55:50.610 [info] Average of latest 20 stream time 206.22087366680304
+2024-08-21 14:55:50.610 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:50.610 [info] Average of latest 20 client time 406.3215006510417
+2024-08-21 14:55:50.610 [info] CPP RT LOG: All stats {"streamingtime":319.00341796875,"actualTtftFromStart":319.974609375,"timeTillServerRequest":5.53271484375,"requestToTtft":314.44189453125,"totalTime":324.5068359375}
+2024-08-21 14:55:50.610 [info] CURSOR LOG: restFunc done 259b794c-0bd1-44df-ad40-60a4a38a69fc
+2024-08-21 14:55:51.900 [info] CURSOR LOG: restFunc initiated 3537103e-e986-42ff-8f70-3320c113bc56
+2024-08-21 14:55:52.230 [info] CURSOR LOG: Done streaming cpp with id 3537103e-e986-42ff-8f70-3320c113bc56
+2024-08-21 14:55:52.230 [info] CPP RT LOG: Time taken for streaming cpp 330.19775390625 with request 3537103e-e986-42ff-8f70-3320c113bc56
+2024-08-21 14:55:52.231 [info] CPP Request Log with id 3537103e-e986-42ff-8f70-3320c113bc56
+2024-08-21 14:55:52.231 [info] =======>Model input 
+2024-08-21 14:55:52.231 [info] =======>Model output     --bg-2: #2e3440;
+    --bg-3: #3F4256;
+    --bg-4: #444B6A;
+    --highlight-1: #1E202E;
+2024-08-21 14:55:52.231 [info] =======>Debug stream time 156.3982290001586
+2024-08-21 14:55:52.231 [info] =======>Debug ttft time 144.20425800047815
+2024-08-21 14:55:52.233 [info] Average of latest 20 ttft time 146.74362124997424
+2024-08-21 14:55:52.233 [info] Average of latest 20 stream time 203.10695837513776
+2024-08-21 14:55:52.233 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:52.233 [info] Average of latest 20 client time 401.5637664794922
+2024-08-21 14:55:52.233 [info] CPP RT LOG: All stats {"streamingtime":330.19775390625,"actualTtftFromStart":321.400146484375,"timeTillServerRequest":2.518310546875,"requestToTtft":318.8818359375,"totalTime":332.68896484375}
+2024-08-21 14:55:52.233 [info] CURSOR LOG: restFunc done 3537103e-e986-42ff-8f70-3320c113bc56
+2024-08-21 14:55:53.320 [info] CURSOR LOG: restFunc initiated e0741bfc-259b-4d49-a090-55e59b935be0
+2024-08-21 14:55:53.636 [info] CURSOR LOG: Done streaming cpp with id e0741bfc-259b-4d49-a090-55e59b935be0
+2024-08-21 14:55:53.636 [info] CPP RT LOG: Time taken for streaming cpp 315.9794921875 with request e0741bfc-259b-4d49-a090-55e59b935be0
+2024-08-21 14:55:53.636 [info] CPP Request Log with id e0741bfc-259b-4d49-a090-55e59b935be0
+2024-08-21 14:55:53.636 [info] =======>Model input 
+2024-08-21 14:55:53.636 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #4c566a;
+2024-08-21 14:55:53.636 [info] =======>Debug stream time 148.08656499907374
+2024-08-21 14:55:53.636 [info] =======>Debug ttft time 140.44666999951005
+2024-08-21 14:55:53.636 [info] Average of latest 20 ttft time 146.37321235288812
+2024-08-21 14:55:53.636 [info] Average of latest 20 stream time 199.87046464713399
+2024-08-21 14:55:53.636 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:53.636 [info] Average of latest 20 client time 396.5293974034926
+2024-08-21 14:55:53.636 [info] CPP RT LOG: All stats {"streamingtime":315.9794921875,"actualTtftFromStart":311.973388671875,"timeTillServerRequest":2.006591796875,"requestToTtft":309.966796875,"totalTime":317.958984375}
+2024-08-21 14:55:53.636 [info] CURSOR LOG: restFunc done e0741bfc-259b-4d49-a090-55e59b935be0
+2024-08-21 14:55:54.089 [info] CURSOR LOG: restFunc initiated 99639db9-5a59-4aab-b4cd-aa032b565ad7
+2024-08-21 14:55:54.397 [info] CURSOR LOG: Done streaming cpp with id 99639db9-5a59-4aab-b4cd-aa032b565ad7
+2024-08-21 14:55:54.397 [info] CPP RT LOG: Time taken for streaming cpp 309.0791015625 with request 99639db9-5a59-4aab-b4cd-aa032b565ad7
+2024-08-21 14:55:54.397 [info] CPP Request Log with id 99639db9-5a59-4aab-b4cd-aa032b565ad7
+2024-08-21 14:55:54.397 [info] =======>Model input 
+2024-08-21 14:55:54.397 [info] =======>Model output     --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #4c566a;
+    --bg-2: #2e3440;
+2024-08-21 14:55:54.397 [info] =======>Debug stream time 144.26805599965155
+2024-08-21 14:55:54.397 [info] =======>Debug ttft time 139.39989900030196
+2024-08-21 14:55:54.399 [info] Average of latest 20 ttft time 145.9858060555222
+2024-08-21 14:55:54.399 [info] Average of latest 20 stream time 196.7814419444961
+2024-08-21 14:55:54.399 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:54.399 [info] Average of latest 20 client time 391.6710476345486
+2024-08-21 14:55:54.399 [info] CPP RT LOG: All stats {"streamingtime":309.0791015625,"actualTtftFromStart":305.909912109375,"timeTillServerRequest":1.1552734375,"requestToTtft":304.754638671875,"totalTime":310.2001953125}
+2024-08-21 14:55:54.399 [info] CURSOR LOG: restFunc done 99639db9-5a59-4aab-b4cd-aa032b565ad7
+2024-08-21 14:55:55.915 [info] CURSOR LOG: restFunc initiated 8317c780-f09a-4965-97e4-81dfead8e12a
+2024-08-21 14:55:56.229 [info] CURSOR LOG: Done streaming cpp with id 8317c780-f09a-4965-97e4-81dfead8e12a
+2024-08-21 14:55:56.229 [info] CPP RT LOG: Time taken for streaming cpp 314.1162109375 with request 8317c780-f09a-4965-97e4-81dfead8e12a
+2024-08-21 14:55:56.229 [info] CPP Request Log with id 8317c780-f09a-4965-97e4-81dfead8e12a
+2024-08-21 14:55:56.229 [info] =======>Model input 
+2024-08-21 14:55:56.229 [info] =======>Model output     --bg-3: #3F4256;
+    --bg-4: #444B6A;
+    --highlight-1: #1E202E;
+    --highlight-2: #2E3448;
+2024-08-21 14:55:56.229 [info] =======>Debug stream time 133.5001420006156
+2024-08-21 14:55:56.229 [info] =======>Debug ttft time 127.70478400029242
+2024-08-21 14:55:56.229 [info] Average of latest 20 ttft time 145.0236469999838
+2024-08-21 14:55:56.229 [info] Average of latest 20 stream time 193.45084721060763
+2024-08-21 14:55:56.229 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:56.229 [info] Average of latest 20 client time 387.58921412417766
+2024-08-21 14:55:56.229 [info] CPP RT LOG: All stats {"streamingtime":314.1162109375,"actualTtftFromStart":311.13916015625,"timeTillServerRequest":2.357421875,"requestToTtft":308.78173828125,"totalTime":316.43603515625}
+2024-08-21 14:55:56.229 [info] CURSOR LOG: restFunc done 8317c780-f09a-4965-97e4-81dfead8e12a
+2024-08-21 14:55:56.440 [info] CURSOR LOG: restFunc initiated 29e466da-8861-4001-a9e1-0c1ee3fb803f
+2024-08-21 14:55:56.727 [info] CURSOR LOG: Done streaming cpp with id 29e466da-8861-4001-a9e1-0c1ee3fb803f
+2024-08-21 14:55:56.727 [info] CPP RT LOG: Time taken for streaming cpp 287.908935546875 with request 29e466da-8861-4001-a9e1-0c1ee3fb803f
+2024-08-21 14:55:56.727 [info] CPP Request Log with id 29e466da-8861-4001-a9e1-0c1ee3fb803f
+2024-08-21 14:55:56.727 [info] =======>Model input 
+2024-08-21 14:55:56.728 [info] =======>Model output     --bg-3: #3F4256;
+    --bg-4: #434c5e;
+    --highlight-1: #1E202E;
+    --highlight-2: #2E3448;
+2024-08-21 14:55:56.728 [info] =======>Debug stream time 125.89665399864316
+2024-08-21 14:55:56.728 [info] =======>Debug ttft time 120.15121199935675
+2024-08-21 14:55:56.728 [info] Average of latest 20 ttft time 143.78002524995244
+2024-08-21 14:55:56.728 [info] Average of latest 20 stream time 190.07313755000942
+2024-08-21 14:55:56.728 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:56.728 [info] Average of latest 20 client time 382.6052001953125
+2024-08-21 14:55:56.728 [info] CPP RT LOG: All stats {"streamingtime":287.908935546875,"actualTtftFromStart":289.5078125,"timeTillServerRequest":5.214599609375,"requestToTtft":284.293212890625,"totalTime":293.08984375}
+2024-08-21 14:55:56.728 [info] CURSOR LOG: restFunc done 29e466da-8861-4001-a9e1-0c1ee3fb803f
+2024-08-21 14:55:58.011 [info] CURSOR LOG: restFunc initiated 4a3c1c27-1f20-4233-b40b-237dd577e3e4
+2024-08-21 14:55:58.306 [info] CURSOR LOG: Done streaming cpp with id 4a3c1c27-1f20-4233-b40b-237dd577e3e4
+2024-08-21 14:55:58.306 [info] CPP RT LOG: Time taken for streaming cpp 295.4443359375 with request 4a3c1c27-1f20-4233-b40b-237dd577e3e4
+2024-08-21 14:55:58.307 [info] CPP Request Log with id 4a3c1c27-1f20-4233-b40b-237dd577e3e4
+2024-08-21 14:55:58.307 [info] =======>Model input 
+2024-08-21 14:55:58.307 [info] =======>Model output * {
+    --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #4c566a;
+2024-08-21 14:55:58.307 [info] =======>Debug stream time 129.0256539992988
+2024-08-21 14:55:58.307 [info] =======>Debug ttft time 119.22445300035179
+2024-08-21 14:55:58.307 [info] Average of latest 20 ttft time 143.41943384995685
+2024-08-21 14:55:58.307 [info] Average of latest 20 stream time 189.68828514995985
+2024-08-21 14:55:58.307 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:58.307 [info] Average of latest 20 client time 358.09466552734375
+2024-08-21 14:55:58.307 [info] CPP RT LOG: All stats {"streamingtime":295.4443359375,"actualTtftFromStart":288.55078125,"timeTillServerRequest":2.616943359375,"requestToTtft":285.933837890625,"totalTime":298.031982421875}
+2024-08-21 14:55:58.307 [info] CURSOR LOG: restFunc done 4a3c1c27-1f20-4233-b40b-237dd577e3e4
+2024-08-21 14:55:59.357 [info] CURSOR LOG: restFunc initiated 559dcdbc-7687-4519-8c07-7490340ceb8b
+2024-08-21 14:55:59.651 [info] CURSOR LOG: Done streaming cpp with id 559dcdbc-7687-4519-8c07-7490340ceb8b
+2024-08-21 14:55:59.651 [info] CPP RT LOG: Time taken for streaming cpp 294.49951171875 with request 559dcdbc-7687-4519-8c07-7490340ceb8b
+2024-08-21 14:55:59.651 [info] CPP Request Log with id 559dcdbc-7687-4519-8c07-7490340ceb8b
+2024-08-21 14:55:59.651 [info] =======>Model input 
+2024-08-21 14:55:59.651 [info] =======>Model output     --bg-2: #2e3440;
+    --bg-3: #3F4256;
+    --bg-4: #434c5e;
+    --highlight-1: #1E202E;
+2024-08-21 14:55:59.651 [info] =======>Debug stream time 126.75858200062066
+2024-08-21 14:55:59.651 [info] =======>Debug ttft time 112.53191400039941
+2024-08-21 14:55:59.659 [info] Average of latest 20 ttft time 140.24744555000217
+2024-08-21 14:55:59.659 [info] Average of latest 20 stream time 186.86438080002554
+2024-08-21 14:55:59.659 [info] Average of latest 20 total time NaN
+2024-08-21 14:55:59.659 [info] Average of latest 20 client time 355.5031494140625
+2024-08-21 14:55:59.659 [info] CPP RT LOG: All stats {"streamingtime":294.49951171875,"actualTtftFromStart":286.158447265625,"timeTillServerRequest":2.1357421875,"requestToTtft":284.022705078125,"totalTime":296.608642578125}
+2024-08-21 14:55:59.659 [info] CURSOR LOG: restFunc done 559dcdbc-7687-4519-8c07-7490340ceb8b
+2024-08-21 14:55:59.867 [info] CURSOR LOG: restFunc initiated 0d2f2ef1-9bef-4ab8-8aed-b6e718778f85
+2024-08-21 14:56:00.148 [info] CURSOR LOG: Done streaming cpp with id 0d2f2ef1-9bef-4ab8-8aed-b6e718778f85
+2024-08-21 14:56:00.148 [info] CPP RT LOG: Time taken for streaming cpp 281.54248046875 with request 0d2f2ef1-9bef-4ab8-8aed-b6e718778f85
+2024-08-21 14:56:00.148 [info] CPP Request Log with id 0d2f2ef1-9bef-4ab8-8aed-b6e718778f85
+2024-08-21 14:56:00.148 [info] =======>Model input 
+2024-08-21 14:56:00.148 [info] =======>Model output     --bg-2: #2e3440;
+    --bg-3: #2e3440;
+    --bg-4: #434c5e;
+    --highlight-1: #1E202E;
+2024-08-21 14:56:00.148 [info] =======>Debug stream time 118.88580200076103
+2024-08-21 14:56:00.148 [info] =======>Debug ttft time 108.54454100131989
+2024-08-21 14:56:00.149 [info] Average of latest 20 ttft time 139.56535725006833
+2024-08-21 14:56:00.149 [info] Average of latest 20 stream time 186.4622649000492
+2024-08-21 14:56:00.149 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:00.149 [info] Average of latest 20 client time 355.101904296875
+2024-08-21 14:56:00.149 [info] CPP RT LOG: All stats {"streamingtime":281.54248046875,"actualTtftFromStart":279.881591796875,"timeTillServerRequest":7.599853515625,"requestToTtft":272.28173828125,"totalTime":289.1123046875}
+2024-08-21 14:56:00.149 [info] CURSOR LOG: restFunc done 0d2f2ef1-9bef-4ab8-8aed-b6e718778f85
+2024-08-21 14:56:19.123 [info] CURSOR LOG: restFunc initiated cb0da875-055b-4947-8d8b-d2ea2acfde6a
+2024-08-21 14:56:19.660 [info] CURSOR LOG: Done streaming cpp with id cb0da875-055b-4947-8d8b-d2ea2acfde6a
+2024-08-21 14:56:19.660 [info] CPP RT LOG: Time taken for streaming cpp 536.356689453125 with request cb0da875-055b-4947-8d8b-d2ea2acfde6a
+2024-08-21 14:56:19.660 [info] CPP Request Log with id cb0da875-055b-4947-8d8b-d2ea2acfde6a
+2024-08-21 14:56:19.660 [info] =======>Model input 
+2024-08-21 14:56:19.660 [info] =======>Model output     --bg-4: #434c5e;
+    --highlight-1: #2e3440;
+    --highlight-2: #2e3440;
+    --blue-accent: #89ddff;
+2024-08-21 14:56:19.660 [info] =======>Debug stream time 371.6278619999066
+2024-08-21 14:56:19.660 [info] =======>Debug ttft time 162.97883799951524
+2024-08-21 14:56:19.660 [info] Average of latest 20 ttft time 138.43983855000698
+2024-08-21 14:56:19.660 [info] Average of latest 20 stream time 187.28980059996246
+2024-08-21 14:56:19.660 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:19.660 [info] Average of latest 20 client time 355.48167724609374
+2024-08-21 14:56:19.660 [info] CPP RT LOG: All stats {"streamingtime":536.356689453125,"actualTtftFromStart":329.68798828125,"timeTillServerRequest":2.13720703125,"requestToTtft":327.55078125,"totalTime":538.473388671875}
+2024-08-21 14:56:19.660 [info] CURSOR LOG: restFunc done cb0da875-055b-4947-8d8b-d2ea2acfde6a
+2024-08-21 14:56:20.848 [info] CURSOR LOG: restFunc initiated 2b969952-30f4-4ae9-b3df-3c269b32e9a6
+2024-08-21 14:56:21.242 [info] CURSOR LOG: Done streaming cpp with id 2b969952-30f4-4ae9-b3df-3c269b32e9a6
+2024-08-21 14:56:21.242 [info] CPP RT LOG: Time taken for streaming cpp 394.467041015625 with request 2b969952-30f4-4ae9-b3df-3c269b32e9a6
+2024-08-21 14:56:21.242 [info] CPP Request Log with id 2b969952-30f4-4ae9-b3df-3c269b32e9a6
+2024-08-21 14:56:21.242 [info] =======>Model input 
+2024-08-21 14:56:21.242 [info] =======>Model output     --bg-4: #434c5e;
+    --highlight-1: #81a1c1;
+    --highlight-2: #81a1c1;
+    --blue-accent: #89ddff;
+2024-08-21 14:56:21.242 [info] =======>Debug stream time 232.22586099989712
+2024-08-21 14:56:21.242 [info] =======>Debug ttft time 172.65878099948168
+2024-08-21 14:56:21.243 [info] Average of latest 20 ttft time 140.1770376999397
+2024-08-21 14:56:21.243 [info] Average of latest 20 stream time 186.0087534999475
+2024-08-21 14:56:21.243 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:21.243 [info] Average of latest 20 client time 353.7003540039062
+2024-08-21 14:56:21.243 [info] CPP RT LOG: All stats {"streamingtime":394.467041015625,"actualTtftFromStart":343.199951171875,"timeTillServerRequest":6.16162109375,"requestToTtft":337.038330078125,"totalTime":400.599365234375}
+2024-08-21 14:56:21.243 [info] CURSOR LOG: restFunc done 2b969952-30f4-4ae9-b3df-3c269b32e9a6
+2024-08-21 14:56:25.775 [info] CURSOR LOG: restFunc initiated 7ebc6761-7f60-4747-9933-d0f68833a0a1
+2024-08-21 14:56:26.121 [info] CURSOR LOG: Done streaming cpp with id 7ebc6761-7f60-4747-9933-d0f68833a0a1
+2024-08-21 14:56:26.121 [info] CPP RT LOG: Time taken for streaming cpp 345.697021484375 with request 7ebc6761-7f60-4747-9933-d0f68833a0a1
+2024-08-21 14:56:26.121 [info] CPP Request Log with id 7ebc6761-7f60-4747-9933-d0f68833a0a1
+2024-08-21 14:56:26.121 [info] =======>Model input 
+2024-08-21 14:56:26.121 [info] =======>Model output     --highlight-1: #81a1c1;
+    --highlight-2: #88c0d0;
+    --blue-accent: #89ddff;
+    --text: #d8dee9;
+2024-08-21 14:56:26.121 [info] =======>Debug stream time 181.9047510009259
+2024-08-21 14:56:26.121 [info] =======>Debug ttft time 130.01586200110614
+2024-08-21 14:56:26.122 [info] Average of latest 20 ttft time 134.11898849993014
+2024-08-21 14:56:26.122 [info] Average of latest 20 stream time 177.75374674992636
+2024-08-21 14:56:26.122 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:26.122 [info] Average of latest 20 client time 345.2802368164063
+2024-08-21 14:56:26.122 [info] CPP RT LOG: All stats {"streamingtime":345.697021484375,"actualTtftFromStart":300.115234375,"timeTillServerRequest":6.140380859375,"requestToTtft":293.974853515625,"totalTime":351.808349609375}
+2024-08-21 14:56:26.123 [info] CURSOR LOG: restFunc done 7ebc6761-7f60-4747-9933-d0f68833a0a1
+2024-08-21 14:56:45.243 [info] CURSOR LOG: restFunc initiated ba9b66fb-49f2-4ce3-9079-587dd867cff8
+2024-08-21 14:56:45.591 [info] CURSOR LOG: Done streaming cpp with id ba9b66fb-49f2-4ce3-9079-587dd867cff8
+2024-08-21 14:56:45.591 [info] CPP RT LOG: Time taken for streaming cpp 348.040283203125 with request ba9b66fb-49f2-4ce3-9079-587dd867cff8
+2024-08-21 14:56:45.591 [info] CPP Request Log with id ba9b66fb-49f2-4ce3-9079-587dd867cff8
+2024-08-21 14:56:45.591 [info] =======>Model input 
+2024-08-21 14:56:45.591 [info] =======>Model output     --highlight-2: #88c0d0;
+    --blue-accent: #88c0d0;
+    --text: #c0caf5;
+    --text-dark: #565f89;
+2024-08-21 14:56:45.591 [info] =======>Debug stream time 182.55162800103426
+2024-08-21 14:56:45.591 [info] =======>Debug ttft time 175.92202300019562
+2024-08-21 14:56:45.592 [info] Average of latest 20 ttft time 136.67110159997827
+2024-08-21 14:56:45.592 [info] Average of latest 20 stream time 179.97315165000037
+2024-08-21 14:56:45.592 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:45.592 [info] Average of latest 20 client time 347.47657470703126
+2024-08-21 14:56:45.592 [info] CPP RT LOG: All stats {"streamingtime":348.040283203125,"actualTtftFromStart":348.400146484375,"timeTillServerRequest":6.2138671875,"requestToTtft":342.186279296875,"totalTime":354.2265625}
+2024-08-21 14:56:45.592 [info] CURSOR LOG: restFunc done ba9b66fb-49f2-4ce3-9079-587dd867cff8
+2024-08-21 14:56:50.133 [info] CURSOR LOG: restFunc initiated a9db861a-f512-4c23-b7ed-a4a7e1102781
+2024-08-21 14:56:50.440 [info] CURSOR LOG: Done streaming cpp with id a9db861a-f512-4c23-b7ed-a4a7e1102781
+2024-08-21 14:56:50.440 [info] CPP RT LOG: Time taken for streaming cpp 307.931640625 with request a9db861a-f512-4c23-b7ed-a4a7e1102781
+2024-08-21 14:56:50.441 [info] CPP Request Log with id a9db861a-f512-4c23-b7ed-a4a7e1102781
+2024-08-21 14:56:50.441 [info] =======>Model input 
+2024-08-21 14:56:50.441 [info] =======>Model output     --cyan: #7dcfff;
+    --blue: #5e81ac;
+    --blue-dark: #5C88E6;
+    --orange: #ff9e64;
+2024-08-21 14:56:50.441 [info] =======>Debug stream time 133.65168099850416
+2024-08-21 14:56:50.441 [info] =======>Debug ttft time 128.39388499967754
+2024-08-21 14:56:50.441 [info] Average of latest 20 ttft time 134.84643769999965
+2024-08-21 14:56:50.441 [info] Average of latest 20 stream time 178.0460567999631
+2024-08-21 14:56:50.441 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:50.441 [info] Average of latest 20 client time 345.6439697265625
+2024-08-21 14:56:50.441 [info] CPP RT LOG: All stats {"streamingtime":307.931640625,"actualTtftFromStart":308.441650390625,"timeTillServerRequest":6.193603515625,"requestToTtft":302.248046875,"totalTime":314.093994140625}
+2024-08-21 14:56:50.441 [info] CURSOR LOG: restFunc done a9db861a-f512-4c23-b7ed-a4a7e1102781
+2024-08-21 14:56:54.235 [info] CURSOR LOG: restFunc initiated 0045d6b1-69e1-4fc7-9d04-59a46827da72
+2024-08-21 14:56:54.650 [info] CURSOR LOG: Done streaming cpp with id 0045d6b1-69e1-4fc7-9d04-59a46827da72
+2024-08-21 14:56:54.650 [info] CPP RT LOG: Time taken for streaming cpp 414.60888671875 with request 0045d6b1-69e1-4fc7-9d04-59a46827da72
+2024-08-21 14:56:54.650 [info] CPP Request Log with id 0045d6b1-69e1-4fc7-9d04-59a46827da72
+2024-08-21 14:56:54.650 [info] =======>Model input 
+2024-08-21 14:56:54.650 [info] =======>Model output     --blue: #5e81ac;
+    --blue-dark: #5e81ac;
+    --orange: #ff9e64;
+    --orange-dark: #e3a144;
+2024-08-21 14:56:54.650 [info] =======>Debug stream time 221.27589400019497
+2024-08-21 14:56:54.650 [info] =======>Debug ttft time 149.57146199978888
+2024-08-21 14:56:54.650 [info] Average of latest 20 ttft time 135.90377270001918
+2024-08-21 14:56:54.650 [info] Average of latest 20 stream time 182.60290734996087
+2024-08-21 14:56:54.650 [info] Average of latest 20 total time NaN
+2024-08-21 14:56:54.650 [info] Average of latest 20 client time 351.629736328125
+2024-08-21 14:56:54.650 [info] CPP RT LOG: All stats {"streamingtime":414.60888671875,"actualTtftFromStart":355.785888671875,"timeTillServerRequest":6.228515625,"requestToTtft":349.557373046875,"totalTime":420.81494140625}
+2024-08-21 14:56:54.651 [info] CURSOR LOG: restFunc done 0045d6b1-69e1-4fc7-9d04-59a46827da72
+2024-08-21 14:57:00.670 [info] CURSOR LOG: restFunc initiated 5c9807f5-90ad-471d-8602-b9e622fb14da
+2024-08-21 14:57:00.992 [info] CURSOR LOG: Done streaming cpp with id 5c9807f5-90ad-471d-8602-b9e622fb14da
+2024-08-21 14:57:00.992 [info] CPP RT LOG: Time taken for streaming cpp 322.66015625 with request 5c9807f5-90ad-471d-8602-b9e622fb14da
+2024-08-21 14:57:00.992 [info] CPP Request Log with id 5c9807f5-90ad-471d-8602-b9e622fb14da
+2024-08-21 14:57:00.992 [info] =======>Model input 
+2024-08-21 14:57:00.992 [info] =======>Model output     --blue: #5e81ac;
+    --blue-dark: rgb(64, 97, 167);
+    --orange: #ff9e64;
+    --orange-dark: #e3a144;
+2024-08-21 14:57:00.992 [info] =======>Debug stream time 148.73168700002134
+2024-08-21 14:57:00.993 [info] =======>Debug ttft time 139.51266499981284
+2024-08-21 14:57:00.993 [info] Average of latest 20 ttft time 136.8428207000252
+2024-08-21 14:57:00.993 [info] Average of latest 20 stream time 183.4595973999705
+2024-08-21 14:57:00.993 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:00.993 [info] Average of latest 20 client time 351.7886474609375
+2024-08-21 14:57:00.993 [info] CPP RT LOG: All stats {"streamingtime":322.66015625,"actualTtftFromStart":314.06787109375,"timeTillServerRequest":5.967041015625,"requestToTtft":308.100830078125,"totalTime":328.604248046875}
+2024-08-21 14:57:00.993 [info] CURSOR LOG: restFunc done 5c9807f5-90ad-471d-8602-b9e622fb14da
+2024-08-21 14:57:16.262 [info] CURSOR LOG: restFunc initiated cf8e41b7-5009-4b0e-b6b9-a6f6fa154de4
+2024-08-21 14:57:16.683 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 14:57:16.683 [info] CURSOR LOG: restFunc done cf8e41b7-5009-4b0e-b6b9-a6f6fa154de4
+2024-08-21 14:57:20.013 [info] CURSOR LOG: restFunc initiated 96935f77-34a3-4d1b-acaf-ddf2e7dbc945
+2024-08-21 14:57:20.513 [info] CURSOR LOG: Done streaming cpp with id 96935f77-34a3-4d1b-acaf-ddf2e7dbc945
+2024-08-21 14:57:20.513 [info] CPP RT LOG: Time taken for streaming cpp 499.897216796875 with request 96935f77-34a3-4d1b-acaf-ddf2e7dbc945
+2024-08-21 14:57:20.513 [info] CPP Request Log with id 96935f77-34a3-4d1b-acaf-ddf2e7dbc945
+2024-08-21 14:57:20.513 [info] =======>Model input 
+2024-08-21 14:57:20.513 [info] =======>Model output     --orange: #ebcb8b;
+    --orange-dark: #d08770;
+    --red: #bf616a;
+    --red-dark: #a36872;
+2024-08-21 14:57:20.513 [info] =======>Debug stream time 318.21041999943554
+2024-08-21 14:57:20.513 [info] =======>Debug ttft time 116.17975099943578
+2024-08-21 14:57:20.514 [info] Average of latest 20 ttft time 137.63065214999952
+2024-08-21 14:57:20.514 [info] Average of latest 20 stream time 188.37048174995
+2024-08-21 14:57:20.514 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:20.514 [info] Average of latest 20 client time 357.7153686523437
+2024-08-21 14:57:20.514 [info] CPP RT LOG: All stats {"streamingtime":499.897216796875,"actualTtftFromStart":292.90771484375,"timeTillServerRequest":5.9775390625,"requestToTtft":286.93017578125,"totalTime":505.84375}
+2024-08-21 14:57:20.514 [info] CURSOR LOG: restFunc done 96935f77-34a3-4d1b-acaf-ddf2e7dbc945
+2024-08-21 14:57:26.304 [info] CURSOR LOG: restFunc initiated b75488c0-92b3-4691-b717-787299c2b544
+2024-08-21 14:57:26.743 [info] CURSOR LOG: Done streaming cpp with id b75488c0-92b3-4691-b717-787299c2b544
+2024-08-21 14:57:26.743 [info] CPP RT LOG: Time taken for streaming cpp 438.3974609375 with request b75488c0-92b3-4691-b717-787299c2b544
+2024-08-21 14:57:26.743 [info] CPP Request Log with id b75488c0-92b3-4691-b717-787299c2b544
+2024-08-21 14:57:26.743 [info] =======>Model input 
+2024-08-21 14:57:26.743 [info] =======>Model output     --orange-dark: #d08770;
+    --red: #bf616a;
+    --red-dark: #a3be8c;
+    --green: #b48ead;
+2024-08-21 14:57:26.743 [info] =======>Debug stream time 261.3358899997547
+2024-08-21 14:57:26.743 [info] =======>Debug ttft time 122.01880099996924
+2024-08-21 14:57:26.743 [info] Average of latest 20 ttft time 136.48746294998563
+2024-08-21 14:57:26.743 [info] Average of latest 20 stream time 193.68985274992883
+2024-08-21 14:57:26.743 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:26.743 [info] Average of latest 20 client time 363.4638916015625
+2024-08-21 14:57:26.743 [info] CPP RT LOG: All stats {"streamingtime":438.3974609375,"actualTtftFromStart":296.74951171875,"timeTillServerRequest":6.09619140625,"requestToTtft":290.6533203125,"totalTime":444.458251953125}
+2024-08-21 14:57:26.743 [info] CURSOR LOG: restFunc done b75488c0-92b3-4691-b717-787299c2b544
+2024-08-21 14:57:30.448 [info] CURSOR LOG: restFunc initiated b2201499-83c5-4a9a-a80a-18fd719f747c
+2024-08-21 14:57:30.880 [info] CURSOR LOG: Done streaming cpp with id b2201499-83c5-4a9a-a80a-18fd719f747c
+2024-08-21 14:57:30.880 [info] CPP RT LOG: Time taken for streaming cpp 432.15625 with request b2201499-83c5-4a9a-a80a-18fd719f747c
+2024-08-21 14:57:30.880 [info] CPP Request Log with id b2201499-83c5-4a9a-a80a-18fd719f747c
+2024-08-21 14:57:30.880 [info] =======>Model input 
+2024-08-21 14:57:30.880 [info] =======>Model output     --red-dark: #db4b4b;
+    --green: #a3be8c;
+    --green-dark: #b48ead;
+    --purple: #b48ead;
+2024-08-21 14:57:30.880 [info] =======>Debug stream time 263.2568899989128
+2024-08-21 14:57:30.880 [info] =======>Debug ttft time 157.99543800018728
+2024-08-21 14:57:30.880 [info] Average of latest 20 ttft time 138.0306645500008
+2024-08-21 14:57:30.880 [info] Average of latest 20 stream time 194.43100189985708
+2024-08-21 14:57:30.880 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:30.881 [info] Average of latest 20 client time 364.30787353515626
+2024-08-21 14:57:30.881 [info] CPP RT LOG: All stats {"streamingtime":432.15625,"actualTtftFromStart":325.845458984375,"timeTillServerRequest":5.00439453125,"requestToTtft":320.841064453125,"totalTime":437.129150390625}
+2024-08-21 14:57:30.881 [info] CURSOR LOG: restFunc done b2201499-83c5-4a9a-a80a-18fd719f747c
+2024-08-21 14:57:35.695 [info] CURSOR LOG: restFunc initiated 30f58268-9745-4f74-bd37-6dfa2799dad2
+2024-08-21 14:57:35.995 [info] CURSOR LOG: Done streaming cpp with id 30f58268-9745-4f74-bd37-6dfa2799dad2
+2024-08-21 14:57:35.995 [info] CPP RT LOG: Time taken for streaming cpp 299.256591796875 with request 30f58268-9745-4f74-bd37-6dfa2799dad2
+2024-08-21 14:57:35.995 [info] CPP Request Log with id 30f58268-9745-4f74-bd37-6dfa2799dad2
+2024-08-21 14:57:35.995 [info] =======>Model input 
+2024-08-21 14:57:35.995 [info] =======>Model output     --red: #bf616a;
+    --red-dark: #bf616a;
+    --green: #a3be8c;
+    --green-dark: #1abc9c;
+2024-08-21 14:57:35.995 [info] =======>Debug stream time 125.93146999925375
+2024-08-21 14:57:35.995 [info] =======>Debug ttft time 119.24016200006008
+2024-08-21 14:57:35.995 [info] Average of latest 20 ttft time 136.89856080003082
+2024-08-21 14:57:35.995 [info] Average of latest 20 stream time 183.97544024982489
+2024-08-21 14:57:35.995 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:35.996 [info] Average of latest 20 client time 354.3620239257813
+2024-08-21 14:57:35.996 [info] CPP RT LOG: All stats {"streamingtime":299.256591796875,"actualTtftFromStart":301.527587890625,"timeTillServerRequest":8.41650390625,"requestToTtft":293.111083984375,"totalTime":307.62646484375}
+2024-08-21 14:57:35.996 [info] CURSOR LOG: restFunc done 30f58268-9745-4f74-bd37-6dfa2799dad2
+2024-08-21 14:57:42.368 [info] CURSOR LOG: restFunc initiated be04357a-b7ce-421c-b175-eb15f7149024
+2024-08-21 14:57:42.687 [info] CURSOR LOG: Done streaming cpp with id be04357a-b7ce-421c-b175-eb15f7149024
+2024-08-21 14:57:42.687 [info] CPP RT LOG: Time taken for streaming cpp 319.38623046875 with request be04357a-b7ce-421c-b175-eb15f7149024
+2024-08-21 14:57:42.688 [info] CPP Request Log with id be04357a-b7ce-421c-b175-eb15f7149024
+2024-08-21 14:57:42.688 [info] =======>Model input 
+2024-08-21 14:57:42.688 [info] =======>Model output     --red: #bf616a;
+    --red-dark: #773a41;
+    --green: #a3be8c;
+    --green-dark: #1abc9c;
+2024-08-21 14:57:42.688 [info] =======>Debug stream time 147.9678499996662
+2024-08-21 14:57:42.688 [info] =======>Debug ttft time 135.1877009999007
+2024-08-21 14:57:42.696 [info] Average of latest 20 ttft time 136.09415500005707
+2024-08-21 14:57:42.696 [info] Average of latest 20 stream time 183.57457839981652
+2024-08-21 14:57:42.696 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:42.696 [info] Average of latest 20 client time 354.38116455078125
+2024-08-21 14:57:42.696 [info] CPP RT LOG: All stats {"streamingtime":319.38623046875,"actualTtftFromStart":311.077392578125,"timeTillServerRequest":5.949462890625,"requestToTtft":305.1279296875,"totalTime":325.30908203125}
+2024-08-21 14:57:42.696 [info] CURSOR LOG: restFunc done be04357a-b7ce-421c-b175-eb15f7149024
+2024-08-21 14:57:50.636 [info] CURSOR LOG: restFunc initiated bd3075fc-7742-434a-b5fa-be22f5f50b88
+2024-08-21 14:57:51.436 [info] CURSOR LOG: Done streaming cpp with id bd3075fc-7742-434a-b5fa-be22f5f50b88
+2024-08-21 14:57:51.436 [info] CPP RT LOG: Time taken for streaming cpp 800.14501953125 with request bd3075fc-7742-434a-b5fa-be22f5f50b88
+2024-08-21 14:57:51.437 [info] CPP Request Log with id bd3075fc-7742-434a-b5fa-be22f5f50b88
+2024-08-21 14:57:51.437 [info] =======>Model input 
+2024-08-21 14:57:51.437 [info] =======>Model output     --green: #a3be8c;
+    --green-dark: #8fbcbb;
+    --purple: #b48ead;
+    --comment: #565f89;
+2024-08-21 14:57:51.437 [info] =======>Debug stream time 631.9678069986403
+2024-08-21 14:57:51.437 [info] =======>Debug ttft time 395.0337279997766
+2024-08-21 14:57:51.437 [info] Average of latest 20 ttft time 148.635628500022
+2024-08-21 14:57:51.437 [info] Average of latest 20 stream time 207.3530572997406
+2024-08-21 14:57:51.437 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:51.437 [info] Average of latest 20 client time 377.87852783203124
+2024-08-21 14:57:51.437 [info] CPP RT LOG: All stats {"streamingtime":800.14501953125,"actualTtftFromStart":571.076416015625,"timeTillServerRequest":6.552490234375,"requestToTtft":564.52392578125,"totalTime":806.664794921875}
+2024-08-21 14:57:51.437 [info] CURSOR LOG: restFunc done bd3075fc-7742-434a-b5fa-be22f5f50b88
+2024-08-21 14:57:54.481 [info] CURSOR LOG: restFunc initiated 9da6f664-6456-430a-86b7-126430515c55
+2024-08-21 14:57:54.973 [info] CURSOR LOG: Done streaming cpp with id 9da6f664-6456-430a-86b7-126430515c55
+2024-08-21 14:57:54.973 [info] CPP RT LOG: Time taken for streaming cpp 491.947998046875 with request 9da6f664-6456-430a-86b7-126430515c55
+2024-08-21 14:57:54.974 [info] CPP Request Log with id 9da6f664-6456-430a-86b7-126430515c55
+2024-08-21 14:57:54.974 [info] =======>Model input 
+2024-08-21 14:57:54.974 [info] =======>Model output     --green: #a3be8c;
+    --green-dark: rgb(26, 188, 93);
+    --purple: #b48ead;
+    --purple-dark: rgb(136, 92, 152);
+    --comment: #565f89;
+2024-08-21 14:57:54.974 [info] =======>Debug stream time 324.5652010012418
+2024-08-21 14:57:54.974 [info] =======>Debug ttft time 121.73543400131166
+2024-08-21 14:57:54.974 [info] Average of latest 20 ttft time 147.70006670011207
+2024-08-21 14:57:54.974 [info] Average of latest 20 stream time 216.176989099849
+2024-08-21 14:57:54.974 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:54.974 [info] Average of latest 20 client time 386.676953125
+2024-08-21 14:57:54.974 [info] CPP RT LOG: All stats {"streamingtime":491.947998046875,"actualTtftFromStart":295.697998046875,"timeTillServerRequest":6.109375,"requestToTtft":289.588623046875,"totalTime":498.02490234375}
+2024-08-21 14:57:54.974 [info] CURSOR LOG: restFunc done 9da6f664-6456-430a-86b7-126430515c55
+2024-08-21 14:57:56.081 [info] CURSOR LOG: restFunc initiated da58f6e5-120b-4e91-9089-8dae82011fbe
+2024-08-21 14:57:56.697 [info] CURSOR LOG: Done streaming cpp with id da58f6e5-120b-4e91-9089-8dae82011fbe
+2024-08-21 14:57:56.697 [info] CPP RT LOG: Time taken for streaming cpp 615.230224609375 with request da58f6e5-120b-4e91-9089-8dae82011fbe
+2024-08-21 14:57:56.697 [info] CPP Request Log with id da58f6e5-120b-4e91-9089-8dae82011fbe
+2024-08-21 14:57:56.697 [info] =======>Model input 
+2024-08-21 14:57:56.697 [info] =======>Model output     --green: #a3be8c;
+    --green-dark: rgb(21, 143, 72);
+    --purple: #b48ead;
+    --purple-dark: rgb(130, 100, 130);
+    --comment: #565f89;
+2024-08-21 14:57:56.697 [info] =======>Debug stream time 327.69128600042313
+2024-08-21 14:57:56.697 [info] =======>Debug ttft time 123.1055819997564
+2024-08-21 14:57:56.697 [info] Average of latest 20 ttft time 146.8853508500848
+2024-08-21 14:57:56.697 [info] Average of latest 20 stream time 225.3481505998876
+2024-08-21 14:57:56.697 [info] Average of latest 20 total time NaN
+2024-08-21 14:57:56.697 [info] Average of latest 20 client time 401.98450927734376
+2024-08-21 14:57:56.697 [info] CPP RT LOG: All stats {"streamingtime":615.230224609375,"actualTtftFromStart":417.49072265625,"timeTillServerRequest":6.05419921875,"requestToTtft":411.4365234375,"totalTime":621.2509765625}
+2024-08-21 14:57:56.697 [info] CURSOR LOG: restFunc done da58f6e5-120b-4e91-9089-8dae82011fbe
+2024-08-21 14:58:12.844 [info] CURSOR LOG: restFunc initiated ed0f2a86-fa95-4c26-9559-b66d03c1d8bf
+2024-08-21 14:58:13.224 [info] CURSOR LOG: Done streaming cpp with id ed0f2a86-fa95-4c26-9559-b66d03c1d8bf
+2024-08-21 14:58:13.224 [info] CPP RT LOG: Time taken for streaming cpp 380.69970703125 with request ed0f2a86-fa95-4c26-9559-b66d03c1d8bf
+2024-08-21 14:58:13.224 [info] CPP Request Log with id ed0f2a86-fa95-4c26-9559-b66d03c1d8bf
+2024-08-21 14:58:13.224 [info] =======>Model input 
+2024-08-21 14:58:13.224 [info] =======>Model output     --green-dark: rgb(21, 143, 72);
+    --purple: #b48ead;
+    --purple-dark: #a37acc;
+    --comment: #565f89;
+2024-08-21 14:58:13.224 [info] =======>Debug stream time 211.39183500036597
+2024-08-21 14:58:13.224 [info] =======>Debug ttft time 117.38322200067341
+2024-08-21 14:58:13.226 [info] Average of latest 20 ttft time 146.36927275010385
+2024-08-21 14:58:13.226 [info] Average of latest 20 stream time 229.24273524987512
+2024-08-21 14:58:13.226 [info] Average of latest 20 total time NaN
+2024-08-21 14:58:13.226 [info] Average of latest 20 client time 405.3136840820313
+2024-08-21 14:58:13.226 [info] CPP RT LOG: All stats {"streamingtime":380.69970703125,"actualTtftFromStart":292.551025390625,"timeTillServerRequest":6.3642578125,"requestToTtft":286.186767578125,"totalTime":386.99169921875}
+2024-08-21 14:58:13.226 [info] CURSOR LOG: restFunc done ed0f2a86-fa95-4c26-9559-b66d03c1d8bf
+2024-08-21 14:58:40.172 [info] CURSOR LOG: restFunc initiated 8da8308d-389d-4df6-af14-2f53473fcfeb
+2024-08-21 14:58:40.480 [info] CURSOR LOG: Done streaming cpp with id 8da8308d-389d-4df6-af14-2f53473fcfeb
+2024-08-21 14:58:40.480 [info] CPP RT LOG: Time taken for streaming cpp 307.450927734375 with request 8da8308d-389d-4df6-af14-2f53473fcfeb
+2024-08-21 14:58:40.480 [info] CPP Request Log with id 8da8308d-389d-4df6-af14-2f53473fcfeb
+2024-08-21 14:58:40.480 [info] =======>Model input 
+2024-08-21 14:58:40.480 [info] =======>Model output     --purple: #b48ead;
+    --comment: #5e81ac;
+    
+    --color-primitive-black: #000000;
+2024-08-21 14:58:40.480 [info] =======>Debug stream time 140.16956199984998
+2024-08-21 14:58:40.480 [info] =======>Debug ttft time 131.187439000234
+2024-08-21 14:58:40.481 [info] Average of latest 20 ttft time 146.9210841001477
+2024-08-21 14:58:40.481 [info] Average of latest 20 stream time 229.95638064993545
+2024-08-21 14:58:40.481 [info] Average of latest 20 total time NaN
+2024-08-21 14:58:40.481 [info] Average of latest 20 client time 406.29078369140626
+2024-08-21 14:58:40.481 [info] CPP RT LOG: All stats {"streamingtime":307.450927734375,"actualTtftFromStart":305.36474609375,"timeTillServerRequest":6.37109375,"requestToTtft":298.99365234375,"totalTime":313.793212890625}
+2024-08-21 14:58:40.481 [info] CURSOR LOG: restFunc done 8da8308d-389d-4df6-af14-2f53473fcfeb
+2024-08-21 15:06:10.038 [info] CURSOR LOG: restFunc initiated 4d194c63-467b-4344-b6e7-439e6ce321da
+2024-08-21 15:06:10.593 [info] CURSOR LOG: Error in streaming cpp [canceled] This operation was aborted
+2024-08-21 15:06:10.593 [info] CURSOR LOG: restFunc done 4d194c63-467b-4344-b6e7-439e6ce321da

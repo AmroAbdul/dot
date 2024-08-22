@@ -1,0 +1,121 @@
+untitled:Untitled-1 {"typeId":""}
+/* ==UserStyle==
+@name         Brave Search Tokyo Night (tokyonight)
+@version      20240527.21.28
+@namespace    https://userstyles.world/user/JoshuaMarkle
+@description  Tokyonight for Brave!
+@author       JoshuaMarkle
+@license      CC Zero
+==/UserStyle== */
+
+@-moz-document domain("search.brave.com") {
+* {
+    --bg-dark: #2e3440;
+    --bg-code: #434c5e;
+    --bg: #4c566a;
+    --bg-2: #2e3440;
+    --bg-3: #2e3440;
+    --bg-4: #434c5e;
+    --highlight-1: #81a1c1;
+    --highlight-2: #88c0d0;
+    --blue-accent: #88c0d0;
+    --text: #c0caf5;
+    --text-dark: #565f89;
+    --cyan: #7dcfff;
+    --blue: #5e81ac;
+    --blue-dark: rgb(64, 97, 167);
+    --orange: #ebcb8b;
+    --orange-dark: #d08770;
+    --red: #bf616a;
+    --red-dark: #773a41;
+    --green: #a3be8c;
+    --green-dark: rgb(21, 143, 72);
+    --purple: #b48ead;
+    --comment: #5e81ac;
+    
+    --color-primitive-black: #000000;
+    --color-primitive-gray-01: #f3f5f7;
+    --color-primitive-gray-10: #ebeef0;
+    --color-primitive-gray-60: #546771;
+    --color-primitive-primary-40: #7c91ff;
+    --color-primitive-primary-60: #3f39e8;
+    --color-primitive-primary-70: #3b08c2;
+    --color-primitive-neutral-25: #3b3b3f;
+    --color-primitive-white: #ffffff;
+    --color-blue-20: #0b355d;
+    --color-gray-10: #21272a;
+    --color-gray-20: #30393d;
+    --color-gray-30: #546771;
+    --color-gray-40: #62757e;
+    --color-gray-50: #a1b2ba;
+    --color-gray-60: #becad0;
+    --color-gray-70: #ebeef0;
+    --color-green-10: #092c09;
+    --color-green-20: #123f13;
+    --color-green-30: #19721e;
+    --color-green-40: #3c823c;
+    --color-neutral-10: #111114;
+    --color-neutral-60: #c7c7cc;
+    --color-pink-40: #c24580;
+    --color-primary-10: #1c0d64;
+    --color-primary-20: #2a118e;
+    --color-primary-30: #3f39e8;
+    --color-primary-40: #545ff8;
+    --color-primary-50: #7c91ff;
+    --color-primary-60: #b7c6ff;
+    --color-primary-70: #e9eeff;
+    --color-purple-40: #7064d3;
+    --color-red-20: #620f18;
+    --color-red-40: #e11f3d;
+    --color-secondary-40: #cd4400;
+    --color-teal-40: #077f8d;
+    --gradient-panel-background: linear-gradient( 96.98deg, #3b08c2 0%, #3f39e8 100% );
+    --gradient-hero: linear-gradient(174deg, #ff4000 2.32%, #ff1f01 93.33%);
+    --gradient-llm: linear-gradient( 180deg, rgba(36, 39, 49, .3) .09%, rgba(36, 39, 49, .3) 51.51%, rgba(23, 25, 30, .3) 95.35% ), var(--color-page-background);
+    --color-button-background: #3f39e8;
+    --color-button-disabled: #687b854d;
+    --color-container-background: var(--bg);
+    --color-container-disabled: #c3c9d32e;
+    --color-container-highlight: var(--bg-dark);
+    --color-container-interactive: #1c0d64;
+    --color-dialogs-scrim-background: #00000066;
+    --color-divider-interactive: #545ff866;
+    --color-divider-strong: #a1b2ba66;
+    --color-divider-subtle: var(--bg-2);
+    --color-icon-default: var(--text);
+    --color-icon-disabled: var(--text-dark);
+    --color-icon-interactive: var(--blue);
+    --color-link-default: var(--blue);
+    --color-link-visited: var(--purple);
+    --color-page-background: var(--bg-dark);
+    --color-systemfeedback-error-background: #460a10;
+    --color-systemfeedback-error-text: #ffb1b0;
+    --color-systemfeedback-info-text: #a0cdff;
+    --color-systemfeedback-success-text: #94df91;
+    --color-tabs-search-text-default: #ff6022;
+    --color-text-disabled: #ebeef080;
+    --color-text-interactive: var(--text);
+    --color-text-primary: var(--text);
+    --color-text-secondary: var(--text);
+    --color-text-tertiary: var(--text-dark);
+    --color-serp-bar-bg: var(--bg-dark);
+    --color-serp-breadcrumbs: var(--text-dark);
+    --color-serp-container-interactive: #2b314b;
+    --color-serp-divider-subtle-container: #30393d;
+    --color-serp-header-background: var(--bg);
+    --color-serp-highlight-background: var(--bg);
+    --color-serp-snippet-background: var(--bg);
+    --color-code-01: var(--text-dark);
+    --color-code-02: var(--text);
+    --color-code-03: var(--green);
+    --color-code-04: var(--blue);
+    --color-code-05: var(--purple);
+    --color-code-border: var(--bg-2);
+    --elevation-primary: rgba(255, 255, 255, .15);
+    --elevation-secondary: rgba(0, 0, 0, .8);
+}
+
+#pagination-snippet { background-color: #ffffff00 }
+.premium-cta { display: none; }
+.SettingsDrawer { box-shadow: none !important; }
+}

@@ -1,0 +1,14 @@
+2024-04-19 11:08:00.113 [info] Extension host with pid 278507 started
+2024-04-19 11:08:00.113 [info] Skipping acquiring lock for /home/amro/.config/Code/User/workspaceStorage/88f2efa75021bc41819bd20742760bbc.
+2024-04-19 11:08:00.334 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-19 11:08:00.351 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-19 11:08:01.258 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-19 11:08:01.264 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-19 11:08:01.294 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-19 11:08:01.345 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-19 11:08:01.669 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2024-04-19 11:08:01.743 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-19 11:08:01.839 [info] Eager extensions activated
+2024-04-19 11:08:01.842 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-19 11:08:01.847 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-19 11:11:05.679 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

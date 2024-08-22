@@ -1,0 +1,18 @@
+2024/05/19-16:11:25.543 fd7e Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.aljazeera.net_0.indexeddb.leveldb since it was missing.
+2024/05/19-16:11:25.546 fd7e Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.aljazeera.net_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/19-16:11:25.562 fd99 Level-0 table #5: started
+2024/05/19-16:11:25.565 fd99 Level-0 table #5: 673 bytes OK
+2024/05/19-16:11:25.568 fd99 Delete type=0 #3
+2024/05/19-16:11:25.568 fd7e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/19-17:29:40.292 fd7f Level-0 table #7: started
+2024/05/19-17:29:40.293 fd7f Level-0 table #7: 1421 bytes OK
+2024/05/19-17:29:40.295 fd7f Delete type=0 #4
+2024/05/19-17:29:40.295 fd7f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/05/19-17:29:40.295 fd7f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x003\x000\x009\x006\x003\x005\x006\x008\x005\x005\x009\x00:\x00w\x00e\x00b\x00:\x008\x00a\x00e\x00e\x00e\x00d\x00c\x000\x00c\x001\x009\x007\x000\x002\x002\x00d\x002\x00d\x00e\x001\x005\x00a' @ 54 : 1
+2024/05/19-17:29:40.295 fd7f Compacting 1@1 + 1@2 files
+2024/05/19-17:29:40.296 fd7f Generated table #8@1: 21 keys, 930 bytes
+2024/05/19-17:29:40.296 fd7f Compacted 1@1 + 1@2 files => 930 bytes
+2024/05/19-17:29:40.298 fd7f compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/19-17:29:40.298 fd7f Delete type=2 #5
+2024/05/19-17:29:40.298 fd7f Delete type=2 #7
+2024/05/19-17:29:40.298 fd7f Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x009\x003\x000\x009\x006\x003\x005\x006\x008\x005\x005\x009\x00:\x00w\x00e\x00b\x00:\x008\x00a\x00e\x00e\x00e\x00d\x00c\x000\x00c\x001\x009\x007\x000\x002\x002\x00d\x002\x00d\x00e\x001\x005\x00a' @ 54 : 1 .. (end); will stop at (end)

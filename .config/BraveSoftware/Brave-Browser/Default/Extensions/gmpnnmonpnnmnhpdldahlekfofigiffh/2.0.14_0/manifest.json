@@ -1,0 +1,30 @@
+{
+   "author": "Sebastian Blask",
+   "background": {
+      "scripts": [ "browser-polyfill.js", "background.js" ]
+   },
+   "commands": {
+      "open-new-tab-at-default-location": {
+         "description": "Open new tab at default location",
+         "suggested_key": {
+            "default": "Ctrl+Y",
+            "windows": "Ctrl+Shift+Y"
+         }
+      }
+   },
+   "description": "Open new tabs to the right of the current one.",
+   "homepage_url": "https://github.com/sblask/webextension-open-tabs-next-to-current",
+   "icons": {
+      "128": "icon-128x128.png",
+      "16": "icon-16x16.png",
+      "32": "icon-32x32.png",
+      "48": "icon-48x48.png",
+      "64": "icon-64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgbnYwlMJ+XeAjjubD5E78mfsGLpkaURhCWmp2GZD4FwkHNA7Uue4NRq9fkak5J92s6T91KY8l5ydtf25wx/uKhcShcf41UrDaz6R8MVIAlhZILTAfoukdD29VYZ7WYkHs9M5orfezHvQrzCRwFUYhoPntaywqDBLvuqia59C8GQkUL8bGibZKbnfqAKEwRpSbdCXkHPLGlX4U57GUWbn9N8VN0C+PwXXQptKKHVTmRQa6wmnoVHqtk+ChrqxggbxNIy16xpCr4IiOL1smYE0cyRLcNbW2NmHzMdj5gueyoRjf58NiZC5gOmGi/QU0mZwuZU3hDOIv1uPXqlcwzALawIDAQAB",
+   "manifest_version": 2,
+   "name": "Open Tabs Next to Current",
+   "permissions": [ "sessions" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.14"
+}

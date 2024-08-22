@@ -1,0 +1,7 @@
+matches:
+  - trigger: evt
+    replace: evet
+  - triggers: ["perşempe","perşemba"]
+    replace: perşembe
+  - trigger: çarşampa
+    replace: çarşamba

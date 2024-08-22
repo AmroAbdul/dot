@@ -1,0 +1,25 @@
+{
+   "action": {
+      "default_icon": "./icons/icons32.png",
+      "default_popup": "/public/html/search-window.html"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "description": "إضافة للمتصفح تستطيع من خلالها أن تتفقد الأحاديث هل هي موضوعة أو صحيحة",
+   "differential_fingerprint": "1.d9327c194f1a351be5de5f2fabe0f13b53b76541275ea6cddcf7e058a42c091c",
+   "host_permissions": [ "https://www.dorar.net/", "https://sunnah.com/" ],
+   "icons": {
+      "128": "./icons/icons128.png",
+      "16": "./icons/icons16.png",
+      "32": "./icons/icons32.png",
+      "48": "./icons/icons48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArOlOTx2U/shVnN+KUvgOuloMkLa21h4+IEhPLprjwTYb+zK8Lksv6cDWJlhNntrsz1LCH5kdHzfgv07fZBR5plsUNz/8Nfwst/zvlhWUnPeMN0vEpnJvfivMqym15/Wh4mRrJuTL/5HuyFjvQJZeVEA9VOcJ0Df3Q7mATXi6VFWlcXyBS6mihFqqwDyYkk9c0VcSC8sgDCCDQDc76DRT0GljOzJZnzwMrEtYBX/GQ7CL/Ik9HIZ1o/re/9Eh/WlLzlmmBwPi/k8L+Ri+3GDCh8fovi3s6X5WGiqf7kHTQztoFHIYg1LiRb1CrjVcdVV3VQt+KGs/Oft/TGT3A36u3wIDAQAB",
+   "manifest_version": 3,
+   "name": "التحقق من الأحاديث | Hadith Checker",
+   "permissions": [ "contextMenus", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.1"
+}

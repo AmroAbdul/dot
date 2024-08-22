@@ -1,0 +1,25 @@
+{
+   "author": "rubenwardy",
+   "chrome_url_overrides": {
+      "newtab": "app/webext.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "differential_fingerprint": "1.921f9be85240c6ce49a8dbd63d5a626eaeaacabace67fe178f3bbb1bc6faaac1",
+   "homepage_url": "https://renewedtab.com/",
+   "icons": {
+      "128": "icon-128.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlSuyGGczvJGel9voZT3Rj1R63yFi92wB6jkQC60cPsWe7izBFDFrvxlzN03Uz/F7MPgclumhh4YYHRuQsACTDc1TLEWlXtheLqa1U/w+UvDZk84jrI025HLGLpImmeYylKzeBFy7XMz8nP4WYsQJKqVzhuH6oojrjF5jzWQVCDr7txkoh9HYuyfIgFi3GomTz3lIfVOqv3ax0zS234wREYdDz/7xu4MBm8G23YDGwNq7Axx5xwjJgP9qwKkwCqmFFd1VIU+Q8RlV+9bsu9bhamz+h0s1vg3y8o0cPp1O+J7nXk5hDO41vxfOYHBQWBhtiiFZtS9kMhHaWXgX1hp85QIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "100",
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "optional_permissions": [ "bookmarks", "topSites" ],
+   "permissions": [ "storage", "search" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.19.0"
+}

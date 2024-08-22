@@ -1,0 +1,13 @@
+2024-08-22 15:21:46.657 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 15:21:46.658 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 15:21:46.658 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 15:21:47.018 [info] Started local extension host with pid 417703.
+2024-08-22 15:21:47.026 [error] Error: The editor could not be opened because the file was not found.
+    at R.gc (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:22005:24097)
+    at async R.setInput (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:22005:22976)
+    at async h.S (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:22003:24848)
+    at async h.L (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:22003:23371)
+    at async h.openEditor (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:22003:22359)
+    at async vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:23016:81552
+2024-08-22 15:21:47.667 [error] Cannot read properties of undefined (reading 'uri'): TypeError: Cannot read properties of undefined (reading 'uri')
+    at B.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursorICk2wR/resources/app/out/vs/workbench/workbench.desktop.main.js:21531:6800)

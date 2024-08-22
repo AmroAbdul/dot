@@ -1,0 +1,3 @@
+#!/bin/fish
+
+rofi -show drun -theme $HOME/.config/rofi/themes/custom.rasi

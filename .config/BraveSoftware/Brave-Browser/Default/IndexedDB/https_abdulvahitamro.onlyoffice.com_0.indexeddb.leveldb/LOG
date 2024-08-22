@@ -1,0 +1,10 @@
+2024/07/14-19:01:11.477 1681 Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_abdulvahitamro.onlyoffice.com_0.indexeddb.leveldb since it was missing.
+2024/07/14-19:01:11.479 1681 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_abdulvahitamro.onlyoffice.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/14-19:01:11.557 1685 Level-0 table #5: started
+2024/07/14-19:01:11.559 1685 Level-0 table #5: 1314 bytes OK
+2024/07/14-19:01:11.561 1685 Delete type=0 #3
+2024/07/14-19:01:11.561 1682 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/14-19:01:23.046 1681 Level-0 table #7: started
+2024/07/14-19:01:23.048 1681 Level-0 table #7: 19343 bytes OK
+2024/07/14-19:01:23.050 1681 Delete type=0 #4
+2024/07/14-19:01:23.050 1681 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

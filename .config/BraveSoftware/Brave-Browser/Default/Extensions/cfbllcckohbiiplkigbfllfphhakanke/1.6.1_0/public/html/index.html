@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="../../thirdparty/html2canvas.min.js"></script>
+    <script src="../../thirdparty/he.min.js"></script>
+    <script src="../../thirdparty/virtual-select.min.js"></script>
+    <script
+      src="../js/filter-options.js"
+      defer
+      type="module"
+    ></script>
+    <script src="../js/index.js" defer type="module"></script>
+    <link
+      href="http://fonts.cdnfonts.com/css/neo-sans-arabic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../thirdparty/virtual-select.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>التحقق من الأحاديث | Hadith Checker</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>التحقق من الأحاديث</h1>
+    </header>
+    <main class="main">
+      <nav class="tab">
+        <ul class="tab-list">
+          <li>
+            <button
+              class="tab-btn active"
+              data-tabId="main-tab"
+              aria-label="View Hadith"
+            >
+              البحث في موقع الدرر السَنية
+            </button>
+          </li>
+          <li>
+            <button
+              class="tab-btn"
+              data-tabId="bukhari-tab"
+              aria-label="Search Sahih Al-Bukhari"
+            >
+              البحث في صحيح البخاري
+            </button>
+          </li>
+          <li>
+            <button
+              class="tab-btn"
+              data-tabId="muslim-tab"
+              aria-label="Search Sahih Muslim"
+            >
+              البحث في صحيح مسلم
+            </button>
+          </li>
+          <li>
+            <button
+              class="tab-btn"
+              data-tabId="sunnah-site-tab"
+              aria-label="Search In Sunnah Site"
+            >
+              Search In Sunnah Site With English Translation
+              <br />
+              البحث في موقع السنة مع ترجمة الإنجليزية
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="settings-box">
+        <form id="option-form">
+          <div class="toggle-settings">
+            <i class="fa fa-gear"></i>
+          </div>
+          <div class="container-main-search">
+            <div class="searchone">
+              <div class="option hadith-degree">
+                <label>درجة الحديث</label>
+                <div id="hadith-degree"></div>
+              </div>
+              <div class="option">
+                <label>كلمة أو جملة تريد استبعادها من البحث</label>
+                <input
+                  id="ignore-words"
+                  type="text"
+                  placeholder="ادخل كلمه او جمله"
+                />
+              </div>
+              <div class="option">
+                <label>نطاق البحث</label>
+                <div id="search-zone"></div>
+              </div>
+            </div>
+
+            <div class="searchtwo">
+              <div class="option">
+                <label>الكتاب</label>
+                <div id="book"></div>
+              </div>
+              <div class="option">
+                <label>المحدث</label>
+                <div id="mohdith"></div>
+              </div>
+              <div class="option">
+                <label>الراوي</label>
+                <div id="rawi"></div>
+              </div>
+              <div class="option">
+                <label>طريقة البحث</label>
+                <div id="search-method"></div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="nice-btn search-btn">
+            بحث
+          </button>
+        </form>
+        <button
+          id="reset-option-btn"
+          class="nice-btn reset-option-btn"
+        >
+          الرجوع للاختيارات الافتراضية
+        </button>
+      </div>
+      <label class="toggle-box">
+        <p>أحاديث للمتخصصين</p>
+        <input class="toggle" type="checkbox" />
+        <div class="toggle-switch"></div>
+        <p>أحاديث لغير المتخصصين</p>
+      </label>
+      <p id="page-counter">الصفحة رقم: <span></span></p>
+      <p id="hadith-counter">عدد النتائج: <span></span></p>
+      <p id="total-hadith">العدد الكلي للأحاديث : <span></span></p>
+      <p id="number-of-pages">عدد الصفحات : <span></span></p>
+      <p id="specialist-hadith">
+        عدد الأحاديث للمتخصصين: <span></span>
+      </p>
+      <p id="non-specialist-hadith">
+        عدد الأحاديث لغير المتخصصين: <span></span>
+      </p>
+      <div id="loader" class="loader-hide">
+        <div class="loader"></div>
+      </div>
+      <button class="nice-btn" id="exit-popup">X</button>
+      <div id="loader-popup" class="loader-hide">
+        <div class="loader"></div>
+      </div>
+      <div id="popup-card"></div>
+      <div id="content"></div>
+      <a class="dorar-search-link" href="" target="_blank"
+        >البحث في موقع الدرر السَنية</a
+      >;
+      <a class="sunnah-search-link" href="" target="_blank"
+        >البحث في موقع السنة</a
+      >;
+
+      <div class="group-btn">
+        <button id="next" class="nice-btn">الصفحة التالية</button>
+        <section id="page-select">
+          <input
+            type="number"
+            id="page-number-selection"
+            placeholder="ادخل رقم الصفحة"
+            min="1"
+            value="1"
+          />
+          <button id="go-to-page" class="nice-btn">
+            الانتقال للصفحة
+          </button>
+        </section>
+        <button id="prev" class="nice-btn">الصفحة السابقة</button>
+      </div>
+      <p id="message"></p>
+    </main>
+    <footer>
+      <a
+        href="https://github.com/AhmedElTabarani/hadith-checker-extension"
+        target="_blank"
+      >
+        <img src="../../icons/GitHub-Mark-32px.png" />
+      </a>
+    </footer>
+  </body>
+</html>

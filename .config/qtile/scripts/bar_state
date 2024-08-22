@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# a script to save qtile bar state on login
+
+
+qtile cmd-obj -o bar "top" -f info | grep size

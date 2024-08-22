@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "App description",
+      "message": "一個可自定的新分頁頁面，擁有小工具和美麗的背景"
+   },
+   "appName": {
+      "description": "The name of the app",
+      "message": "Renewed Tab"
+   }
+}

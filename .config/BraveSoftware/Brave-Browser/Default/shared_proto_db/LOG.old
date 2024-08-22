@@ -1,0 +1,12 @@
+2024/08/21-13:07:10.256 2c91 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
+2024/08/21-13:07:10.256 2c91 Recovering log #7
+2024/08/21-13:07:10.257 2c91 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000007.log 
+2024/08/21-15:03:32.229 2c78 Level-0 table #13: started
+2024/08/21-15:03:32.247 2c78 Level-0 table #13: 2935423 bytes OK
+2024/08/21-15:03:32.249 2c78 Delete type=0 #7
+2024/08/21-15:03:32.284 2c78 Level-0 table #15: started
+2024/08/21-15:03:32.301 2c78 Level-0 table #15: 2909438 bytes OK
+2024/08/21-15:03:32.304 2c78 Delete type=0 #12
+2024/08/21-15:04:34.204 2c91 Level-0 table #17: started
+2024/08/21-15:04:34.219 2c91 Level-0 table #17: 2909427 bytes OK
+2024/08/21-15:04:34.223 2c91 Delete type=0 #14

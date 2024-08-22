@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_popup": "src/popup.html",
+      "default_title": "HaramBlur"
+   },
+   "author": "md.alganzory@gmail.com",
+   "background": {
+      "service_worker": "src/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "dist/content.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Protect your privacy and uphold Islamic values by auto detecting & blurring images and videos of unwanted or impermissible content.",
+   "icons": {
+      "128": "src/assets/hb-icon-128.png",
+      "48": "src/assets/hb-icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5OhtiABBslQCzvFFlj/Q0wVKqHpx10+kZfouC7hmQkAHBV+eL0DxKdh5GRlX1vmaUibgr1icd118KlaKJrqduay1rsQuSciUEt4w7jrSoVnmagkVthux1YLjvf1QxnxG1VymF/hwfYCorRLmCbF1hftdsmD9tjckQPQ9k/YPna9Yb+WIxh3c87zu/pSFolUSsE6UD45LDulvmiCAlxmGRFjz9hqMc4ITklIE1mDpcrlyjn/n09hTHqZ6tXG1YxZP+JUZCGPRhuK/s/AI8laXekvPtTOkKlSmekUEWhfTEzE5Fxl4TWk2TLMA6izjLx/P3wEUjOt/Yx37EQpGE40jwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "109",
+   "name": "HaramBlur",
+   "permissions": [ "storage", "offscreen", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.6",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*/*", "http://*/*" ],
+      "resources": [ "src/assets/*" ]
+   } ]
+}

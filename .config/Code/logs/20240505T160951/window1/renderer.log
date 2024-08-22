@@ -1,0 +1,32 @@
+2024-05-05 16:09:56.343 [info] Started local extension host with pid 282588.
+2024-05-05 16:10:01.540 [info] [perf] Render performance baseline is 153ms
+2024-05-05 17:14:16.410 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323441)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-05-05 18:36:29.618 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323441)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-05-05 18:37:38.645 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323441)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-05-05 19:08:18.465 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323441)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-05-05 19:09:27.490 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+    at Timeout.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323441)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-05-05 22:22:46.946 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo EAI_AGAIN unleash.codeium.com
+    at ClientRequest.<anonymous> (/home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/extension.js:2:2323567)
+    at ClientRequest.emit (node:events:526:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:514:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)

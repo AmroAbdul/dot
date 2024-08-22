@@ -1,0 +1,256 @@
+{
+   "button_showEnabledLinks": {
+      "description": "Shown in popup below some errors to allow users to see enabled links.",
+      "message": "Vis påskrudde lenker ved bruk av ytterligere parametre"
+   },
+   "button_showOtherEnabledLinks": {
+      "description": "Shown in popup below the list of links; to see other enabled links with additional parameters.",
+      "message": "Vis resten av de påskrudde lenkene ved bruk av ytterligere parametre"
+   },
+   "config_deleteButton": {
+      "description": "Text inside 'delete button' in configuration page",
+      "message": "Slett"
+   },
+   "config_editButton": {
+      "description": "Text inside 'edit button' in configuration page",
+      "message": "Rediger"
+   },
+   "config_linkDeleted": {
+      "description": "Shown inline when a link is deleted inside configuration page",
+      "message": "Lenken $LINK_NAME$ ble slettet. Klikk her for å angre.",
+      "placeholders": {
+         "LINK_NAME": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "config_pattern_createOption": {
+      "description": "Button",
+      "message": "Opprett alternativ"
+   },
+   "config_pattern_formTitle": {
+      "description": "Form Legend/Title",
+      "message": "Avansert alternativsopprettelse (eksperimentelt)"
+   },
+   "config_pattern_name": {
+      "description": "Input label",
+      "message": "Navn"
+   },
+   "config_pattern_urlTemplate": {
+      "description": "Input label",
+      "message": "Nettadressemal"
+   },
+   "config_saveButton": {
+      "description": "Text inside 'save button' in configuration page",
+      "message": "Lagre"
+   },
+   "configurationLink": {
+      "description": "Link to configuration page inside main popup.",
+      "message": "Oppsett"
+   },
+   "error_incompatibleWebsite": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "Fant ingen kart eller OpenStreetMap-parametre.\nHvis dette er uventet, innrapporter det på $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noAccess": {
+      "description": "Error shown inside popup when the current page cannot be accessed (technical exception)",
+      "message": "Feil: Fikk ikke tilgang til, eller fant ikke nåværende side.\nHvis siden fremdeles lastes inn, prøv igjen.\nHvis dette er uventet, innrapporter det til $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noInformationExtracted": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "Nettsiden ble gjenkjent, men ingen parametre ble funnet.\nHvis dette er et kart, prøv å flytt det litt for å igangsette dets parametre.\nHvis dette ser ut til å være en feil, innrapporter det på $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "extensionDescription": {
+      "message": "Hjelper OpenStreetMap-bidragsytere å bytte mellom forskjellige kart og analyseverktøy fra gemenskapen"
+   },
+   "extensionName": {
+      "message": "OSM-smartmeny"
+   },
+   "extensionShortName": {
+      "message": "OSMenu"
+   },
+   "extensionStoreDescription": {
+      "description": "Description shown in Chrome and Firefox's extension download page",
+      "message": "Når du klikker på menyknappen, vil denne utvidelsen \u003Cstrong>oppdage\u003C/strong> OpenStreetMap-parametre i nåværende side og \u003Cstrong>generere\u003C/strong> en liste over relaterte kart og verktøy med disse parameterne.\n\nDisse parameterne gjenkjennes:\n\u003Cul>\n\u003Cli>Kart-koordinater (forstørrelse, breddegrad og lengdegrad)\u003C/li>\n\u003Cli>OSM-elementer (node-ID, vei-ID, relasjons-ID, og endringssett-ID)\u003C/li>\n\u003Cli>Brukernavn og GPS-spor-ID\u003C/li>\n\u003C/ul>\nHvis du ikke er sikker på hvilken nettside som vil bli gjenkjent, prøv å gå til https://www.openstreetmap.org/ før du klikker på menyen.\n\n\u003Cem>OpenStreetMap-logoen er et varemerke som tilhører OpenStreetMap-stiftelsen, og brukes med tillatelse. Dette prosjektet er ikke støttet av eller tilknyttet OpenStreetMap-stiftelsen.\u003C/em>"
+   },
+   "loading": {
+      "description": "Shown in popup shortly before menu appears.",
+      "message": "Laster inn …\nHvis innlastingen ikke fullføres, gjeninnlast siden og prøv igjen."
+   },
+   "newOptionDetected_added": {
+      "description": "Shown in popup when an unknown website seems compatible with OpenStreetMap. After the button is clicked.",
+      "message": "Lagt til som $PAGE_TITLE$",
+      "placeholders": {
+         "PAGE_TITLE": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "newOptionDetected_buttonText": {
+      "description": "Shown in popup (inside the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Legg til lenke"
+   },
+   "newOptionDetected_notice": {
+      "description": "Shown in popup (before the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Ønsker du å legge denne nettsiden til i menyen?"
+   },
+   "noEnabledCompatibleLinksFound": {
+      "description": "Shown in popup when there aren't any enabled links that support the parameters found in the current page.",
+      "message": "Ingen av de påskrudde lenkene er kompatible med parameterne på siden."
+   },
+   "site_bingmaps": {
+      "message": "Bing-kart"
+   },
+   "site_deepdiff": {
+      "message": "Deep-diff"
+   },
+   "site_f4map": {
+      "message": "F4 Map (3D-demo)"
+   },
+   "site_googlemaps": {
+      "message": "Google Maps"
+   },
+   "site_historicmap": {
+      "message": "Historiske objekter"
+   },
+   "site_hotmap": {
+      "message": "Humanitarian OSM-lagkart"
+   },
+   "site_howdidyoucontribute": {
+      "message": "Hvordan bidro du til OSM?"
+   },
+   "site_ideditor": {
+      "message": "iD-redigereren"
+   },
+   "site_indoorequal": {
+      "message": "indoor="
+   },
+   "site_keepright": {
+      "message": "keep right!"
+   },
+   "site_level0": {
+      "message": "Level0-redigerer"
+   },
+   "site_mapcompare": {
+      "message": "Kartsammenligning"
+   },
+   "site_mapillary": {
+      "message": "Mapillary"
+   },
+   "site_missingmaps": {
+      "message": "Missing Maps"
+   },
+   "site_opencyclemap": {
+      "message": "OpenCycleMap"
+   },
+   "site_openinframap": {
+      "message": "Open Infrastructure-kart "
+   },
+   "site_openlevelup": {
+      "message": "OpenLevelUp!"
+   },
+   "site_openmapsurfer": {
+      "message": "OpenMapSurfer"
+   },
+   "site_openptmap": {
+      "message": "Open Public Transport-kart"
+   },
+   "site_openseamap": {
+      "message": "OpenSeaMap"
+   },
+   "site_opensnowmap": {
+      "message": "OpenSnowMap"
+   },
+   "site_openstreetbrowser": {
+      "message": "OpenStreetBrowser"
+   },
+   "site_openstreetcam": {
+      "message": "OpenStreetCam"
+   },
+   "site_openstreetmap": {
+      "message": "OpenStreetMap"
+   },
+   "site_opentopomap": {
+      "message": "OpenTopoMap"
+   },
+   "site_opnvkarte": {
+      "message": "ÖPNVKarte"
+   },
+   "site_osmbuildings": {
+      "message": "OSM-bygninger"
+   },
+   "site_osmcha": {
+      "message": "OSMCha"
+   },
+   "site_osmchangetiles": {
+      "message": "Siste OSM-redigeringer (Neis)"
+   },
+   "site_osmchangeviz": {
+      "message": "Endringsett ved sammenligning (Neis)"
+   },
+   "site_osmdeephistory": {
+      "message": "OSM-dyphistorikk"
+   },
+   "site_osmhistoryviewer": {
+      "message": "OSM-historikkviser"
+   },
+   "site_osminspector": {
+      "message": "OSM-inspektøren"
+   },
+   "site_osmlanevisualizer": {
+      "message": "OSM-kjørefeltsvisualisator"
+   },
+   "site_osmose": {
+      "message": "Osmose"
+   },
+   "site_osmrelationanalyzer": {
+      "message": "OSM-relasjonsanalysator"
+   },
+   "site_osmroutemanager": {
+      "message": "OSM-rutehåndterer"
+   },
+   "site_osmwiki": {
+      "message": "OpenStreetMap-wiki"
+   },
+   "site_overpassapi": {
+      "message": "Augmentert OSM-endringsviser"
+   },
+   "site_pewuosmhistory": {
+      "message": "OSM-historikkviser (PeWu)"
+   },
+   "site_sentinelhub": {
+      "message": "Sentinel Hub"
+   },
+   "site_stamen": {
+      "message": "Stamen-kart"
+   },
+   "site_umap": {
+      "message": "uMap"
+   },
+   "site_waze": {
+      "message": "Waze"
+   },
+   "site_whodidit": {
+      "message": "WHODIDIT (Zverik)"
+   }
+}

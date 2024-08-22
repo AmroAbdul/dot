@@ -1,0 +1,1 @@
+html[data-bm-cid^=gws-onebox] #rso>div:not(:first-child),html[data-bm-cid^=gws-onebox] #sfooter,html[data-bm-cid^=gws-onebox] span:empty+h1+[role=list]{display:none!important}

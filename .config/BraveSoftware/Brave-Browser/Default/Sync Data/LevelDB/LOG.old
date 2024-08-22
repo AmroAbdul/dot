@@ -1,0 +1,66 @@
+2024/08/21-13:07:10.078 2c78 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/08/21-13:07:10.080 2c78 Recovering log #366
+2024/08/21-13:07:10.083 2c78 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000366.log 
+2024/08/21-13:07:42.533 2c91 Level-0 table #371: started
+2024/08/21-13:07:42.538 2c91 Level-0 table #371: 90909 bytes OK
+2024/08/21-13:07:42.541 2c91 Delete type=0 #366
+2024/08/21-13:16:58.324 2c92 Level-0 table #373: started
+2024/08/21-13:16:58.328 2c92 Level-0 table #373: 76142 bytes OK
+2024/08/21-13:16:58.331 2c92 Delete type=0 #370
+2024/08/21-14:28:08.503 2c92 Level-0 table #375: started
+2024/08/21-14:28:08.508 2c92 Level-0 table #375: 82052 bytes OK
+2024/08/21-14:28:08.512 2c92 Delete type=0 #372
+2024/08/21-14:44:57.012 2c78 Level-0 table #377: started
+2024/08/21-14:44:57.015 2c78 Level-0 table #377: 81985 bytes OK
+2024/08/21-14:44:57.017 2c78 Delete type=0 #374
+2024/08/21-14:44:57.017 2c78 Compacting 4@0 + 1@1 files
+2024/08/21-14:44:57.023 2c78 Generated table #378@0: 1368 keys, 112623 bytes
+2024/08/21-14:44:57.023 2c78 Compacted 4@0 + 1@1 files => 112623 bytes
+2024/08/21-14:44:57.025 2c78 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/21-14:44:57.025 2c78 Delete type=2 #368
+2024/08/21-14:44:57.025 2c78 Delete type=2 #371
+2024/08/21-14:44:57.025 2c78 Delete type=2 #373
+2024/08/21-14:44:57.025 2c78 Delete type=2 #375
+2024/08/21-14:44:57.025 2c78 Delete type=2 #377
+2024/08/21-15:01:27.898 2c7a Level-0 table #380: started
+2024/08/21-15:01:27.903 2c7a Level-0 table #380: 76280 bytes OK
+2024/08/21-15:01:27.907 2c7a Delete type=0 #376
+2024/08/21-15:02:50.370 2c7a Level-0 table #382: started
+2024/08/21-15:02:50.381 2c7a Level-0 table #382: 1462761 bytes OK
+2024/08/21-15:02:50.384 2c7a Delete type=0 #379
+2024/08/21-15:02:50.773 2c79 Level-0 table #384: started
+2024/08/21-15:02:50.781 2c79 Level-0 table #384: 1455268 bytes OK
+2024/08/21-15:02:50.783 2c79 Delete type=0 #381
+2024/08/21-15:02:50.854 2c79 Level-0 table #386: started
+2024/08/21-15:02:50.863 2c79 Level-0 table #386: 1455077 bytes OK
+2024/08/21-15:02:50.865 2c79 Delete type=0 #383
+2024/08/21-15:02:50.865 2c79 Compacting 4@0 + 1@1 files
+2024/08/21-15:02:50.878 2c79 Generated table #387@0: 1368 keys, 1566630 bytes
+2024/08/21-15:02:50.878 2c79 Compacted 4@0 + 1@1 files => 1566630 bytes
+2024/08/21-15:02:50.880 2c79 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/21-15:02:50.880 2c79 Delete type=2 #378
+2024/08/21-15:02:50.880 2c79 Delete type=2 #380
+2024/08/21-15:02:50.880 2c79 Delete type=2 #382
+2024/08/21-15:02:50.880 2c79 Delete type=2 #384
+2024/08/21-15:02:50.880 2c79 Delete type=2 #386
+2024/08/21-15:02:51.507 2c79 Level-0 table #389: started
+2024/08/21-15:02:51.517 2c79 Level-0 table #389: 1455268 bytes OK
+2024/08/21-15:02:51.519 2c79 Delete type=0 #385
+2024/08/21-15:03:06.740 2c91 Level-0 table #391: started
+2024/08/21-15:03:06.748 2c91 Level-0 table #391: 1455077 bytes OK
+2024/08/21-15:03:06.751 2c91 Delete type=0 #388
+2024/08/21-15:10:49.656 2c79 Level-0 table #393: started
+2024/08/21-15:10:49.664 2c79 Level-0 table #393: 1469130 bytes OK
+2024/08/21-15:10:49.666 2c79 Delete type=0 #390
+2024/08/21-15:36:09.411 2c79 Level-0 table #395: started
+2024/08/21-15:36:09.419 2c79 Level-0 table #395: 89431 bytes OK
+2024/08/21-15:36:09.421 2c79 Delete type=0 #392
+2024/08/21-15:36:09.422 2c79 Compacting 4@0 + 1@1 files
+2024/08/21-15:36:09.435 2c79 Generated table #396@0: 1368 keys, 112454 bytes
+2024/08/21-15:36:09.436 2c79 Compacted 4@0 + 1@1 files => 112454 bytes
+2024/08/21-15:36:09.439 2c79 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/21-15:36:09.440 2c79 Delete type=2 #387
+2024/08/21-15:36:09.440 2c79 Delete type=2 #389
+2024/08/21-15:36:09.440 2c79 Delete type=2 #391
+2024/08/21-15:36:09.440 2c79 Delete type=2 #393
+2024/08/21-15:36:09.440 2c79 Delete type=2 #395

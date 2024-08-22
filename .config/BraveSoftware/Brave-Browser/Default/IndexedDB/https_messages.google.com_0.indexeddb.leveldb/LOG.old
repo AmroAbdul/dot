@@ -1,0 +1,6 @@
+2024/06/27-20:24:20.993 1e5b Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb since it was missing.
+2024/06/27-20:24:20.997 1e5b Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_messages.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/27-20:25:12.188 1e5c Level-0 table #5: started
+2024/06/27-20:25:12.192 1e5c Level-0 table #5: 20050 bytes OK
+2024/06/27-20:25:12.194 1e5c Delete type=0 #3
+2024/06/27-20:25:12.194 1e5c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

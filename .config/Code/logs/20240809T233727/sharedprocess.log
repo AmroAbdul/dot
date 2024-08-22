@@ -1,0 +1,83 @@
+2024-08-09 23:37:30.678 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-09 23:37:37.543 [info] Getting Manifest... codeium.codeium
+2024-08-09 23:37:37.547 [info] Getting Manifest... enkia.tokyo-night
+2024-08-09 23:37:37.795 [info] Installing extension: enkia.tokyo-night
+2024-08-09 23:37:37.868 [info] Installing extension: codeium.codeium
+2024-08-09 23:37:42.178 [info] Extension signature is verified: enkia.tokyo-night
+2024-08-09 23:37:42.236 [info] Extension signature is verified: codeium.codeium
+2024-08-09 23:37:42.248 [info] Extracted extension to file:///home/amro/.vscode/extensions/enkia.tokyo-night-1.0.9: enkia.tokyo-night
+2024-08-09 23:37:42.255 [info] Renamed to /home/amro/.vscode/extensions/enkia.tokyo-night-1.0.9
+2024-08-09 23:37:42.260 [info] Extracting extension completed. enkia.tokyo-night
+2024-08-09 23:37:42.279 [info] Extension installed successfully: enkia.tokyo-night
+2024-08-09 23:37:42.288 [info] Marked extension as uninstalled enkia.tokyo-night-1.0.6
+2024-08-09 23:37:42.354 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-08-09 23:37:42.545 [info] Extracted extension to file:///home/amro/.vscode/extensions/codeium.codeium-1.10.11: codeium.codeium
+2024-08-09 23:37:42.551 [info] Renamed to /home/amro/.vscode/extensions/codeium.codeium-1.10.11
+2024-08-09 23:37:42.554 [info] Extracting extension completed. codeium.codeium
+2024-08-09 23:37:42.572 [info] Extension installed successfully: codeium.codeium
+2024-08-09 23:37:42.577 [info] Marked extension as uninstalled codeium.codeium-1.8.28
+2024-08-09 23:37:42.641 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-08-09 23:37:52.382 [info] Getting Manifest... sallar.vscode-duotone-dark
+2024-08-09 23:37:52.395 [info] Installing extension: sallar.vscode-duotone-dark
+2024-08-09 23:37:55.513 [info] Extension signature is verified: sallar.vscode-duotone-dark
+2024-08-09 23:37:55.551 [info] Extracted extension to file:///home/amro/.vscode/extensions/sallar.vscode-duotone-dark-0.3.3: sallar.vscode-duotone-dark
+2024-08-09 23:37:55.557 [info] Renamed to /home/amro/.vscode/extensions/sallar.vscode-duotone-dark-0.3.3
+2024-08-09 23:37:55.560 [info] Extracting extension completed. sallar.vscode-duotone-dark
+2024-08-09 23:37:55.577 [info] Extension installed successfully: sallar.vscode-duotone-dark
+2024-08-09 23:37:55.648 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-08-09 23:39:39.635 [info] Getting Manifest... daylerees.rainglow
+2024-08-09 23:39:39.648 [info] Installing extension: daylerees.rainglow
+2024-08-09 23:39:48.354 [info] Extension signature is verified: daylerees.rainglow
+2024-08-09 23:39:48.973 [info] Extracted extension to file:///home/amro/.vscode/extensions/daylerees.rainglow-1.5.2: daylerees.rainglow
+2024-08-09 23:39:48.980 [info] Renamed to /home/amro/.vscode/extensions/daylerees.rainglow-1.5.2
+2024-08-09 23:39:48.984 [info] Extracting extension completed. daylerees.rainglow
+2024-08-09 23:39:49.001 [info] Extension installed successfully: daylerees.rainglow
+2024-08-09 23:39:49.073 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)
+2024-08-09 23:43:06.137 [info] Getting Manifest... naumovs.color-highlight
+2024-08-09 23:43:06.151 [info] Installing extension: naumovs.color-highlight
+2024-08-09 23:43:09.457 [info] Extension signature is verified: naumovs.color-highlight
+2024-08-09 23:43:10.005 [info] Extracted extension to file:///home/amro/.vscode/extensions/naumovs.color-highlight-2.8.0: naumovs.color-highlight
+2024-08-09 23:43:10.010 [info] Renamed to /home/amro/.vscode/extensions/naumovs.color-highlight-2.8.0
+2024-08-09 23:43:10.013 [info] Extracting extension completed. naumovs.color-highlight
+2024-08-09 23:43:10.029 [info] Extension installed successfully: naumovs.color-highlight
+2024-08-09 23:43:10.099 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

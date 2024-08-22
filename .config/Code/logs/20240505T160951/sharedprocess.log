@@ -1,0 +1,25 @@
+2024-05-05 16:09:57.230 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-05-05 16:10:08.098 [info] Getting Manifest... codeium.codeium
+2024-05-05 16:10:08.104 [info] Installing extension: codeium.codeium
+2024-05-05 16:10:11.799 [info] Extension signature is verified: codeium.codeium
+2024-05-05 16:10:11.912 [info] Extracted extension to file:///home/amro/.vscode/extensions/codeium.codeium-1.8.28: codeium.codeium
+2024-05-05 16:10:11.919 [info] Renamed to /home/amro/.vscode/extensions/codeium.codeium-1.8.28
+2024-05-05 16:10:11.920 [info] Extracting extension completed. codeium.codeium
+2024-05-05 16:10:11.933 [info] Extension installed successfully: codeium.codeium
+2024-05-05 16:10:11.983 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

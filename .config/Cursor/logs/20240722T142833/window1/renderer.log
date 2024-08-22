@@ -1,0 +1,59 @@
+2024-07-22 14:28:35.579 [info] Started local extension host with pid 184604.
+2024-07-22 14:28:38.843 [error] [failed_precondition] Deprecated: ConnectError: [failed_precondition] Deprecated
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.repositoryStatus (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async B._getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:21462:7678)
+    at async B.getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:21462:7580)
+    at async B.setRepositoryInfo (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:21458:8773)
+    at async B.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:21458:7219)
+2024-07-22 14:28:39.197 [info] [perf] Render performance baseline is 136ms
+2024-07-22 14:30:30.844 [error] Cancelled: Canceled
+    at te.D (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:26488)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:22504)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:23455)
+    at async te.getExtensions (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:18873)
+    at async ee.getExtensions (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22188:14153)
+    at async qe.Wc (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:29776)
+    at async qe.ed (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:32581)
+    at async qe.Ac (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:18585)
+    at async vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:16698
+2024-07-22 14:30:32.859 [error] Failed: Server returned 500
+    at te.D (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:26488)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:22504)
+    at async me (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21388)
+    at async te.query (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21722)
+    at async ee.queryGallery (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22188:13726)
+    at async Ke.Sc (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:27537)
+    at async Ke.Ac (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:18420)
+    at async vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:16698
+2024-07-22 14:30:42.067 [error] Cancelled: Canceled
+    at te.D (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:26488)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:22504)
+    at async me (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21388)
+    at async te.query (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21722)
+    at async ee.queryGallery (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22188:13726)
+    at async Ke.Sc (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:27537)
+    at async Ke.Ac (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:18585)
+    at async vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:16698
+2024-07-22 14:31:13.034 [error] Cancelled: Canceled
+    at te.D (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:26488)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:22504)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:23455)
+    at async te.getExtensions (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:18873)
+    at async ee.getExtensions (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22188:14153)
+    at async qe.Wc (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:29776)
+    at async qe.ed (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:32581)
+    at async qe.Ac (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:18585)
+    at async vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:16698
+2024-07-22 14:31:16.941 [error] Cancelled: Canceled
+    at te.D (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:26488)
+    at async te.B (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:22504)
+    at async me (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21388)
+    at async te.query (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:1260:21722)
+    at async ee.queryGallery (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:22188:13726)
+    at async Ke.Sc (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:27537)
+    at async Ke.Ac (vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:18585)
+    at async vscode-file://vscode-app/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/workbench.desktop.main.js:23168:16698
+2024-07-22 14:31:40.461 [error] Error: ENOENT: no such file or directory, stat '/home/amro/Downloads/Learning/frontend/My_Project1/bookshop.jpg': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/Downloads/Learning/frontend/My_Project1/bookshop.jpg'
+    at Function.e (/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:6084)
+    at Object.stat (/tmp/.mount_cursork2O3VJ/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:3892)

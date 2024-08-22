@@ -1,0 +1,8 @@
+[Layout]
+DisplayNames=,,
+LayoutList=us,tr,sy
+Options=grp:alt_shift_toggle
+ResetOldOptions=true
+SwitchMode=Window
+Use=true
+VariantList=alt-intl-unicode,,

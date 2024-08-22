@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "48": "images/48.png"
+      },
+      "default_popup": ""
+   },
+   "background": {
+      "service_worker": "background.bundle.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "css/yt_summary.css" ],
+      "js": [ "contentscript/index.bundle.js" ],
+      "matches": [ "https://chat.openai.com/*", "https://chatgpt.com/*", "https://www.youtube.com/*", "https://claude.ai/*", "https://chat.mistral.ai/*", "https://gemini.google.com/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Access ChatGPT from the Chrome toolbar and get transcripts and summaries of YouTube videos. Powered by ChatGPT & Claude.",
+   "differential_fingerprint": "1.f25cf3a5bfe4461e445fb3cd5866193c8d62feaec1006b5a57548ffe2647fe4e",
+   "icons": {
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhvGPwrAObE4fy9PT3VBMYaDPu+AVlDCjJdx0glFVzKp0jRrie8QlBIpnyg/K0I1clr3aG4siXx26QkRHf1iRbH3kNhqt2Syb5NllCmmhZLXAW3Ms2mt2YUJ5Ge0IRHKTVrAtjKFMu6+7VjsDXMBu04Ngr4p3itxvzGa2AmyGVgBzZ7DozxlbsG6//fL5r55F3YGlmqoj/4qkRNgHQ2JFEFIfZ6SHe2E83u8hibyIl46TQ8w2Y9i4sprbJ3eEXo4R6k1b7lR4Ch2SqjmKqlT4dZhFWvAA1S9xAwYJJRYuVdlJMGQvXwdwGdps69hq1KXMKoe1Kt+5qYYBt8PrFOkb/QIDAQAB",
+   "manifest_version": 3,
+   "name": "ChatGPT & YouTube Summary by Glasp",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "storage", "system.display" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.12"
+}

@@ -1,0 +1,93 @@
+2024-07-15 20:07:23.398 [info] Extension host with pid 403537 started
+2024-07-15 20:07:23.429 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-07-15 20:07:23.440 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-15 20:07:23.500 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-07-15 20:07:23.616 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-07-15 20:07:23.822 [info] Eager extensions activated
+2024-07-15 20:07:23.836 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:24.269 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:24.611 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:24.681 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:24.942 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:24.948 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:26.135 [error] Error: Missing credentials, cannot create client
+	at e.FileSyncClient.createClient (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:662958)
+	at e.FileSyncClient.isEnabledForUserFromServer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:664440)
+	at A (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668790)
+	at c.scheduleIsEnabledForUserRequest (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668860)
+	at new c (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668672)
+	at new e.FileSyncer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:666267)
+	at e.activate (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:675905)
+	at K.lb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13525)
+	at K.kb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13235)
+	at /tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:11216
+	at async a.n (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6368)
+	at async a.m (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6331)
+	at async a.l (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:5788)
+2024-07-15 20:07:44.810 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: false, activationEvent: '*'
+2024-07-15 20:07:55.667 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-15 20:07:55.696 [info] Extension host with pid 403537 exiting with code 0
+2024-07-15 20:07:57.227 [info] Extension host with pid 405306 started
+2024-07-15 20:07:57.227 [info] Skipping acquiring lock for /home/amro/.config/Cursor/User/workspaceStorage/f56a3c2826a56ee3e82fc8e814177c3d.
+2024-07-15 20:07:57.270 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-15 20:07:57.275 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-07-15 20:07:57.297 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-15 20:07:57.326 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-15 20:07:57.630 [info] Eager extensions activated
+2024-07-15 20:07:57.632 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:57.775 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:57.912 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:57.927 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:58.219 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:58.221 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:07:59.431 [error] Error: Missing credentials, cannot create client
+    at e.FileSyncClient.createClient (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:662958)
+    at e.FileSyncClient.isEnabledForUserFromServer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:664440)
+    at A (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668790)
+    at c.scheduleIsEnabledForUserRequest (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668860)
+    at new c (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668672)
+    at new e.FileSyncer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:666267)
+    at e.activate (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:675905)
+    at Function.lb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13525)
+    at Function.kb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13235)
+    at /tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:11216
+    at a.n (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6368)
+    at a.m (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6331)
+    at a.l (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:5788)
+2024-07-15 20:08:27.909 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-15 20:08:27.933 [info] Extension host with pid 405306 exiting with code 0
+2024-07-15 20:08:29.349 [info] Extension host with pid 406188 started
+2024-07-15 20:08:29.349 [info] Skipping acquiring lock for /home/amro/.config/Cursor/User/workspaceStorage/873019a80fc3b179dfd5ce89260dcf04.
+2024-07-15 20:08:29.391 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-15 20:08:29.396 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-07-15 20:08:29.419 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-15 20:08:29.447 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-15 20:08:29.717 [info] Eager extensions activated
+2024-07-15 20:08:29.719 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:29.866 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:30.012 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:30.029 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:30.316 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:30.319 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-15 20:08:31.523 [error] Error: Missing credentials, cannot create client
+    at e.FileSyncClient.createClient (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:662958)
+    at e.FileSyncClient.isEnabledForUserFromServer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:664440)
+    at A (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668790)
+    at c.scheduleIsEnabledForUserRequest (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668860)
+    at new c (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:668672)
+    at new e.FileSyncer (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:666267)
+    at e.activate (/tmp/.mount_cursor35PDnN/resources/app/extensions/cursor-always-local/dist/main.js:2:675905)
+    at Function.lb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13525)
+    at Function.kb (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:13235)
+    at /tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:11216
+    at a.n (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6368)
+    at a.m (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:6331)
+    at a.l (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:5788)
+2024-07-15 20:08:39.097 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-15 20:08:39.185 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-15 20:11:12.985 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-07-15 20:11:14.013 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/amro/Downloads/Learning/frontend/My_Project1/bookshop.jpg'
+    at Function.e (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:6084)
+    at Object.stat (/tmp/.mount_cursor35PDnN/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:161:3892)
+2024-07-15 20:12:30.637 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-15 20:12:30.672 [info] Extension host with pid 406188 exiting with code 0

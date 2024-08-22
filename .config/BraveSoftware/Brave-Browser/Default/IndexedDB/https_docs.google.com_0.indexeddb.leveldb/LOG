@@ -1,0 +1,7 @@
+2024/07/14-21:45:07.374 1681 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/14-21:45:07.374 1681 Recovering log #3
+2024/07/14-21:45:07.375 1681 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000003.log 
+2024/07/14-21:54:12.786 1682 Level-0 table #5: started
+2024/07/14-21:54:12.788 1682 Level-0 table #5: 8372 bytes OK
+2024/07/14-21:54:12.789 1682 Delete type=0 #3
+2024/07/14-21:54:12.789 1682 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

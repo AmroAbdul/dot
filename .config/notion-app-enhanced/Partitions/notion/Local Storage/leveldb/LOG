@@ -1,0 +1,5 @@
+2024/02/04-21:56:45.614 6c4d Reusing MANIFEST /home/amro/.config/notion-app-enhanced/Partitions/notion/Local Storage/leveldb/MANIFEST-000001
+2024/02/04-21:56:45.635 6c4d Recovering log #4
+2024/02/04-21:56:45.640 6c4d Level-0 table #6: started
+2024/02/04-21:56:45.660 6c4d Level-0 table #6: 125144 bytes OK
+2024/02/04-21:56:45.838 6c4d Delete type=0 #4

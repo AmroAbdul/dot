@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="css/sweetalert2.min.css"  />
+    <link rel="stylesheet" href="/css/bootstrap.min.css"  />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/loader.css"  />
+  </head>
+  <body>
+    <img src='' class="background-image" />
+    <div class="reload toolbar-link" data-bs-toggle="tooltip" title="__MSG_reload__">
+      <img src="assets/reload.svg" alt="Reload"  />
+      <div class="loader hide"></div>
+    </div>
+    <div class="prayer-times-container d-none">
+      <h6 class="text-center mb-3">
+        __MSG_prayer_times__
+        <img src="assets/info.svg" alt="Info" class="prayer-times-icon" data-bs-toggle="tooltip" title="__MSG_prayer_times_hint__" />
+      </h6>
+      <div class="prayer-times-wrapper"></div>
+    </div>
+    <img src="assets/heart.svg" alt="Favorites" class="favorites-btn toolbar-link" 
+      data-bs-toggle="offcanvas" data-bs-target="#favoriteVerses" aria-controls="favoriteVerses" />
+    <a href="https://chrome.google.com/webstore/detail/quran-in-new-tab/hggkcijghhpkdjeokpfgbhnpecliiijg"
+      data-bs-toggle="tooltip" title="__MSG_rate_extension__" class="rate-link toolbar-link">
+      <img src="assets/star.svg" alt="Rate This Extension" />
+    </a>
+    <img src="assets/calendar.svg" alt="Calendar" class="calendar-btn toolbar-link" data-bs-toggle="tooltip" title="__MSG_calendar__"  />
+    <img src="assets/settings.svg" alt="Settings" class="settings-link toolbar-link" data-bs-toggle="tooltip" title="__MSG_settings__"  />
+    <div class="date-container">
+      <div class="gregorian-date">
+      </div>
+      <div class="hijri-date">
+      </div>
+      <div class="next-prayer"></div>
+      <div class="holidays">
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="content verse-container">
+        <div class="bismillah">
+          بِسْمِ ٱللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </div>
+        <div class="verse">
+          <div class="verse-text"></div>
+          <div class="verse-details"></div>
+        </div>
+        <div class='translation-container'>
+          <div class="title">
+            __MSG_quran_translation__
+          </div>
+          <div class="body translation-body">
+          </div>
+        </div>
+        <div class="audio-player">
+          <img src="assets/play.svg" alt="Play" />
+          <div class="error">
+          </div>
+          <div class="loader hide"></div>
+        </div>
+        <div class="verse-social-links">
+          <a class="favorite-button me-1" href="#">
+            <img class="social-icon" src="assets/heart.svg" alt="Add to Favorites" />
+          </a>
+          <a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank">
+            <img class="social-icon" src="assets/twitter.svg" alt="Share on Twitter" />
+          </a>
+          <a class="facebook-share-button" href="https://www.facebook.com/sharer/sharer.php" target="_blank">
+            <img class="social-icon" src="assets/facebook.svg" alt="Share on Facebook" />
+          </a>
+          <a class="whatsapp-share-button" href="https://wa.me" target="_blank">
+            <img class="social-icon" src="assets/whatsapp.svg" alt="Share on Whatsapp" />
+          </a>
+          <a class="telegram-share-button" href="https://t.me/share/url" target="_blank">
+            <img class="social-icon" src="assets/telegram.svg" alt="Share on Telegram" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="athkar-container hide">
+      <h4 class="title">__MSG_athkar__</h4>
+      <div class="thikr">
+      </div>
+    </div>
+    <div class="calendar-container">
+      <button type="button" class="btn-close close-calendar me-2 mt-2" aria-label="Close"></button>
+      <div class="container mt-5 calendar-table">
+        <h1 class="text-center">__MSG_calendar__</h1>
+        <div class="loader mt-5 text-dark hide"></div>
+        <div class="calendar-inner-container text-center">
+          <h2><span id="gregorianMonth"></span> - <span id="hijriMonth"></span></h2>
+          <a class="notifications-reminder" href="/options.html">__MSG_enable_notification_notice__</a>
+          <div class="calendar-wrapper mt-3 mb-5">
+            <div class="calendar">
+              <div class="calendar__header">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-end favorite-verses text-dark" tabindex="-1" id="favoriteVerses" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">__MSG_favorites__</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body favorite-content">
+      </div>
+    </div>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2.all.min.js"></script>
+    <script src="/js/moment.js"></script>
+    <script src="/js/moment-hijri.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

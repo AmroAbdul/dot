@@ -1,0 +1,59 @@
+{
+   "action": {
+      "default_icon": "/icons/196.png",
+      "default_title": "Fleeting Notes Extension"
+   },
+   "background": {
+      "service_worker": "extension/background3.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+E",
+            "mac": "Command+Shift+E"
+         }
+      },
+      "create-new-note": {
+         "description": "Create new note",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+         }
+      },
+      "open-persistent-window": {
+         "description": "Open persistent window",
+         "global": true,
+         "suggested_key": {
+            "default": "Ctrl+Shift+Y",
+            "mac": "Command+Shift+Y"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "extension/content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' ; object-src 'self'"
+   },
+   "description": "Quick notes from the browser to Obsidian",
+   "icons": {
+      "128": "/icons/128.png",
+      "16": "/icons/16.png",
+      "48": "/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArqLEpyieNyczUqjWW84GMjuQkwX/Cq1aLmIZHrrr4CrT0s423sP6P5j1Y8G8+EEjWtQnwfQuEt9IgOwDPav71cxq0edOmS8+Dk4MJKkQRbxdCGcetfNTqTB/WzMkpRDHjouE89VWn/QsvoLFXaSnqOE/nu7KDnlE5gp5yPn2tesdAOiCgROsi+clAMlqEVGPEZki5+rdPTsge+2QhxrqNyH89PufA20v0JRJyVgtTfuCi9ARtEgVlSYa2qQ4iL8q3y1un7lUGyew6pUdAfTRXlc4zkqw53ZiHB40SQ5fFQLfZuNDs3CQ2/oGcRfcW70/pXHYnwHaWCKfx/fqk4QUPwIDAQAB",
+   "manifest_version": 3,
+   "name": "Fleeting Notes",
+   "permissions": [ "activeTab", "tabs", "contextMenus", "sidePanel" ],
+   "side_panel": {
+      "default_path": "web-ext.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.11.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "web-ext.html", "popup.html" ]
+   } ]
+}

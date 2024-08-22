@@ -1,0 +1,22 @@
+2024/08/13-22:10:07.055 61be Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/08/13-22:10:07.056 61be Recovering log #536
+2024/08/13-22:10:07.056 61be Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000536.log 
+2024/08/13-22:10:45.694 61bf Level-0 table #540: started
+2024/08/13-22:10:45.719 61bf Level-0 table #540: 5631877 bytes OK
+2024/08/13-22:10:45.722 61bf Delete type=0 #536
+2024/08/13-22:10:45.723 61bf Compacting 4@0 + 3@1 files
+2024/08/13-22:10:45.738 61bf Generated table #541@0: 4 keys, 2472010 bytes
+2024/08/13-22:10:45.759 61bf Generated table #542@0: 7 keys, 2712481 bytes
+2024/08/13-22:10:45.775 61bf Generated table #543@0: 12 keys, 1898206 bytes
+2024/08/13-22:10:45.775 61bf Compacted 4@0 + 3@1 files => 7082697 bytes
+2024/08/13-22:10:45.777 61bf compacted to: files[ 0 3 5 0 0 0 0 ]
+2024/08/13-22:10:45.778 61bf Delete type=2 #528
+2024/08/13-22:10:45.778 61bf Delete type=2 #529
+2024/08/13-22:10:45.778 61bf Delete type=2 #530
+2024/08/13-22:10:45.778 61bf Delete type=2 #532
+2024/08/13-22:10:45.778 61bf Delete type=2 #535
+2024/08/13-22:10:45.778 61bf Delete type=2 #537
+2024/08/13-22:10:45.778 61bf Delete type=2 #540
+2024/08/13-22:11:47.273 61d6 Level-0 table #545: started
+2024/08/13-22:11:47.317 61d6 Level-0 table #545: 6594742 bytes OK
+2024/08/13-22:11:47.320 61d6 Delete type=0 #539

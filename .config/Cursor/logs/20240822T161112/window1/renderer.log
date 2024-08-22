@@ -1,0 +1,7 @@
+2024-08-22 16:11:14.018 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 16:11:14.019 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 16:11:14.019 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-08-22 16:11:14.335 [info] Started local extension host with pid 425286.
+2024-08-22 16:11:15.327 [error] Cannot read properties of undefined (reading 'uri'): TypeError: Cannot read properties of undefined (reading 'uri')
+    at B.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursorKyi8ug/resources/app/out/vs/workbench/workbench.desktop.main.js:21531:6800)
+2024-08-22 16:11:18.015 [info] [perf] Render performance baseline is 148ms

@@ -1,0 +1,250 @@
+{
+   "button_showEnabledLinks": {
+      "description": "Shown in popup below some errors to allow users to see enabled links.",
+      "message": "הצגת קישורים פעילים באמצעות משתנים נוספים"
+   },
+   "button_showOtherEnabledLinks": {
+      "description": "Shown in popup below the list of links; to see other enabled links with additional parameters.",
+      "message": "להציג את שאר הקישורים הפעילים באמצעות משתנים נוספים"
+   },
+   "config_deleteButton": {
+      "description": "Text inside 'delete button' in configuration page",
+      "message": "מחיקה"
+   },
+   "config_editButton": {
+      "description": "Text inside 'edit button' in configuration page",
+      "message": "עריכה"
+   },
+   "config_linkDeleted": {
+      "description": "Shown inline when a link is deleted inside configuration page",
+      "message": "הקישור $LINK_NAME$ נמחק. ישוחזר בלחיצה כאן.",
+      "placeholders": {
+         "LINK_NAME": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "config_pattern_createOption": {
+      "description": "Button",
+      "message": "יצירת אפשרות"
+   },
+   "config_pattern_formTitle": {
+      "description": "Form Legend/Title",
+      "message": "יצירת אפשרויות מתקדמות (ניסיוני)"
+   },
+   "config_pattern_name": {
+      "description": "Input label",
+      "message": "שם"
+   },
+   "config_pattern_urlTemplate": {
+      "description": "Input label",
+      "message": "תבנית כתובת"
+   },
+   "config_saveButton": {
+      "description": "Text inside 'save button' in configuration page",
+      "message": "שמירה"
+   },
+   "configurationLink": {
+      "description": "Link to configuration page inside main popup.",
+      "message": "הגדרות"
+   },
+   "error_incompatibleWebsite": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "לא נמצאו מפה או משתני OpenStreetMap.\nאם זו תופעה בלתי צפויה, ניתן לדווח עליה אל $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noAccess": {
+      "description": "Error shown inside popup when the current page cannot be accessed (technical exception)",
+      "message": "שגיאה: לא ניתן לאתר או לגשת לעמוד הנוכחי.\nאם העמוד הזה עדיין נטען, נא לנסות שוב.\nאם זו תופעה לא צפויה, נא לדווח עליה אל $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noInformationExtracted": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "האתר זוהה, אך לא נמצאו משתניפ.\nאם זו מפה, כדאי לנסות לזוז בה מעט כדי לאתחל את המשתנים שלה.\nאם זאת נראית כמו תקלה, נא לדווח עליה אל $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "extensionDescription": {
+      "message": "מסייע למתנדבי OpenStreetMap לעבור בקלות בין מפות וכלי ניתוח שונים מתוצרת הקהילה."
+   },
+   "extensionName": {
+      "message": "תפריט חכם ל־OSM"
+   },
+   "extensionShortName": {
+      "message": "OSMenu"
+   },
+   "extensionStoreDescription": {
+      "description": "Description shown in Chrome and Firefox's extension download page",
+      "message": "בלחיצה על כפתור התפריט, הרחבה זו \u003Cstrong>תזהה\u003C/strong> את המשתנים של OpenStreetMap בתוך העמוד הנוכחי ו\u003Cstrong>תייצר\u003C/strong> רשימה של מפות וכלים קשורים עם המשתנים האלו.\n\nבין המשתנים שמזוהים:\n\u003Cul>\n\u003Cli>נקודות ציון במפה (תקריב, קו אורך וקו רוחב)\u003C/li>\n\u003Cli>רכיבי OSM (מזהה נקודה, מזהה דרך, מזהה יחס ומזהה ערכת שינויים)\u003C/li>\n\u003Cli>שמות משתמשים ומשתני עקבות GPS\u003C/li>\n\u003C/ul>\nאם לא ברור לך איזה אתר יזוהה, כדאי לנסות לפנות אל https://www.openstreetmap.org/‎ בטרם לחיצה על התפריט.\n\n\u003Cem>הלוגו של OpenStreetMap הוא סימן מסחר של OpenStreetMap Foundation והשימוש בו הוא בהסכמתם. מיזם זה אינו בעידוד או משתייך ל־OpenStreetMap Foundation.\u003C/em>"
+   },
+   "loading": {
+      "description": "Shown in popup shortly before menu appears.",
+      "message": "בטעינה…\nאם התהליך הזה לא נשלם, יש לרענן את העמוד ולנסות שוב."
+   },
+   "newOptionDetected_added": {
+      "description": "Shown in popup when an unknown website seems compatible with OpenStreetMap. After the button is clicked.",
+      "message": "נוסף בתור $PAGE_TITLE$",
+      "placeholders": {
+         "PAGE_TITLE": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "newOptionDetected_buttonText": {
+      "description": "Shown in popup (inside the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "הוספת קישור"
+   },
+   "newOptionDetected_notice": {
+      "description": "Shown in popup (before the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "להוסיף את האתר הזה לתפריט?"
+   },
+   "noEnabledCompatibleLinksFound": {
+      "description": "Shown in popup when there aren't any enabled links that support the parameters found in the current page.",
+      "message": "אף אחד מהקישורים הפעילים לא תואם למשתנים שנמצאו בעמוד הזה."
+   },
+   "site_bingmaps": {
+      "message": "מפות Bing"
+   },
+   "site_deepdiff": {
+      "message": "Deep Diff"
+   },
+   "site_f4map": {
+      "message": "F4 Map (3D demo)"
+   },
+   "site_googlemaps": {
+      "message": "מפות Google"
+   },
+   "site_historicmap": {
+      "message": "Historical Objects"
+   },
+   "site_hotmap": {
+      "message": "Humanitarian OSM Team Map"
+   },
+   "site_howdidyoucontribute": {
+      "message": "איך תרמת ל־OSM?"
+   },
+   "site_indoorequal": {
+      "message": "indoor=‎"
+   },
+   "site_keepright": {
+      "message": "keep right!‎"
+   },
+   "site_level0": {
+      "message": "Level0 Editor"
+   },
+   "site_mapcompare": {
+      "message": "Map Compare"
+   },
+   "site_mapillary": {
+      "message": "Mapillary"
+   },
+   "site_missingmaps": {
+      "message": "Missing Maps"
+   },
+   "site_opencyclemap": {
+      "message": "OpenCycleMap"
+   },
+   "site_openinframap": {
+      "message": "Open Infrastructure Map "
+   },
+   "site_openlevelup": {
+      "message": "OpenLevelUp!‎"
+   },
+   "site_openmapsurfer": {
+      "message": "OpenMapSurfer"
+   },
+   "site_openptmap": {
+      "message": "Open Public Transport Map"
+   },
+   "site_openseamap": {
+      "message": "OpenSeaMap"
+   },
+   "site_opensnowmap": {
+      "message": "OpenSnowMap"
+   },
+   "site_openstreetbrowser": {
+      "message": "OpenStreetBrowser"
+   },
+   "site_openstreetcam": {
+      "message": "OpenStreetCam"
+   },
+   "site_openstreetmap": {
+      "message": "OpenStreetMap"
+   },
+   "site_opentopomap": {
+      "message": "OpenTopoMap"
+   },
+   "site_opnvkarte": {
+      "message": "ÖPNVKarte"
+   },
+   "site_osmbuildings": {
+      "message": "OSM Buildings"
+   },
+   "site_osmcha": {
+      "message": "OSMCha"
+   },
+   "site_osmchangetiles": {
+      "message": "Latest OSM Edits (Neis)"
+   },
+   "site_osmchangeviz": {
+      "message": "Changeset by Comparison (Neis)"
+   },
+   "site_osmdeephistory": {
+      "message": "OSM Deep History"
+   },
+   "site_osmhistoryviewer": {
+      "message": "OSM History Viewer"
+   },
+   "site_osminspector": {
+      "message": "OSM Inspector"
+   },
+   "site_osmlanevisualizer": {
+      "message": "OSM Lane Visualizer"
+   },
+   "site_osmose": {
+      "message": "Osmose"
+   },
+   "site_osmrelationanalyzer": {
+      "message": "OSM Relation Analyzer"
+   },
+   "site_osmroutemanager": {
+      "message": "OSM Route Manager"
+   },
+   "site_osmwiki": {
+      "message": "הוויקי של OpenStreetMap"
+   },
+   "site_overpassapi": {
+      "message": "Augmented OSM Change Viewer"
+   },
+   "site_sentinelhub": {
+      "message": "Sentinel Hub"
+   },
+   "site_stamen": {
+      "message": "Stamen Maps"
+   },
+   "site_umap": {
+      "message": "uMap"
+   },
+   "site_waze": {
+      "message": "Waze"
+   },
+   "site_whodidit": {
+      "message": "WHODIDIT (Zverik)"
+   }
+}

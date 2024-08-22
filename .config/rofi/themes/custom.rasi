@@ -1,0 +1,126 @@
+/* # abdulvahitamro
+#/************************************************
+# * ROFI Color theme
+# * User: leofa
+# * Copyright: 2017 leofa
+# ***********************************************/ */
+* {
+    bg0:    #282a36;
+    bg1:    #44475a;
+    bg2:    #44475a;
+    bg3:    #8be9fd;
+    fg0:    #f8f8f2;
+    fg1:    #ECEFF4;
+    fg2:    #D8DEE9;
+    fg3:    #4C566A;
+    font:   "FiraCode Nerd Font Mono 9";
+    comment: #6272a4;
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+    location:       north;
+    width:          480;
+    border-radius:  20px;
+    /*background-image: url("/home/amro/Pictures/Tavşanlı1.jpeg");*/
+    background-color:   @bg0;
+    orientation: horizontal;
+    /* x-offset: 12px;*/
+    y-offset: 70px;
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    background-color:   @bg1;
+    border-color:       @bg1;
+
+    border:         2px;
+    border-radius:  16px;
+
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
+}
+
+prompt {
+    font: "FiraCode Nerd Font Mono 10";
+    text-color: @fg2;
+
+}
+
+entry {
+    blink: false;
+    placeholder:        " ";
+    /*cursor: pointer;*/
+    placeholder-color:  @fg3;
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius:      16px;
+    border-color:       @bg2;
+    background-color:   @bg2;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    layout: vertical;
+    background-color:   transparent;
+    scrollbar: false;
+    margin:     12px 0 0;
+    lines:      6;
+    columns:    1;
+    text-align: 0.5px;
+    fixed-height: false;
+    spacing: 5px;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        10px;
+    children: [ element-text, element-icon ];
+    border-radius:  20px;
+    background-color: @bg1;
+    horizontal-align: 0.5;                           
+}
+element normal {
+  background-color: @bg3;
+}
+element normal active {
+    text-color: @bg3;
+    background-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   @comment;
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element normal.normal {
+    background-color: @bg2;
+    text-color: @fg2;
+}
+element.alternate.normal {
+    background-color: @bg2;
+    text-color:       @fg2;
+}
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}

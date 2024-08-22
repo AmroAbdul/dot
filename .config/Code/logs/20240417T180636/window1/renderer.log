@@ -1,0 +1,34 @@
+2024-04-17 18:06:37.817 [error] Error: The editor could not be opened because the file was not found.
+    at P.ic (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2408:23984)
+    at async P.setInput (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2408:23028)
+    at async d.S (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2406:24778)
+    at async d.L (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2406:23387)
+    at async d.openEditor (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2406:22376)
+    at async vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2529:23578
+2024-04-17 18:06:37.853 [info] Started local extension host with pid 448956.
+2024-04-17 18:06:40.616 [info] [perf] Render performance baseline is 23ms
+2024-04-17 18:06:52.720 [info] Started local extension host with pid 449340.
+2024-04-17 18:06:55.660 [info] [perf] Render performance baseline is 26ms
+2024-04-17 18:11:30.844 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at Process.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:476:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-04-17 18:25:00.793 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.z (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:26277)
+    at async ie.getExtensions (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:22267)
+    at async Y.getExtensions (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12529)
+    at async ve.Gc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:24913)
+    at async ve.Pc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:27577)
+    at async ve.mc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817
+2024-04-17 18:25:02.809 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ne (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async pe.Cc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async pe.mc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817

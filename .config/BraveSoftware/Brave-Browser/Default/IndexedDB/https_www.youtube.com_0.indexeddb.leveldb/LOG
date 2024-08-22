@@ -1,0 +1,30 @@
+2024/08/22-12:34:11.763 1be4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/22-12:34:11.764 1be4 Recovering log #252
+2024/08/22-12:34:11.773 1be4 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000252.log 
+2024/08/22-12:34:26.456 1be5 Level-0 table #257: started
+2024/08/22-12:34:26.472 1be5 Level-0 table #257: 2070164 bytes OK
+2024/08/22-12:34:26.476 1be5 Delete type=0 #252
+2024/08/22-12:35:11.376 1be6 Compacting 1@1 + 1@2 files
+2024/08/22-12:35:11.383 1be6 Generated table #258@1: 568 keys, 61232 bytes
+2024/08/22-12:35:11.383 1be6 Compacted 1@1 + 1@2 files => 61232 bytes
+2024/08/22-12:35:11.385 1be6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-12:35:11.386 1be6 Delete type=2 #254
+2024/08/22-12:35:11.386 1be6 Delete type=2 #257
+2024/08/22-18:30:17.633 1be5 Level-0 table #260: started
+2024/08/22-18:30:17.651 1be5 Level-0 table #260: 2232983 bytes OK
+2024/08/22-18:30:17.655 1be5 Delete type=0 #256
+2024/08/22-18:30:31.574 1be5 Compacting 1@1 + 1@2 files
+2024/08/22-18:30:31.581 1be5 Generated table #261@1: 566 keys, 59309 bytes
+2024/08/22-18:30:31.582 1be5 Compacted 1@1 + 1@2 files => 59309 bytes
+2024/08/22-18:30:31.583 1be5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-18:30:31.584 1be5 Delete type=2 #258
+2024/08/22-18:30:31.584 1be5 Delete type=2 #260
+2024/08/22-19:16:19.377 1be5 Level-0 table #263: started
+2024/08/22-19:16:19.387 1be5 Level-0 table #263: 1424274 bytes OK
+2024/08/22-19:16:19.390 1be5 Delete type=0 #259
+2024/08/22-19:33:21.319 1bfe Compacting 1@1 + 1@2 files
+2024/08/22-19:33:21.325 1bfe Generated table #264@1: 604 keys, 53918 bytes
+2024/08/22-19:33:21.325 1bfe Compacted 1@1 + 1@2 files => 53918 bytes
+2024/08/22-19:33:21.327 1bfe compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/22-19:33:21.327 1bfe Delete type=2 #261
+2024/08/22-19:33:21.327 1bfe Delete type=2 #263

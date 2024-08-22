@@ -1,0 +1,12 @@
+
+ :macros {
+ "iframe" "<iframe src=\"$1\" style=\"width:calc(100% - 4px);height:650px\"></iframe>" 
+}
+
+
+:commands [
+  ["iframe" [[:editor/input "{{{iframe }}}" {:backward-pos 3}]]]
+  ["iframe-wikipedia" [[:editor/input "{{{iframe https://en.wikipedia.org/wiki/}}}" {:backward-pos 3}]]]
+  ["iframe-google" [[:editor/input "{{{iframe https://www.google.com/search?q=}}}" {:backward-pos 3}]]]
+  ["iframe-google-images" [[:editor/input "{{{iframe https://www.google.com/search?tbm=isch&q=}}}" {:backward-pos 3}]]]
+ ]

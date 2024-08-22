@@ -1,0 +1,6 @@
+2024/07/14-14:36:54.559 f1fa Reusing MANIFEST /home/amro/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/14-14:36:54.561 f1fa Recovering log #10
+2024/07/14-14:36:54.562 f1fa Reusing old log /home/amro/.config/discord/Local Storage/leveldb/000010.log 
+2024/07/14-14:43:01.776 f1fc Level-0 table #14: started
+2024/07/14-14:43:01.811 f1fc Level-0 table #14: 3172874 bytes OK
+2024/07/14-14:43:01.814 f1fc Delete type=0 #10

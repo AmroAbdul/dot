@@ -1,0 +1,98 @@
+[2024-03-27 11:16:23.072] [info] Logseq App(0.10.7) Starting... 
+[2024-03-27 11:16:23.077] [info] restore proxy settings {:type "system"}
+[2024-03-27 11:16:23.078] [info] set proxy to {:type "system"}
+[2024-03-27 11:16:25.720] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-03-27 11:19:50.210] [info] :electron.handler/open-dir open folder selection dialog
+[2024-03-27 11:19:58.170] [debug] :electron.handler/open-dir {:path "/home/amro/logseq"}
+[2024-03-27 11:19:58.306] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-03-27 11:26:20.226] [debug] [Marketplace] === Installing: dracula/logseq ===
+[2024-03-27 11:26:21.595] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-03-27 11:26:22.108] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/dracula/logseq/releases/latest :status 200
+[2024-03-27 11:26:22.111] [debug] [Marketplace] Release latest: 0.0.5  from null
+[2024-03-27 11:26:23.066] [debug] [Marketplace] [Updated DONE] 0.0.5
+[2024-03-27 11:26:37.170] [debug] [Marketplace] === Installing: pengx17/logseq-dev-theme ===
+[2024-03-27 11:26:37.553] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-dev-theme/releases/latest :status 200
+[2024-03-27 11:26:37.555] [debug] [Marketplace] Release latest: v1.26.17  from https://api.github.com/repos/pengx17/logseq-dev-theme/releases/assets/107963191
+[2024-03-27 11:26:39.239] [debug] [Marketplace] [Updated DONE] v1.26.17
+[2024-03-27 11:43:58.570] [debug] window-all-closed Quitting...
+[2024-03-27 18:04:02.969] [info] Logseq App(0.10.7) Starting... 
+[2024-03-27 18:04:02.977] [info] restore proxy settings {:type "system"}
+[2024-03-27 18:04:02.978] [info] set proxy to {:type "system"}
+[2024-03-27 18:04:07.038] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-03-27 18:04:07.063] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:04:07.065] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:06:03.994] [debug] [Marketplace] === Installing: catppuccin/logseq ===
+[2024-03-27 18:06:04.696] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-03-27 18:06:05.388] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/catppuccin/logseq/releases/latest :status 200
+[2024-03-27 18:06:05.393] [debug] [Marketplace] Release latest: v0.6.0  from https://api.github.com/repos/catppuccin/logseq/releases/assets/155819951
+[2024-03-27 18:06:07.292] [debug] [Marketplace] [Updated DONE] v0.6.0
+[2024-03-27 18:26:35.897] [error] Search blocks failed:  SqliteError: fts5: syntax error near "\"
+[2024-03-27 18:26:35.905] [error] Search blocks failed:  SqliteError: fts5: syntax error near "\"
+[2024-03-27 18:26:35.928] [error] Search blocks failed:  SqliteError: fts5: syntax error near "\"
+[2024-03-27 18:29:28.730] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-03-27 18:29:30.243] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-03-27 18:43:09.923] [debug] window-all-closed Quitting...
+[2024-03-27 18:43:21.098] [info] Logseq App(0.10.7) Starting... 
+[2024-03-27 18:43:21.125] [info] restore proxy settings {:type "system"}
+[2024-03-27 18:43:21.127] [info] set proxy to {:type "system"}
+[2024-03-27 18:43:24.614] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-03-27 18:43:24.637] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:43:24.638] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:44:42.920] [info] open-url {:url "--desktop-startup-id=amro-aspirea71542g;1711548348;898874;3825_TIME6493533"}
+[2024-03-27 18:44:42.923] [info] upon opening non-url {:error #object[TypeError TypeError [ERR_INVALID_URL]: Invalid URL]}
+[2024-03-27 18:46:30.776] [debug] window-all-closed Quitting...
+[2024-03-27 18:46:41.431] [info] Logseq App(0.10.7) Starting... 
+[2024-03-27 18:46:41.439] [info] restore proxy settings {:type "system"}
+[2024-03-27 18:46:41.440] [info] set proxy to {:type "system"}
+[2024-03-27 18:46:44.879] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-03-27 18:46:44.903] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:46:44.904] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:48:13.254] [debug] window-all-closed Quitting...
+[2024-03-27 18:48:21.630] [info] Logseq App(0.10.7) Starting... 
+[2024-03-27 18:48:21.650] [info] restore proxy settings {:type "system"}
+[2024-03-27 18:48:21.651] [info] set proxy to {:type "system"}
+[2024-03-27 18:48:25.032] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-03-27 18:48:25.057] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:48:25.058] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-03-27 18:56:48.424] [debug] window-all-closed Quitting...
+[2024-04-10 19:37:41.759] [info] Logseq App(0.10.8) Starting... 
+[2024-04-10 19:37:41.795] [info] restore proxy settings {:type "system"}
+[2024-04-10 19:37:41.797] [info] set proxy to {:type "system"}
+[2024-04-10 19:37:47.127] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-04-10 19:37:47.152] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-04-10 19:37:47.153] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-04-10 19:37:47.620] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2024-04-10 19:37:49.633] [debug] [Marketplace] ERR: valid github api -  FetchError: network timeout at: https://plugins.logseq.io/github/api/rate_limit
+    at Timeout.<anonymous> (/opt/logseq-desktop/resources/app/node_modules/node-fetch/lib/index.js:1484:13)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[2024-04-10 19:37:50.215] [debug] [Marketplace] Release latest: https://api.github.com/repos/catppuccin/logseq/releases/latest :status 200
+[2024-04-10 19:37:50.220] [debug] [Marketplace] Release latest: v0.6.0  from https://api.github.com/repos/catppuccin/logseq/releases/assets/155819951
+[2024-04-10 19:37:50.222] [debug] [Marketplace] Release compare: v0.6.0 (current) >  v0.6.0 (latest)
+[2024-04-10 19:37:50.222] [debug] [Marketplace] Update skip: no new version
+[2024-04-10 19:37:50.734] [debug] [Marketplace] === Updating: dracula/logseq ===
+[2024-04-10 19:37:51.177] [debug] [Marketplace] Release latest: https://api.github.com/repos/dracula/logseq/releases/latest :status 200
+[2024-04-10 19:37:51.180] [debug] [Marketplace] Release latest: 0.0.5  from null
+[2024-04-10 19:37:51.180] [debug] [Marketplace] Release compare: 0.0.5 (current) >  0.0.5 (latest)
+[2024-04-10 19:37:51.181] [debug] [Marketplace] Update skip: no new version
+[2024-04-10 19:41:57.812] [error] Search blocks failed:  SqliteError: fts5: syntax error near "'"
+[2024-04-10 19:41:57.825] [error] Search page failed:  SqliteError: fts5: syntax error near "'"
+[2024-04-14 17:05:26.337] [info] Logseq App(0.10.8) Starting... 
+[2024-04-14 17:05:26.341] [info] restore proxy settings {:type "system"}
+[2024-04-14 17:05:26.341] [info] set proxy to {:type "system"}
+[2024-04-14 17:05:28.759] [debug] :electron.handler/watch-dir {:path "/home/amro/.logseq/config"}
+[2024-04-14 17:05:28.779] [debug] :electron.handler/unwatch-dir {:path "/home/amro/logseq"}
+[2024-04-14 17:05:28.780] [debug] :electron.handler/watch-dir {:path "/home/amro/logseq"}
+[2024-04-14 17:05:29.471] [debug] [Marketplace] === Updating: dracula/logseq ===
+[2024-04-14 17:05:30.063] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-04-14 17:05:30.375] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/dracula/logseq/releases/latest :status 200
+[2024-04-14 17:05:30.379] [debug] [Marketplace] Release latest: 0.0.5  from null
+[2024-04-14 17:05:30.380] [debug] [Marketplace] Release compare: 0.0.5 (current) >  0.0.5 (latest)
+[2024-04-14 17:05:30.381] [debug] [Marketplace] Update skip: no new version
+[2024-04-14 17:05:30.889] [debug] [Marketplace] === Updating: catppuccin/logseq ===
+[2024-04-14 17:05:31.203] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/catppuccin/logseq/releases/latest :status 200
+[2024-04-14 17:05:31.206] [debug] [Marketplace] Release latest: v0.6.1  from https://api.github.com/repos/catppuccin/logseq/releases/assets/161531126
+[2024-04-14 17:05:31.206] [debug] [Marketplace] Release compare: v0.6.0 (current) >  v0.6.1 (latest)
+[2024-04-14 17:05:31.206] [debug] [Marketplace] Updating latest: v0.6.1
+[2024-04-14 17:05:31.207] [debug] [Marketplace] [Checked DONE] v0.6.1
+[2024-04-14 17:11:10.428] [debug] window-all-closed Quitting...

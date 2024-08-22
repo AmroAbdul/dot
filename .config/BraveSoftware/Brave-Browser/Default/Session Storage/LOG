@@ -1,0 +1,24 @@
+2024/08/22-12:34:01.389 4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2024/08/22-12:34:01.390 4 Recovering log #195
+2024/08/22-12:34:01.390 4 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000195.log 
+2024/08/22-16:14:36.323 4 Level-0 table #200: started
+2024/08/22-16:14:36.326 4 Level-0 table #200: 33441 bytes OK
+2024/08/22-16:14:36.329 4 Delete type=0 #195
+2024/08/22-17:00:31.002 5 Level-0 table #202: started
+2024/08/22-17:00:31.004 5 Level-0 table #202: 22644 bytes OK
+2024/08/22-17:00:31.007 5 Delete type=0 #199
+2024/08/22-17:35:38.487 5 Level-0 table #204: started
+2024/08/22-17:35:38.493 5 Level-0 table #204: 351811 bytes OK
+2024/08/22-17:35:38.495 5 Delete type=0 #201
+2024/08/22-20:02:16.292 5 Level-0 table #206: started
+2024/08/22-20:02:16.294 5 Level-0 table #206: 25890 bytes OK
+2024/08/22-20:02:16.296 5 Delete type=0 #203
+2024/08/22-20:02:16.297 5 Compacting 4@0 + 1@1 files
+2024/08/22-20:02:16.306 5 Generated table #207@0: 12749 keys, 234578 bytes
+2024/08/22-20:02:16.306 5 Compacted 4@0 + 1@1 files => 234578 bytes
+2024/08/22-20:02:16.308 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/22-20:02:16.309 5 Delete type=2 #197
+2024/08/22-20:02:16.309 5 Delete type=2 #200
+2024/08/22-20:02:16.309 5 Delete type=2 #202
+2024/08/22-20:02:16.309 5 Delete type=2 #204
+2024/08/22-20:02:16.309 5 Delete type=2 #206

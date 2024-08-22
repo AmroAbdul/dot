@@ -1,0 +1,22 @@
+2024-07-22 14:28:37.869 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-07-22 14:28:37.869 [error] Error: Command failed: git config --get remote.origin.url
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:517:28)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12)
+2024-07-22 14:28:38.136 [info] Creating merkle client.
+2024-07-22 14:28:38.136 [info] Done creating merkle client.
+2024-07-22 14:28:38.136 [info] Doing a startup handshake.
+2024-07-22 14:28:38.143 [info] Finished initializing merkle tree in 7.138597999699414 ms.
+2024-07-22 14:28:38.144 [info] Doing the initial handshake with hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-22 14:28:38.148 [info] Handshake start
+2024-07-22 14:28:38.715 [info] Handshake timing: 571.424859999679
+2024-07-22 14:28:38.716 [info] Handshake result:
+2024-07-22 14:28:38.716 [info] Starting fast remote sync.
+2024-07-22 14:28:38.716 [info] Total num embeddable files: 1
+2024-07-22 14:28:38.716 [info] Root hash: 9e2004e5b45e39d06e1b5e19b67fd9e76edd3264ae84e1cffef8da6acccf8fbc
+2024-07-22 14:28:38.717 [info] Finished indexing repository.
+2024-07-22 14:28:38.717 [info] Indexing job successfully done or aborted.

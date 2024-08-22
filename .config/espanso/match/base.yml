@@ -1,0 +1,213 @@
+# espanso match file
+
+global_vars:
+  # - name: "global1"
+  #   type: "shell"
+  #   params:
+  #     cmd: "echo global var"
+  - name: "greet"
+    type: "echo"
+    params: 
+      echo: "Hey"
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+      
+  # Print the current date
+  - trigger: "~date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m:%d:%Y"
+  - trigger: "~nextyear"
+    replace:  "{{nextyear}}"
+    vars:
+      - name: nextyear
+        type: date
+        params:
+          format: "%d:%m:%Y"
+          offset: 31536000
+  - trigger: "~prevyear"
+    replace: "{{prevyear}}"
+    vars:
+      - name: prevyear
+        type: date
+        params:
+          format: "%d:%m:%Y"
+          offset: -31536000
+        
+  # Print the output of a shell command
+  - trigger: "~shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo default shell: $SHELL"
+  # extension example
+  - trigger: ":quote"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: choice
+        params:
+          values:
+            - label: "Every moment is a fresh beginning."
+              id: "bar"
+            - label: "Everything you can imagine is real."
+              id: "foo"
+            - label: "Whatever you do, do it well."
+              id: "foobar"
+
+  - trigger: ":rich"
+    markdown: "This *text* is **very rich**!"
+
+  - trigger: ":ric2"
+    html: '<p>But <span style="color: #ce181e;"><span style="font-size: x-large;">this</span></span> one is <span style="color: #81d41a;"><span style="font-family: Arial, sans-serif;">even richer</span></span>!</p>'
+  - trigger: "~ip"
+    replace: "{{out}}"
+    vars:
+      - name: out
+        type: shell
+        params:
+          cmd: "curl https://api.ipify.org"
+          debug: false 
+  - trigger: "~localip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ip a | grep 'inet 192' | awk '{ print $2 }'"
+  - trigger: "~localhost"
+    propagate_case: true
+    replace: "http://192.168.1.1"
+  - trigger: ":documents"
+    replace: "{{form1.file}}"
+    vars:
+      - name: docs
+        type: shell
+        params:
+          cmd: "find ~/ -name '*.pdf'"
+      - name: docs2
+        type: shell
+        params:
+          cmd: "find ~/Downloads/ -maxdepth 2 -name '*.pdf'"
+      - name: form1
+        type: form
+        params:
+          layout: |
+            Select file:
+            [[file]]
+          fields:
+            file:
+              type: list
+              multiline: true
+              values: |
+                {{docs}}
+  # #   replace: "{{output}}"
+  #   vars:
+  #     - name: output
+  #       type: shell
+  #       params:
+  #         cmd: ""
+  - regex: ":greet\\d"
+    replace: "Hello!"
+  - regex: "(code|cd) (all|py) (all|pr)" # Code Category - Python Subcategory - Print
+    replace: "print(\"Hello World\")"
+  - trigger: "~istanbulid"
+    replace: "745042"
+  - trigger: "~google"
+    replace: "https://google.com"
+  - trigger: "~gmail"
+    replace: "https://mail.google.com/mail/u/0/#inbox"
+  - trigger: "~passwords"
+    replace: "chrome://settings/passwords"
+  - trigger: "~العلق"
+    replace: "ٱق‍ۡ‍رَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِی خَلَقَ ۝١ خَلَقَ ٱلۡإِن‍‍سَـٰنَ مِنۡ عَلَقٍ ۝٢ ٱق‍ۡ‍رَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ ۝٣ ٱلَّذِی عَلَّمَ بِٱلۡقَلَمِ ۝٤ عَلَّمَ ٱلۡإِن‍‍سَـٰنَ مَا لَمۡ یَعۡلَمۡ ۝٥ كَل‍َّ‍اۤ إِنَّ ٱلۡإِن‍‍سَـٰنَ لَی‍َ‍ط‍ۡ‍غَىٰۤ ۝٦ أَن رَّءَاهُ ٱسۡتَغۡنَىٰۤ ۝٧ إِنَّ إِلَىٰ رَبِّكَ ٱل‍‍رُّج‍ۡ‍عَىٰۤ ۝٨ أَرَءَیۡتَ ٱلَّذِی یَنۡهَىٰ ۝٩ ع‍َ‍ب‍ۡ‍دًا إِذَا صَلَّىٰۤ ۝١٠ أَرَءَیۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰۤ ۝١١ أَوۡ أَمَرَ ب‍ِٱ‍ل‍‍ت‍َّ‍ق‍ۡ‍وَىٰۤ ۝١٢
+أَرَءَیۡتَ إِن كَذَّبَ وَتَوَلَّىٰۤ ۝١٣ أَلَمۡ یَعۡل‍َ‍م بِأَنَّ ٱل‍‍لَّهَ یَرَىٰ ۝١٤ كَلَّا لَىِٕن لَّمۡ ی‍َ‍ن‍‍تَهِ لَنَسۡفَع‍َۢ‍ا ب‍ِٱ‍ل‍‍ن‍َّ‍اصِیَةِ ۝١٥ نَاصِیَةࣲ كَـٰذِبَةٍ خَاطِئَةࣲ ۝١٦ فَلۡی‍َ‍دۡعُ نَادِیَهُۥ ۝١٧ سَن‍َ‍دۡعُ ٱل‍‍زَّبَانِیَةَ ۝١٨ كَلَّا لَا تُطِعۡهُ وَٱسۡج‍ُ‍دۡ وَٱق‍ۡ‍تَرِب ۩ ۝١٩"
+
+
+
+  - trigger: ":yesterday"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%x"
+          offset: -86400
+  - trigger: ":tomorrow"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%x"
+          offset: 86400
+
+  - trigger: ":a"
+    replace: "<a href='{{clp}}' />$|$</a>"
+    vars:
+      - name: "clp"
+        type: "clipboard"
+# Outputs the current weather for your location
+  - trigger: "~weather"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl 'http://wttr.in/?format=3'"
+  - trigger: "~earthquakes"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_hour.geojson' | jq -r '.'"
+          #shell: fish
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+  - trigger: "~quote"
+    replace: "{{i}}"
+    vars:
+      - name: i
+        type: shell
+        params:
+          cmd: "curl -s 'https://api.quotable.io/random' | jq  -r '.content'"
+  - trigger: "~maps"
+    replace: "https://www.google.com/maps"
+  - trigger: "~osm"
+    replace: "https://www.openstreetmap.org"
+  - trigger: "~maps"
+    replace: "https://www.bing.com/maps" 
+  - trigger: "~maps"
+    replace: "https://duckduckgo.com/?hps=1&q=t%C3%BCrkiye&ia=web&iaxm=maps"
+  - trigger: "~maps"
+    replace: "https://www.qwant.com/maps/"
+  - trigger: "~maps"
+    replace: "https://sehirharitasi.ibb.gov.tr/"
+  - trigger: ":rich"
+    markdown: "This *text* is **very rich**!"
+  - trigger: "~ytsearch"
+    replace: "https://www.youtube.com/results?search_query=$|$"
+  - trigger: "~googlesearch"
+    replace: "https;//google.com"
+
+
+
+#### wifipasswords
+  # - trigger: "~wifi"
+  #   replace:
+

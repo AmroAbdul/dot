@@ -1,0 +1,9 @@
+2024/04/30-12:08:18.881 12934 Reusing MANIFEST /home/amro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/30-12:08:18.881 12934 Recovering log #7
+2024/04/30-12:08:18.883 12934 Reusing old log /home/amro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000007.log 
+2024/04/30-12:08:38.768 129bc Compacting 1@1 + 1@2 files
+2024/04/30-12:08:38.815 129bc Generated table #10@1: 432 keys, 57410 bytes
+2024/04/30-12:08:38.815 129bc Compacted 1@1 + 1@2 files => 57410 bytes
+2024/04/30-12:08:38.819 129bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/30-12:08:38.820 129bc Delete type=2 #5
+2024/04/30-12:08:38.820 129bc Delete type=2 #8

@@ -1,0 +1,65 @@
+2024/08/22-12:34:57.994 1be4 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bhloflhklmhfpedakmangadcdofhnnoh/MANIFEST-000001
+2024/08/22-12:34:57.995 1be4 Recovering log #400
+2024/08/22-12:34:58.015 1be4 Level-0 table #403: started
+2024/08/22-12:34:58.040 1be4 Level-0 table #403: 4502792 bytes OK
+2024/08/22-12:34:58.044 1be4 Delete type=0 #400
+2024/08/22-13:49:21.998 1be5 Level-0 table #406: started
+2024/08/22-13:49:22.029 1be5 Level-0 table #406: 4613430 bytes OK
+2024/08/22-13:49:22.031 1be5 Delete type=0 #404
+2024/08/22-15:03:18.723 1be5 Level-0 table #408: started
+2024/08/22-15:03:18.757 1be5 Level-0 table #408: 5103868 bytes OK
+2024/08/22-15:03:18.761 1be5 Delete type=0 #405
+2024/08/22-15:03:18.762 1be5 Compacting 4@0 + 1@1 files
+2024/08/22-15:03:18.786 1be5 Generated table #409@0: 3 keys, 2192564 bytes
+2024/08/22-15:03:18.795 1be5 Compacted 4@0 + 1@1 files => 2192564 bytes
+2024/08/22-15:03:18.797 1be5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/22-15:03:18.797 1be5 Delete type=2 #399
+2024/08/22-15:03:18.797 1be5 Delete type=2 #401
+2024/08/22-15:03:18.797 1be5 Delete type=2 #403
+2024/08/22-15:03:18.797 1be5 Delete type=2 #406
+2024/08/22-15:03:18.797 1be5 Delete type=2 #408
+2024/08/22-15:29:53.098 1be4 Level-0 table #411: started
+2024/08/22-15:29:53.116 1be4 Level-0 table #411: 5339136 bytes OK
+2024/08/22-15:29:53.118 1be4 Delete type=0 #407
+2024/08/22-16:24:30.682 1be6 Level-0 table #413: started
+2024/08/22-16:24:30.697 1be6 Level-0 table #413: 4297785 bytes OK
+2024/08/22-16:24:30.700 1be6 Delete type=0 #410
+2024/08/22-16:29:06.249 1be5 Level-0 table #415: started
+2024/08/22-16:29:06.267 1be5 Level-0 table #415: 4781178 bytes OK
+2024/08/22-16:29:06.270 1be5 Delete type=0 #412
+2024/08/22-16:58:38.268 1be5 Level-0 table #417: started
+2024/08/22-16:58:38.284 1be5 Level-0 table #417: 4531448 bytes OK
+2024/08/22-16:58:38.288 1be5 Delete type=0 #414
+2024/08/22-16:58:38.289 1be5 Compacting 4@0 + 1@1 files
+2024/08/22-16:58:38.310 1be5 Generated table #418@0: 3 keys, 2529389 bytes
+2024/08/22-16:58:38.319 1be5 Compacted 4@0 + 1@1 files => 2529389 bytes
+2024/08/22-16:58:38.322 1be5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/22-16:58:38.322 1be5 Delete type=2 #409
+2024/08/22-16:58:38.322 1be5 Delete type=2 #411
+2024/08/22-16:58:38.322 1be5 Delete type=2 #413
+2024/08/22-16:58:38.322 1be5 Delete type=2 #415
+2024/08/22-16:58:38.322 1be5 Delete type=2 #417
+2024/08/22-17:10:20.909 1be6 Level-0 table #420: started
+2024/08/22-17:10:20.930 1be6 Level-0 table #420: 4740075 bytes OK
+2024/08/22-17:10:20.932 1be6 Delete type=0 #416
+2024/08/22-17:20:13.845 1be5 Level-0 table #422: started
+2024/08/22-17:20:13.863 1be5 Level-0 table #422: 5094158 bytes OK
+2024/08/22-17:20:13.865 1be5 Delete type=0 #419
+2024/08/22-18:19:26.493 1be6 Level-0 table #424: started
+2024/08/22-18:19:26.513 1be6 Level-0 table #424: 4990822 bytes OK
+2024/08/22-18:19:26.515 1be6 Delete type=0 #421
+2024/08/22-18:46:24.349 1be5 Level-0 table #426: started
+2024/08/22-18:46:24.367 1be5 Level-0 table #426: 4367643 bytes OK
+2024/08/22-18:46:24.370 1be5 Delete type=0 #423
+2024/08/22-18:46:24.371 1be5 Compacting 4@0 + 1@1 files
+2024/08/22-18:46:24.389 1be5 Generated table #427@0: 3 keys, 2149368 bytes
+2024/08/22-18:46:24.398 1be5 Compacted 4@0 + 1@1 files => 2149368 bytes
+2024/08/22-18:46:24.400 1be5 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/22-18:46:24.400 1be5 Delete type=2 #418
+2024/08/22-18:46:24.400 1be5 Delete type=2 #420
+2024/08/22-18:46:24.400 1be5 Delete type=2 #422
+2024/08/22-18:46:24.400 1be5 Delete type=2 #424
+2024/08/22-18:46:24.400 1be5 Delete type=2 #426
+2024/08/22-20:23:01.439 1be5 Level-0 table #429: started
+2024/08/22-20:23:01.463 1be5 Level-0 table #429: 6261135 bytes OK
+2024/08/22-20:23:01.470 1be5 Delete type=0 #425

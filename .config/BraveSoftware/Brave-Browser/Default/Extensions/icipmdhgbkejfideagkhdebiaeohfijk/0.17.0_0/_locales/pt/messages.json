@@ -1,0 +1,133 @@
+{
+   "button_showEnabledLinks": {
+      "description": "Shown in popup below some errors to allow users to see enabled links.",
+      "message": "Exibir ligações ativadas a usar parâmetros adicionais"
+   },
+   "button_showOtherEnabledLinks": {
+      "description": "Shown in popup below the list of links; to see other enabled links with additional parameters.",
+      "message": "Exibir o resto das ligações ativadas a usar parâmetros adicionais"
+   },
+   "config_deleteButton": {
+      "description": "Text inside 'delete button' in configuration page",
+      "message": "Apagar"
+   },
+   "config_editButton": {
+      "description": "Text inside 'edit button' in configuration page",
+      "message": "Editar"
+   },
+   "config_linkDeleted": {
+      "description": "Shown inline when a link is deleted inside configuration page",
+      "message": "Ligação $LINK_NAME$ apagada. Clique aqui para restaurá-lo.",
+      "placeholders": {
+         "LINK_NAME": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "config_pattern_createOption": {
+      "description": "Button",
+      "message": "Criar opção"
+   },
+   "config_pattern_formTitle": {
+      "description": "Form Legend/Title",
+      "message": "Criação avançada de opção (experimental)"
+   },
+   "config_pattern_name": {
+      "description": "Input label",
+      "message": "Nome"
+   },
+   "config_pattern_urlTemplate": {
+      "description": "Input label",
+      "message": "Modelo de URL"
+   },
+   "config_saveButton": {
+      "description": "Text inside 'save button' in configuration page",
+      "message": "Salvar"
+   },
+   "configurationLink": {
+      "description": "Link to configuration page inside main popup.",
+      "message": "Configurações"
+   },
+   "error_incompatibleWebsite": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "Não foram encontrados parâmetros de mapa ou do OpenStreetMap.\nSe isto parece ser um bug, por favor relate em $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noAccess": {
+      "description": "Error shown inside popup when the current page cannot be accessed (technical exception)",
+      "message": "ERRO: Não foi possível encontrar ou acessar a página atual.\nSe a página ainda está carregando, tente novamente.\nSe isto for inesperado, por favor relate isto em $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "error_noInformationExtracted": {
+      "description": "Error shown inside popup when appropriate",
+      "message": "O site foi reconhecido, mas nenhuns parâmetros foram encontrados.\nSe isto é um mapa, tente mexer nele um pouco para inicializar os parâmetros dele.\nSe isto parece ser um bug, por favor relate-o em $EXTENSION_SITE$.",
+      "placeholders": {
+         "EXTENSION_SITE": {
+            "content": "$1",
+            "example": "github.com/jgpacker/osm-smart-menu/"
+         }
+      }
+   },
+   "extensionDescription": {
+      "message": "Facilita o acesso de contribuidores do OpenStreetMap entre diferentes mapas e ferramentas de análise da comunidade."
+   },
+   "extensionName": {
+      "message": "Menu Inteligente OSM"
+   },
+   "extensionShortName": {
+      "message": "Menu OSM"
+   },
+   "extensionStoreDescription": {
+      "description": "Description shown in Chrome and Firefox's extension download page",
+      "message": "Quando clicar no botão do menu, esta extensão irá \u003Cstrong>detetar\u003C/strong> parâmetros do OpenStreetMap dentro da sua página atual e irá \u003Cstrong>gerar\u003C/strong> uma lista de mapas e ferramentas relacionadas que utilizam esses parâmetros.\n\nParâmetros reconhecidos incluem:\n\u003Cul>\n\u003Cli>Coordenadas de mapa (zoom, latitude e longitude)\u003C/li>\n\u003Cli>Elementos OSM (id de nó, linha, relação e conjunto de alterações)\u003C/li>\n\u003Cli>Nome de utilizador e id de rastros GPS\u003C/li>\n\u003C/ul>\nSe não tem certeza qual site será reconhecido, vá para https://www.openstreetmap.org/ antes de clicar no menu.\n\n\u003Cem>O logotipo OpenStreetMap é uma marca registada da OpenStreetMap Foundation e é utilizado com a permissão dela. Este projeto não é endossado ou afiliado com a OpenStreetMap Foundation.\u003C/em>"
+   },
+   "loading": {
+      "description": "Shown in popup shortly before menu appears.",
+      "message": "Carregando...\nSe não parar de carregar, recarregue a página e tente novamente."
+   },
+   "newOptionDetected_added": {
+      "description": "Shown in popup when an unknown website seems compatible with OpenStreetMap. After the button is clicked.",
+      "message": "Adicionado como $PAGE_TITLE$",
+      "placeholders": {
+         "PAGE_TITLE": {
+            "content": "$1",
+            "example": "OpenStreetMap"
+         }
+      }
+   },
+   "newOptionDetected_buttonText": {
+      "description": "Shown in popup (inside the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Adicionar ligação"
+   },
+   "newOptionDetected_notice": {
+      "description": "Shown in popup (before the button) when an unknown website seems compatible with OpenStreetMap",
+      "message": "Gostaria de adicionar esse site no menu?"
+   },
+   "noEnabledCompatibleLinksFound": {
+      "description": "Shown in popup when there aren't any enabled links that support the parameters found in the current page.",
+      "message": "Nenhuma das ligações ativadas são compatíveis com os parâmetros encontrados nesta página."
+   },
+   "site_historicmap": {
+      "message": "Objetos históricos"
+   },
+   "site_howdidyoucontribute": {
+      "message": "Como contribuiu ao OSM?"
+   },
+   "site_osmchangetiles": {
+      "message": "Últimas Edições OSM (Neis)"
+   },
+   "site_osmchangeviz": {
+      "message": "Comparação de alterações (Neis)"
+   }
+}

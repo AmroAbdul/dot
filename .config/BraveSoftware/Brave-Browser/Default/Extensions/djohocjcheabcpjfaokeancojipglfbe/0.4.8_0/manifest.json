@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "__MSG_appName__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script.js" ],
+      "matches": [ "https://calendar.google.com/*", "https://tasks.google.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsVtxuNqmxsMfFzCRNu7V1haCw/eeCKIv/H3220vkw51FjDwPoKzHi1E4P8mXTREafuvMiWaoAKdMQPnv08wVzhTxngyyv0BGeBbpC9eVqneJHz1ekOgjN4FSRwYknCxlvNuyqAenWcDljdMLdVAeIQ7JuEulVvIuZh9L7f3K4ybqwpbi/2C9ms74rpcXBSPGk/94Lyu9tBj04DVX6TPbxfAjL9tWEbM+TzsKw/AQsPLM6ghnkV3C5S0/AR44XAeHGYX4j2TZCBo4SJYnbvpEIiCcGgo07rK+CnCZrZJy8Ir1xzPlB3U5KdzjRvnuHiEzW/XSe8x56P8Xb4rt65+A9wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "activeTab", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.8",
+   "version_name": "0.4.8",
+   "web_accessible_resources": [ {
+      "matches": [ "https://calendar.google.com/*", "https://tasks.google.com/*" ],
+      "resources": [ "styles/betterimages.css", "styles/variablecolors.css", "styles/darkmode.css", "styles/addondarkenweekends.css" ]
+   } ]
+}

@@ -1,0 +1,57 @@
+2024-08-09 23:37:31.653 [INFO]: No proxy settings found
+2024-08-09 23:37:31.743 [INFO]: Creating manager directory: /tmp/7ea58f88-76d2-499e-b5f6-bc000c0ddaa9/codeium/manager
+2024-08-09 23:37:32.692 [INFO]: Using cached LS with valid crc32: /home/amro/.vscode/extensions/codeium.codeium-1.8.28/dist/f4ccf0178d5d55b7439fe04a696986fe0deea492/language_server_linux_x64
+2024-08-09 23:37:32.714 [INFO]: Language server started
+2024-08-09 23:37:33.071 [INFO]: [Language Server (stderr)]:
+I0809 23:37:33.070097 267671 main.go:541] Release language-server-v1.8.28 (f4ccf0178d5d55b7439fe04a696986fe0deea492)
+I0809 23:37:33.070264 267671 main.go:553] Starting language server manager with pid 267671
+2024-08-09 23:37:33.073 [INFO]: [Language Server (stderr)]:
+I0809 23:37:33.070415 267671 main.go:110] Manager acquired its lock file /tmp/7ea58f88-76d2-499e-b5f6-bc000c0ddaa9/codeium/manager/locks/manager.lock
+I0809 23:37:33.071443 267671 main.go:248] Waiting for random port file in /tmp/7ea58f88-76d2-499e-b5f6-bc000c0ddaa9/codeium/manager/child_random_port_1723235853070643888_805110803580615004 to be created
+2024-08-09 23:37:33.380 [INFO]: [Language Server (stderr)]:
+I0809 23:37:33.378685 267687 main.go:547] Starting language server process with pid 267687
+I0809 23:37:33.378816 267687 server.go:157] Language server will attempt to listen on host 127.0.0.1
+I0809 23:37:33.379023 267687 server.go:164] Language server listening on random port at 41005
+I0809 23:37:33.379132 267687 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0809 23:37:33.379167 267687 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+2024-08-09 23:37:33.381 [INFO]: [Language Server (stderr)]:
+I0809 23:37:33.379221 267687 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-08-09 23:37:33.959 [INFO]: [Language Server (stderr)]:
+I0809 23:37:33.958264 267687 unleash.go:90] Initializing Unleash
+2024-08-09 23:37:34.453 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.452104 267687 unleash.go:110] Successfully initialized Unleash
+2024-08-09 23:37:34.480 [INFO]: [Language Server (stderr)]:
+E0809 23:37:34.479221 267687 client_manager.go:262] Metadata is nil when trying to refresh user JWT
+2024-08-09 23:37:34.481 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.479949 267687 server.go:356] Successfully created API server client
+2024-08-09 23:37:34.576 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.574326 267687 server.go:365] Successfully initialized tokenizer
+2024-08-09 23:37:34.577 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.575186 267687 search_provider.go:164] Using database at /home/amro/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-08-09 23:37:34.590 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.589143 267687 search_provider.go:176] Successfully created embedding search database
+2024-08-09 23:37:34.591 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.590003 267687 search_provider.go:224] Successfully created embedding search provider
+I0809 23:37:34.590068 267687 server.go:458] Successfully created exact search provider
+2024-08-09 23:37:34.601 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.600739 267687 server.go:486] Successfully created completion provider
+2024-08-09 23:37:34.788 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.787399 267687 server.go:576] Child process attempting to acquire lock file /tmp/7ea58f88-76d2-499e-b5f6-bc000c0ddaa9/codeium/manager/locks/child_lock_1723235853070729362_1615276413225916574
+I0809 23:37:34.787577 267687 server.go:586] Child process acquired lock file /tmp/7ea58f88-76d2-499e-b5f6-bc000c0ddaa9/codeium/manager/locks/child_lock_1723235853070729362_1615276413225916574
+2024-08-09 23:37:34.799 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.797825 267687 server.go:184] LSP listening on random port at 46815
+2024-08-09 23:37:34.800 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.798861 267687 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:39323
+2024-08-09 23:37:34.882 [INFO]: [Language Server (stdout)]:
+46815
+2024-08-09 23:37:34.883 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.881468 267671 main.go:284] Language server manager found random server port 41005
+I0809 23:37:34.881570 267671 main.go:285] Language server manager found random lsp port 46815
+I0809 23:37:34.881614 267671 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:41005
+2024-08-09 23:37:34.920 [INFO]: [Language Server (stderr)]:
+I0809 23:37:34.919579 267671 main.go:163] Fixing language server port at 41005
+I0809 23:37:34.919626 267671 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:41005
+2024-08-09 23:37:34.934 [INFO]: Found language server running on port 41005
+2024-08-09 23:37:35.009 [INFO]: No proxy settings found
+2024-08-09 23:37:36.723 [INFO]: Successfully downloaded ripgrep binary with valid crc
+2024-08-09 23:37:36.725 [INFO]: Downloaded binary: /home/amro/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64

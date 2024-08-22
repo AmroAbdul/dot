@@ -1,0 +1,27 @@
+2024-08-22 15:25:37.281 [info] Extension host with pid 419483 started
+2024-08-22 15:25:37.403 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-22 15:25:37.419 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-08-22 15:25:37.667 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-22 15:25:37.670 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-08-22 15:25:37.707 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-22 15:25:37.765 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-22 15:25:37.852 [info] Eager extensions activated
+2024-08-22 15:25:37.861 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.117 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.329 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.369 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.532 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.536 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:38.551 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:25:39.239 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-22 15:25:39.262 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new I (/tmp/.mount_cursorId9TWO/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35088)
+    at R.U (/tmp/.mount_cursorId9TWO/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+    at Proxy.q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursorId9TWO/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+    at O.resolveProxy (/tmp/.mount_cursorId9TWO/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:45877)
+    at Object.resolveProxy (/tmp/.mount_cursorId9TWO/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:32079)
+    at useProxySettings (/tmp/.mount_cursorId9TWO/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:179:16)
+    at /tmp/.mount_cursorId9TWO/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:114:13
+    at /tmp/.mount_cursorId9TWO/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:481:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-08-22 15:25:39.274 [info] Extension host with pid 419483 exiting with code 0

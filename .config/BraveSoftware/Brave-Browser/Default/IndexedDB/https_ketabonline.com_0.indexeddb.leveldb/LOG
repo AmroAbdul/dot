@@ -1,0 +1,28 @@
+2024/07/22-11:20:27.851 129e Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ketabonline.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/22-11:20:27.851 129e Recovering log #4
+2024/07/22-11:20:27.851 129e Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ketabonline.com_0.indexeddb.leveldb/000004.log 
+2024/07/22-11:20:44.571 12b8 Level-0 table #8: started
+2024/07/22-11:20:44.573 12b8 Level-0 table #8: 1174 bytes OK
+2024/07/22-11:20:44.575 12b8 Delete type=0 #4
+2024/07/22-11:20:44.576 12a2 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/22-11:20:52.218 12a2 Level-0 table #10: started
+2024/07/22-11:20:52.219 12a2 Level-0 table #10: 10355 bytes OK
+2024/07/22-11:20:52.222 12a2 Delete type=0 #7
+2024/07/22-11:20:52.223 129e Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 214 : 1
+2024/07/22-11:20:52.223 129e Compacting 1@0 + 1@1 files
+2024/07/22-11:20:52.225 129e Generated table #11@0: 69 keys, 3678 bytes
+2024/07/22-11:20:52.225 129e Compacted 1@0 + 1@1 files => 3678 bytes
+2024/07/22-11:20:52.227 129e compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/22-11:20:52.227 129e Delete type=2 #10
+2024/07/22-11:20:52.228 129e Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 214 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/22-11:21:20.925 129e Level-0 table #13: started
+2024/07/22-11:21:20.927 129e Level-0 table #13: 4109 bytes OK
+2024/07/22-11:21:20.929 129e Delete type=2 #8
+2024/07/22-11:21:20.929 129e Delete type=0 #9
+2024/07/22-11:21:20.929 129e Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 259 : 1
+2024/07/22-11:21:20.929 129e Compacting 1@0 + 1@1 files
+2024/07/22-11:21:20.931 129e Generated table #14@0: 81 keys, 3996 bytes
+2024/07/22-11:21:20.931 129e Compacted 1@0 + 1@1 files => 3996 bytes
+2024/07/22-11:21:20.933 129e compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/22-11:21:20.933 129e Delete type=2 #13
+2024/07/22-11:21:20.933 129e Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 259 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,146 @@
+/** rofi theme file
+* abdulvahitamro
+*
+*
+*
+*/
+
+
+
+
+
+
+/*
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│ window {BOX:vertical}                                                              │
+│ ┌───────────────────────────────────────────────────────────────────────────────┐  │
+│ │ mainbox  {BOX:vertical}                                                       │  │
+│ │ ┌───────────────────────────────────────────────────────────────────────────┐ │  │
+│ │ │ inputbar {BOX:horizontal}                                                 │ │  │
+│ │ │ ┌─────────┐ ┌─┐ ┌───────────────────────────────┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ │ │  │
+│ │ │ │ prompt  │ │:│ │ entry                         │ │#fr│ │ / │ │#ns│ │ci │ │ │  │
+│ │ │ └─────────┘ └─┘ └───────────────────────────────┘ └───┘ └───┘ └───┘ └───┘ │ │  │
+│ │ └───────────────────────────────────────────────────────────────────────────┘ │  │
+│ │                                                                               │  │
+│ │ ┌───────────────────────────────────────────────────────────────────────────┐ │  │
+│ │ │ message                                                                   │ │  │
+│ │ │ ┌───────────────────────────────────────────────────────────────────────┐ │ │  │
+│ │ │ │ textbox                                                               │ │ │  │
+│ │ │ └───────────────────────────────────────────────────────────────────────┘ │ │  │
+│ │ └───────────────────────────────────────────────────────────────────────────┘ │  │
+│ │                                                                               │  │
+│ │ ┌───────────────────────────────────────────────────────────────────────────┐ │  │
+│ │ │ listview                                                                  │ │  │
+│ │ │ ┌─────────────────────────────────────────────────────────────────────┐   │ │  │
+│ │ │ │ element                                                             │   │ │  │
+│ │ │ │ ┌─────────────────┐ ┌─────────────────────────────────────────────┐ │   │ │  │
+│ │ │ │ │element─icon     │ │element─text                                 │ │   │ │  │
+│ │ │ │ └─────────────────┘ └─────────────────────────────────────────────┘ │   │ │  │
+│ │ │ └─────────────────────────────────────────────────────────────────────┘   │ │  │
+│ │ └───────────────────────────────────────────────────────────────────────────┘ │  │
+│ │                                                                               │  │
+│ │ ┌───────────────────────────────────────────────────────────────────────────┐ │  │
+│ │ │  mode─switcher {BOX:horizontal}                                           │ │  │
+│ │ │ ┌───────────────┐   ┌───────────────┐  ┌──────────────┐ ┌───────────────┐ │ │  │
+│ │ │ │ Button        │   │ Button        │  │ Button       │ │ Button        │ │ │  │
+│ │ │ └───────────────┘   └───────────────┘  └──────────────┘ └───────────────┘ │ │  │
+│ │ └───────────────────────────────────────────────────────────────────────────┘ │  │
+│ └───────────────────────────────────────────────────────────────────────────────┘  │
+└────────────────────────────────────────────────────────────────────────────────────┘
+
+*/
+
+
+
+
+
+
+
+configuration {
+  modi:"drun,run";
+  show-icons:true;
+  display-drun:"";
+  display-run:"";
+  display-filebrowser:"";
+  display-window:"";
+  drun-display-format:"{name}";
+  window-format: ""
+
+  @import "$HOME/.config/rofi/colors/defaultColors.rasi"
+  @import "$HOME/.config/rofi/fonts/fonts.rasi"
+
+
+
+}
+
+
+/* styles for all parts */
+* {
+  border-color:            var(selected);
+  handle-color:            var(foreground);
+  background-color         var(background);
+  foreground-color:           var(foreground);
+  alternate-background:        var(background-alt);
+    normal-background:           var(background);
+    normal-foreground:           var(foreground);
+    urgent-background:           var(urgent);
+    urgent-foreground:           var(background);
+    active-background:           var(active);
+    active-foreground:           var(background);
+    selected-normal-background:  var(selected);
+    selected-normal-foreground:  var(background);
+    selected-urgent-background:  var(active);
+    selected-urgent-foreground:  var(background);
+    selected-active-background:  var(urgent);
+    selected-active-foreground:  var(background);
+    alternate-normal-background: var(background);
+    alternate-normal-foreground: var(foreground);
+    alternate-urgent-background: var(urgent);
+    alternate-urgent-foreground: var(background);
+    alternate-active-background: var(active);
+    alternate-active-foreground: var(background);
+
+}
+
+/** main window **/
+window {
+  transparency:      "real";
+  location: "center";
+  anchor: "center";
+  fullscreen: false;
+  width: 280px;
+  x-offset: 0px;
+  y-offset: 0px;
+
+
+  enabled:   true;
+  margin: 0px;
+  padding: 1px;
+  border: 0px solid;
+  border-radius: 5px;
+  border-color: @border-color;
+  cursor: "default";
+  background-color: @background-color;
+
+}
+
+
+mainbox {
+  enabled: true;
+  spacing: 10px;
+  margin: 0px;
+  padding: 30px;
+      border:                      0px solid;
+    border-radius:               0px 0px 0px 0px;
+    border-color:                @border-colour;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
+
+
+
+}
+
+
+
+
+

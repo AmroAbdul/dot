@@ -1,0 +1,1 @@
+import "/assets/src/browser-extension/background/index-a27ee93b.js";

@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/button.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "res/css/custom.css" ],
+      "js": [ "res/js/jquery-3.3.1.min.js", "res/js/global.js", "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "معجم الرياض للغة العربية المعاصرة",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsWE7rKnPBrTU9QYYRE/XrT7hCp/mXClzLplu46lMNKQES7SHhe8krbmQ492fBTJowDVW3idQRL7HsosltY06hy6KhP4WnbHubmpItSlQuTSl2a5zTlh8W7w30SsaEwgrdUvJC4DP9Wv6mShBU0bCAVanALg7GFpQv5RekcDW5BFp+kSXMNnyevtkYzd7oFiiodgefUgEECnck5tRAPJi7E5rtYQcKgnmuCvW35MwQ8l6Toro4w8g5Y/X/3Q8OqPuczMP7KMRw9YAJeO4YkM9bn5cAQlPI4WkgXH+5bP6Upmrn3tBucGoiEjuQg7v+nWNydEr3b4zEDooAqVEsciSqQIDAQAB",
+   "manifest_version": 3,
+   "name": "معجم الرياض",
+   "permissions": [ "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "res/img/hero-bg.png", "res/img/logo-light.svg", "res/img/ksaa-light-logo", "res/img/search.svg", "res/img/icon-en.svg", "res/css/custom.css", "res/css/font-awesome.min.css", "res/fonts/fontawesome-webfont.woff2", "res/fonts/fontawesome-webfont.woff", "res/fonts/fontawesome-webfont.ttf", "res/fonts/DroidKufi-Regular.ttf" ]
+   } ]
+}

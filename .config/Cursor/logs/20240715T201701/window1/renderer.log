@@ -1,0 +1,9 @@
+2024-07-15 20:17:04.925 [info] Started local extension host with pid 425591.
+2024-07-15 20:17:09.327 [info] [perf] Render performance baseline is 158ms
+2024-07-15 20:17:09.439 [error] [failed_precondition] Deprecated: ConnectError: [failed_precondition] Deprecated
+    at Object.j [as unary] (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:22675:11002)
+    at async Object.repositoryStatus (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:266:114082)
+    at async B._getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:21462:7678)
+    at async B.getUpdatedRepoStatus (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:21462:7580)
+    at async B.setRepositoryInfo (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:21458:8773)
+    at async B.setRepoInfo (vscode-file://vscode-app/tmp/.mount_cursor9bpfx3/resources/app/out/vs/workbench/workbench.desktop.main.js:21458:7219)

@@ -1,0 +1,48 @@
+2024-08-22 15:21:22.462 [info] Extension host with pid 417295 started
+2024-08-22 15:21:22.535 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-22 15:21:22.553 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-08-22 15:21:22.810 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-22 15:21:22.814 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-08-22 15:21:22.876 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-22 15:21:22.939 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-22 15:21:23.027 [info] Eager extensions activated
+2024-08-22 15:21:23.035 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.280 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.484 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.525 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.692 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.694 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.709 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-08-22 15:21:23.862 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-22 15:21:23.884 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+    at new I (/tmp/.mount_cursor2VscDG/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:35088)
+    at R.U (/tmp/.mount_cursor2VscDG/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:6033)
+    at Proxy.q.<computed>.J.charCodeAt.D.CharCode.DollarSign.q.<computed> (/tmp/.mount_cursor2VscDG/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:3108)
+    at O.loadCertificates (/tmp/.mount_cursor2VscDG/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:166:45927)
+    at Object.loadAdditionalCertificates (/tmp/.mount_cursor2VscDG/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:33097)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:497:53
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:496:43
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:498:16
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:31:12)
+    at getOrLoadAdditionalCertificates (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:494:12)
+    at addCertificatesV1 (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:478:9)
+    at resolveProxy (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:113:9)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:325:77
+    at new Promise (<anonymous>)
+    at _PacProxyAgent.resolveP (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/index.js:325:54)
+    at _PacProxyAgent.<anonymous> (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:70:37)
+    at Generator.next (<anonymous>)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:4:12)
+    at _PacProxyAgent.connect (/tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/@vscode/proxy-agent/out/agent.js:52:16)
+    at /tmp/.mount_cursor2VscDG/resources/app/node_modules.asar/agent-base/dist/index.js:132:30
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-22 15:21:23.885 [info] Extension host with pid 417295 exiting with code 0

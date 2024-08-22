@@ -1,0 +1,5 @@
+[KgTheme]
+Theme=themes/robotkill.desktop
+
+[MainWindow]
+ToolBarsMovable=Disabled

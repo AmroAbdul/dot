@@ -1,0 +1,40 @@
+2024-08-09 23:37:29.770 [info] Started local extension host with pid 267606.
+2024-08-09 23:37:31.032 [error] Error: Error while decrypting the ciphertext provided to safeStorage.decryptString.
+    at A.decrypt (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:59:8198)
+    at Object.call (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:42:5019)
+    at R.s (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:40:5128)
+    at R.q (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:40:4644)
+    at v.value (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:40:4051)
+    at f.y (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:1902)
+    at f.z (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:1972)
+    at f.fire (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:2188)
+    at v.value (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:33:28530)
+    at f.y (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:1902)
+    at f.fire (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:2119)
+    at v.value (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:33:28733)
+    at f.y (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:1902)
+    at f.fire (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:35:2119)
+    at de (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:33:31158)
+    at IpcMainImpl.c (/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/code/electron-main/main.js:42:18908)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:79287)
+    at WebContents.emit (node:events:514:28)
+2024-08-09 23:37:32.950 [info] [perf] Render performance baseline is 262ms
+2024-08-09 23:37:52.429 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ie.getExtensions (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:22267)
+    at async Y.getExtensions (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12529)
+    at async ve.Gc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:24913)
+    at async ve.Pc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:27577)
+    at async ve.mc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817
+2024-08-09 23:43:01.108 [error] Cancelled: Canceled
+    at ie.B (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:28456)
+    at async ie.z (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:25333)
+    at async ne (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24336)
+    at async ie.query (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:781:24557)
+    at async Y.queryGallery (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2941:12106)
+    at async pe.Cc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:22903)
+    at async pe.mc (vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:14515)
+    at async vscode-file://vscode-app/home/amro/Downloads/VSCode-linux-x64/resources/app/out/vs/workbench/workbench.desktop.main.js:2877:12817

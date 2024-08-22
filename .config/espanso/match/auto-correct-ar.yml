@@ -1,0 +1,34 @@
+matches:
+  - trigger: إلي
+    replace: إلى
+  - trigger: شكرا
+    replace: شكراً
+  - trigger: القران
+    replace: القرآن
+  - trigger: الى
+    replace: إلى
+  - trigger: مائة
+    replace: مئة
+    
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replce:
+  # - trigger:
+  #   replace:
+  # - trigger:
+  #   replace:

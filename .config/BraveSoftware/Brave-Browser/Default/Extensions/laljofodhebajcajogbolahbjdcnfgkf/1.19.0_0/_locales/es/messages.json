@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "App description",
+      "message": "Una página de Nueva Pestaña personalizable, con widgets y fondos hermosos"
+   },
+   "appName": {
+      "description": "The name of the app",
+      "message": "Renewed Tab"
+   }
+}

@@ -1,0 +1,606 @@
+/*
+Copyright (c) 2021 by Shahed Nasser. All Rights Reserved.
+ */
+
+@font-face {
+  src: url(me_quran.ttf);
+  font-family: QuranFont;
+}
+
+html {
+  direction: __MSG_@@bidi_dir__;
+}
+
+body {
+  color: #fff;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -2;
+  filter: brightness(50%);
+  transition: opacity .5s;
+}
+
+.background-image.show,
+.verse.show {
+  opacity: 1;
+}
+
+.verse, .bismillah, .athkar-container, .prayer-times-container, .next-prayer {
+  font-family: QuranFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.verse {
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  line-height: 210%;
+  word-spacing: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  border-radius: 10px;
+  padding: 7px;
+  color: #fff;
+  border: 0;
+}
+
+.search-bar::placeholder {
+  color: #fff;
+  opacity: .5;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.athkar-container {
+  width: 70%;
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 30px auto 60px;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .athkar-container, .search-bar {
+    -webkit-backdrop-filter: blur(1.2rem);
+    backdrop-filter: blur(1.2rem);
+    background-color: rgba(255, 255, 255, 0.2);  
+  }
+}
+
+.athkar-container .thikr-arabic {
+  font-size: 25px;
+  word-spacing: 10px;
+  line-height: 210%;
+  direction: rtl;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.athkar-container .thikr-english,
+.athkar-container .thikr-ar-en {
+  display: block;
+  font-size: 17px;
+  word-spacing: 4px;
+  margin-bottom: 15px;
+}
+.thikr-translation-title, .thikr-transliteration-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.thikr-ar-en{
+  font-style: italic;
+}
+.verse {
+  opacity: 0;
+  margin: 10px auto;
+  transition: opacity .5s;
+}
+
+.verse-details, .bismillah {
+  font-size: 20px;
+}
+
+.audio-player img,
+.verse-social-links a {
+  opacity: .5;
+  transition: opacity .2s;
+}
+
+.audio-player img:hover,
+.verse-social-links a:hover {
+  opacity: 1;
+}
+
+.audio-player img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 4px auto;
+}
+
+
+.translation-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  transition: all .2s;
+  __MSG_@@bidi_start_edge__: 0;
+}
+
+.translation-container .title {
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  padding: 5px 15px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.translation-body {
+  font-size: 15px;
+  padding: 10px;
+  border-top-__MSG_@@bidi_end_edge__-radius: 10px;
+}
+
+.ar-translation {
+  font-size: 17px;
+  direction: rtl;
+}
+
+.toolbar-link {
+  opacity: .5;
+  cursor: pointer;
+  transition: all .2s;
+  position: absolute;
+  top: 10px;
+  height: 30px;
+}
+
+.rate-link img,
+.favorites-btn img {
+  height: 30px;
+}
+
+.hijri-date-en {
+  direction: ltr;
+  font-family: sans-serif;
+}
+
+.settings-link {
+  __MSG_@@bidi_end_edge__: 10px;
+}
+
+.calendar-btn {
+  __MSG_@@bidi_end_edge__: 55px;
+}
+
+.rate-link {
+  __MSG_@@bidi_end_edge__: 100px;
+}
+
+.favorites-btn {
+  __MSG_@@bidi_end_edge__: 145px;
+}
+
+.reload {
+  __MSG_@@bidi_start_edge__: 10px;
+}
+
+.report {
+  __MSG_@@bidi_start_edge__: 45px;
+}
+
+.reload .loader,
+.report .loader {
+  font-size: 20px !important;
+}
+
+.toolbar-link:hover {
+  opacity: 1;
+}
+
+.audio-player .error {
+  display: none;
+}
+
+.content-container {
+  display: flex;
+  width: 70%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  flex-direction: column;
+}
+
+.content-container .content {
+  text-align: center;
+}
+
+.verse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.top-sites-container {
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.top-sites-container a {
+  text-overflow: ellipsis;
+  text-align: __MSG_@@bidi_start_edge__;
+  font-size: 13px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  padding: 7px;
+  width: fit-content;
+  opacity: .8;
+  transition: all .2s;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 10px;
+  display: inline-block;
+  margin-__MSG_@@bidi_start_edge__: 10px;
+}
+
+.top-sites-container a:hover {
+  opacity: 1;
+}
+
+.top-sites-container a .remove {
+  position: absolute;
+  __MSG_@@bidi_end_edge__: -8px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  line-height: 1.4;
+  font-family: sans-serif;
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.top-sites-container a:hover .remove {
+  display: block;
+}
+
+.top-sites-container a img {
+  width: 16px;
+  margin-__MSG_@@bidi_end_edge__: 6px;
+  margin-bottom: 2px;
+}
+
+.calendar-container .btn-close {
+  float: __MSG_@@bidi_end_edge__ !important;
+  height: 1px;
+  width: 1px;
+}
+
+.athkar-container .title {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+}
+
+.gregorian-date, .holidays {
+  font-size: 20px;
+  opacity: .8;
+}
+
+.hijri-date {
+  font-size: 30px;
+}
+
+.date-container {
+  text-align: center;
+  font-family: QuranFont;
+  direction: __MSG_@@bidi_dir__;
+  word-spacing: 10px;
+}
+
+.calendar-container {
+  width: 100%;
+  min-height: calc(100% + 60px);
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: -200%;
+  transition: top .6s ease-in, opacity .4s ease-in-out;
+  color: #333;
+  opacity: 0;
+}
+
+.calendar-container:not(.show) {
+  z-index: -100;
+}
+
+.calendar-container.show {
+  top: 0;
+  opacity: 1;
+  z-index: 100;
+}
+
+.close-calendar {
+  padding-__MSG_@@bidi_end_edge__: 10px !important;
+  font-size: 2.5rem;
+}
+
+.close-calendar:active,
+.close-calendar:focus {
+  outline: none;
+}
+
+.calendar {
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 0px 8px rgb(204 204 204 / 60%);
+}
+
+.calendar__week,
+.calendar__header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);  
+}
+.calendar__week {
+  grid-auto-rows: max-content;
+  text-align: right;
+}
+
+.calendar__header {
+  grid-auto-rows: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: #025250;
+  color: #fff;
+}
+
+.calendar__day {
+  padding: 16px;
+}
+
+.calendar__header > div {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.calendar__day {
+  border-__MSG_@@bidi_end_edge__: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+}
+
+.calendar__day:last-child {
+  border-__MSG_@@bidi_end_edge__: 0;
+}
+
+.calendar__day .calendar-note {
+  display: block;
+  width: fit-content;
+  margin: 2px 0 0 auto;
+  max-width: 70px;
+  white-space: inherit;
+}
+
+.not-month-day {
+  background-color: #ebebeb;
+}
+
+.calendar__day.today {
+  background-color: #025250bd;
+  color: #fff;
+}
+
+.calendar-hijri-date {
+  display: block;
+}
+
+.calendar__day:not(.today) .calendar-hijri-date {
+  color: #999;
+}
+
+#hijriMonth {
+  color: #999;
+}
+
+.swal2-icon {
+  width: 2em !important;
+  height: 2em !important;
+  line-height: 2em !important;
+}
+
+.swal2-icon-content {
+  font-size: 1.9em !important;
+}
+
+.swal2-content {
+  text-align: __MSG_@@bidi_start_edge__ !important
+}
+
+.new-features-list {
+  text-align: __MSG_@@bidi_start_edge__ !important;
+}
+
+.verse-social-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.verse-social-links img {
+  height: 24px;
+  width: 24px;
+}
+
+.verse-social-links a,
+.verse-social-links a:hover {
+  text-decoration: none;
+}
+
+.prayer-times-container {
+  position: absolute;
+  left: 10px;
+  top: 35%;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 10px;
+  border-radius: 10px;
+  color: #333;
+  max-width: 200px;
+  word-spacing: 4px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+}
+
+.prayer-times-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.prayer-time {
+  padding-__MSG_@@bidi_start_edge__: 30px;
+  position: relative;
+}
+
+.prayer-time:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.prayer-time:before {
+  content: '';
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.prayer-time.fajr:before {
+  background-image: url(../assets/fajr.svg);
+}
+
+.prayer-time.dhuhr:before {
+  background-image: url(../assets/dhuhr.svg);
+}
+
+.prayer-time.asr:before {
+  background-image: url(../assets/asr.svg);
+}
+
+.prayer-time.maghrib:before {
+  background-image: url(../assets/maghrib.svg);
+}
+
+.prayer-time.isha:before {
+  background-image: url(../assets/isha.svg);
+}
+
+.next-prayer {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, .7);
+  color: #333;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.favorite-verses .verse {
+  opacity: 1;
+  text-align: right;
+  font-size: 20px;
+}
+
+.favorite-verses .verse:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media screen and (min-width: 992px) {
+  .calendar {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .audio-player {
+    margin-bottom: 15px;
+  }
+
+  .top-sites-container {
+    align-items: center;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .calendar-container {
+    background-color: #202020;
+    color: #fffefe;
+  }
+
+  .calendar {
+    box-shadow: 0px 0px 5px #0e0e0e;
+    background-color: #383838;
+  }
+
+  .not-month-day {
+    background-color: #4d4d4d;
+  }
+
+  .calendar__day,
+  .calendar {
+    border-color: #636363;
+  }
+
+  .close-calendar,
+  .close-calendar:hover {
+    color: #fff;
+  }
+
+  .calendar-container .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+}

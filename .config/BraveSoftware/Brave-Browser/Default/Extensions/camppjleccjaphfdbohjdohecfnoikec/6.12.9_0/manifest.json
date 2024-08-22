@@ -1,0 +1,182 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "public/logo-128x128.png",
+         "16": "public/logo-16x16.png",
+         "32": "public/logo-32x32.png",
+         "48": "public/logo-48x48.png",
+         "64": "public/logo-64x64.png"
+      },
+      "default_popup": "src/popup/index.html"
+   },
+   "author": "Foyer",
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Activate Merlin",
+         "suggested_key": {
+            "default": "Ctrl+M",
+            "mac": "Command+M"
+         }
+      },
+      "toggle_merlin": {
+         "description": "Run Merlin. (To be deprecated. Use Activate the extension instead)",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Comma",
+            "mac": "Command+Shift+Comma"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "assets/gSheet.tsx-loader-c7342360.js" ],
+      "matches": [ "https://docs.google.com/spreadsheets/d/*/**", "https://sheets.new/*/**" ]
+   }, {
+      "js": [ "assets/amazon.tsx-loader-2ccae080.js" ],
+      "matches": [ "https://*.amazon.com/*" ]
+   }, {
+      "js": [ "assets/doppelgainger.tsx-loader-18986568.js", "assets/twitterStrip.tsx-loader-ae32b226.js" ],
+      "matches": [ "https://twitter.com/*", "https://x.com/*" ]
+   }, {
+      "js": [ "assets/prResult.tsx-loader-3c60c564.js", "assets/prSummarizer.tsx-loader-9915b78f.js" ],
+      "matches": [ "https://github.com/*/*/pull/*/files" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "assets/gdbCodeEditor.ts-loader-05c2f75b.js" ],
+      "matches": [ "https://www.onlinegdb.com/*" ]
+   }, {
+      "js": [ "assets/rentryMarkdown.ts-loader-fe6613d5.js" ],
+      "matches": [ "https://rentry.co/*" ]
+   }, {
+      "js": [ "assets/facebookStrip.tsx-loader-e390e662.js" ],
+      "matches": [ "https://www.facebook.com/*", "https://business.facebook.com/*" ]
+   }, {
+      "css": [ "assets/font-d36bb361.css" ],
+      "js": [ "assets/superGMail.tsx-loader-c53a74e6.js" ],
+      "matches": [ "https://mail.google.com/mail/*" ]
+   }, {
+      "css": [ "assets/font-d36bb361.css" ],
+      "js": [ "assets/googleCtaForSuperGMail.tsx-loader-62b623d2.js" ],
+      "matches": [ "https://www.google.com/*" ]
+   }, {
+      "exclude_matches": [ "https://*.hdblog.it/*" ],
+      "js": [ "assets/merlinIconCTA.tsx-loader-e83b4548.js", "assets/blogSummarizer.tsx-loader-00dab3a0.js", "assets/codeSummarizer.tsx-loader-01e3cf32.js", "assets/script.ts-loader-e68cab7c.js", "assets/tutorial.tsx-loader-b14472ec.js" ],
+      "matches": [ "https://*/*", "http://*/*", "\u003Call_urls>" ]
+   }, {
+      "css": [ "assets/font-d36bb361.css" ],
+      "exclude_matches": [ "https://*.basecamp.com/*", "https://*.hdblog.it/*" ],
+      "js": [ "assets/previewLink.tsx-loader-c3433093.js" ],
+      "matches": [ "https://*/*", "http://*/*", "\u003Call_urls>" ]
+   }, {
+      "css": [ "assets/font-d36bb361.css", "assets/font-d36bb361.css" ],
+      "exclude_matches": [ "https://*.hdblog.it/*" ],
+      "js": [ "assets/chat.tsx-loader-2e14a42c.js", "assets/merlinUIComponentPortal.tsx-loader-9c36b19b.js" ],
+      "matches": [ "https://*/*", "http://*/*", "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "assets/font-d36bb361.css" ],
+      "exclude_matches": [ "https://*.hdblog.it/*" ],
+      "js": [ "assets/quill.tsx-loader-f88ec272.js" ],
+      "matches": [ "https://*/*", "http://*/*", "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "assets/youtubeSummarizer.tsx-loader-a3e04794.js", "assets/youtubeSummaryBtn.tsx-loader-4c9ff780.js", "assets/youtubeSummaryBtnWithTweetify.tsx-loader-70631979.js", "assets/youtubeCommentSectionBtn.tsx-loader-285f27ee.js" ],
+      "matches": [ "https://www.youtube.com/*" ]
+   }, {
+      "js": [ "assets/searchGPT.tsx-loader-3623c73f.js" ],
+      "matches": [ "https://www.google.com/search?*", "https://www.bing.com/search?*", "https://search.yahoo.com/search*", "https://*.search.yahoo.com/search*", "https://yandex.com/search/?*", "https://duckduckgo.com/?*", "https://www.baidu.com/s?*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "assets/linkedinStrip.tsx-loader-aebe4db6.js" ],
+      "matches": [ "https://www.linkedin.com/*" ]
+   }, {
+      "js": [ "assets/githubSummarizer.tsx-loader-b249106a.js" ],
+      "matches": [ "https://github.com/*" ]
+   }, {
+      "js": [ "assets/outlookStrip.tsx-loader-141099a1.js" ],
+      "matches": [ "https://outlook.live.com/*", "https://outlook.office.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "differential_fingerprint": "1.02e0f46df754801f454d6aafe32929c33a1bae2c5928f9bdaa1545104be7cb1e",
+   "externally_connectable": {
+      "matches": [ "https://*.getmerlin.in/*", "https://*.foyer.work/*", "http://localhost/*", "https://*.vercel.app/*" ]
+   },
+   "host_permissions": [ "https://*/*" ],
+   "icons": {
+      "128": "public/logo-128x128.png",
+      "16": "public/logo-16x16.png",
+      "32": "public/logo-32x32.png",
+      "48": "public/logo-48x48.png",
+      "64": "public/logo-64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2a6FF0Th4JsBMe1FecVgnuco8lM0ZSVibzthkdimeyjjx7K/hxkljoJVC9AKlk1fBmJKkDsr9VbLJKboP/2uN8kISn/iHgiBtmQRQEU0T0UgZKx8D10YeneZOIvpoAmM8MyEojJgkSgxn0632vEXYotur84Z8NPn3p51fNYh+UYL/fHcsNJSeGLQdtQqrlVtR+sIJ0MsLuSq/BKSEjFRvVXFaftMZfEUo7M1tcQ6rYGpcMIZSeTAlWR0cilo3sah0SlMO8k8ntzHjAmanISOMJ3j7W2NAR6bph1R3lC36biOj3GTIS+D5jY3GVDRfaHX8WwKM2yskrussyhMew9s1wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "src/options/index.html"
+   },
+   "permissions": [ "storage", "tabs", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.12.9",
+   "web_accessible_resources": [ {
+      "matches": [ "https://docs.google.com/*", "https://sheets.new/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/merlin-logo-6bb5639f.js", "assets/index-1a12ff06.js", "assets/analytics-4a9d4e40.js", "assets/useUserSettings-eb91a32a.js", "assets/useTranslation-b0b08d2e.js", "assets/motion-064cf623.js", "assets/IconX-f6f2534f.js", "assets/index-75aa899c.js", "assets/hook-90290a85.js", "assets/createReactComponent-3abc0bad.js", "assets/gSheet.tsx-d1315610.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://*.amazon.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/merlin-logo-6bb5639f.js", "assets/index-1a12ff06.js", "assets/analytics-4a9d4e40.js", "assets/useTranslation-b0b08d2e.js", "assets/index-8e3fd625.js", "assets/index-5fbb8478.js", "assets/themeContext-73b6440c.js", "assets/index-75aa899c.js", "assets/i18n-1581a855.js", "assets/hook-90290a85.js", "assets/useMedia-691d1918.js", "assets/amazon.tsx-0c9fd250.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://twitter.com/*", "https://x.com/*" ],
+      "resources": [ "assets/doppelgainger-banner-37b67acc.png", "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-5fbb8478.js", "assets/themeContext-73b6440c.js", "assets/index-75aa899c.js", "assets/index-1a12ff06.js", "assets/useUrlChange-bb39451e.js", "assets/i18n-1581a855.js", "assets/useTranslation-b0b08d2e.js", "assets/createReactComponent-3abc0bad.js", "assets/index-eb167f60.js", "assets/analytics-4a9d4e40.js", "assets/IconArrowUpRight-b2c79567.js", "assets/IconReload-76a665f0.js", "assets/IconX-f6f2534f.js", "assets/debounce-c70d88e0.js", "assets/hook-90290a85.js", "assets/useMedia-691d1918.js", "assets/motion-064cf623.js", "assets/doppelgainger.tsx-afcb2b0d.js", "assets/index-2469c0ce.js", "assets/backend-8962bc7f.js", "assets/v4-4a60fe23.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/index-a295f481.js", "assets/purify.es-8e338605.js", "assets/index-876a044c.js", "assets/button-5c866ab2.js", "assets/utils-01642ffa.js", "assets/index-82863451.js", "assets/createLucideIcon-cc1e4b70.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/useSSE-a5deda20.js", "assets/languageLogoMap-4245085e.js", "assets/index-5f29b16d.js", "assets/foyerLogo-c0f0d78f.js", "assets/index-958f621a.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/useOnClickOutside-6cd227e1.js", "assets/useUserSettings-eb91a32a.js", "assets/fuzzysort-6a5075ee.js", "assets/IconCheck-c9ab9461.js", "assets/IconSend-7465868f.js", "assets/IconExclamationCircle-954ba15b.js", "assets/IconChevronRight-3a7ad62a.js", "assets/IconLanguage-d550ce4a.js", "assets/IconSettings-b145c3ad.js", "assets/IconBulb-01a33b5a.js", "assets/IconHeadset-4d4a643f.js", "assets/twitterStrip.tsx-a494df19.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://github.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-9f256355.js", "assets/index-1a12ff06.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/IconChevronRight-3a7ad62a.js", "assets/index-ef430e47.js", "assets/index-5fbb8478.js", "assets/messageContext-b7a474d6.js", "assets/themeContext-73b6440c.js", "assets/atom-one-light-7372aee1.js", "assets/index-75aa899c.js", "assets/utils-01642ffa.js", "assets/analytics-4a9d4e40.js", "assets/IconCheck-c9ab9461.js", "assets/createReactComponent-3abc0bad.js", "assets/IconCopy-40883e9b.js", "assets/hook-90290a85.js", "assets/v4-4a60fe23.js", "assets/useMedia-691d1918.js", "assets/prResult.tsx-131192a0.js", "assets/backend-8962bc7f.js", "assets/index-6be29c67.js", "assets/foyerLogo-c0f0d78f.js", "assets/webAccessTooltip-c8969efc.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/IconPower-deb9d0d4.js", "assets/useTranslation-b0b08d2e.js", "assets/IconUser-917049b8.js", "assets/IconExclamationCircle-954ba15b.js", "assets/index-a295f481.js", "assets/prSummarizer.tsx-907909e4.js", "assets/index-748a3c3d.js", "assets/index-756b2c38.js", "assets/githubSummarizer.tsx-ab3c8f1a.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://www.onlinegdb.com/*" ],
+      "resources": [ "assets/index-6400eb41.js", "assets/index-1a12ff06.js", "assets/gdbCodeEditor.ts-ad83dc07.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://rentry.co/*" ],
+      "resources": [ "assets/index-6400eb41.js", "assets/index-1a12ff06.js", "assets/rentryMarkdown.ts-f53b00be.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://business.facebook.com/*", "https://www.facebook.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-2469c0ce.js", "assets/index-a295f481.js", "assets/index-eb167f60.js", "assets/index-5fbb8478.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/useTranslation-b0b08d2e.js", "assets/v4-4a60fe23.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/IconExclamationCircle-954ba15b.js", "assets/IconReload-76a665f0.js", "assets/fuzzysort-6a5075ee.js", "assets/IconSend-7465868f.js", "assets/IconChevronRight-3a7ad62a.js", "assets/themeContext-73b6440c.js", "assets/backend-8962bc7f.js", "assets/index-75aa899c.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/purify.es-8e338605.js", "assets/index-876a044c.js", "assets/button-5c866ab2.js", "assets/utils-01642ffa.js", "assets/createLucideIcon-cc1e4b70.js", "assets/analytics-4a9d4e40.js", "assets/useSSE-a5deda20.js", "assets/languageLogoMap-4245085e.js", "assets/createReactComponent-3abc0bad.js", "assets/index-5f29b16d.js", "assets/foyerLogo-c0f0d78f.js", "assets/index-958f621a.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/useOnClickOutside-6cd227e1.js", "assets/useUserSettings-eb91a32a.js", "assets/IconX-f6f2534f.js", "assets/IconCheck-c9ab9461.js", "assets/IconLanguage-d550ce4a.js", "assets/IconSettings-b145c3ad.js", "assets/IconBulb-01a33b5a.js", "assets/IconHeadset-4d4a643f.js", "assets/useMedia-691d1918.js", "assets/facebookStrip.tsx-34b2c686.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://mail.google.com/*" ],
+      "resources": [ "assets/face-in-cloud-b59024d8.gif", "assets/lightning-fb31413a.gif", "assets/Sentient-Variable-e0c1b99d.woff2", "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/usePopper-5581625c.js", "assets/index-8e3fd625.js", "assets/foyerLogo-c0f0d78f.js", "assets/button-5c866ab2.js", "assets/index-5fbb8478.js", "assets/Combination-734d114c.js", "assets/messageContext-b7a474d6.js", "assets/themeContext-73b6440c.js", "assets/backend-8962bc7f.js", "assets/useUserSettings-eb91a32a.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/textarea-2abbddfa.js", "assets/avatar-2c1c2e36.js", "assets/card-f3fcd9ce.js", "assets/input-9a173b93.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/analytics-4a9d4e40.js", "assets/form-7781f1ca.js", "assets/useSSE-a5deda20.js", "assets/index-9f256355.js", "assets/index-876a044c.js", "assets/useTranslation-b0b08d2e.js", "assets/IconChevronUp-d94b2648.js", "assets/IconChevronDown-306a8eca.js", "assets/IconCheck-c9ab9461.js", "assets/IconCopy-40883e9b.js", "assets/IconRefresh-36ad111f.js", "assets/IconSend-7465868f.js", "assets/IconChevronRight-3a7ad62a.js", "assets/select-31f6dec3.js", "assets/IconX-f6f2534f.js", "assets/createReactComponent-3abc0bad.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/v4-4a60fe23.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/utils-01642ffa.js", "assets/index-75aa899c.js", "assets/index-6e1689d3.js", "assets/index-3e5c8eb0.js", "assets/useMedia-691d1918.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/index-a295f481.js", "assets/createLucideIcon-cc1e4b70.js", "assets/index-0e452f41.js", "assets/superGMail.tsx-5f593264.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://www.google.com/*" ],
+      "resources": [ "assets/MerlinLogo-7068b8fe.webp", "assets/Sentient-Variable-e0c1b99d.woff2", "assets/client-64cc3330.js", "assets/index-6400eb41.js", "assets/index-75aa899c.js", "assets/usePopper-5581625c.js", "assets/button-5c866ab2.js", "assets/analytics-4a9d4e40.js", "assets/index-1a12ff06.js", "assets/utils-01642ffa.js", "assets/googleCtaForSuperGMail.tsx-c796cbca.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "\u003Call_urls>", "http://*/*", "https://*/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/tooltip-bec7e09a.js", "assets/index-5fbb8478.js", "assets/messageContext-b7a474d6.js", "assets/themeContext-73b6440c.js", "assets/createReactComponent-3abc0bad.js", "assets/merlin-logo-6bb5639f.js", "assets/button-5c866ab2.js", "assets/utils-01642ffa.js", "assets/analytics-4a9d4e40.js", "assets/useTranslation-b0b08d2e.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/IconLanguage-d550ce4a.js", "assets/IconBulb-01a33b5a.js", "assets/IconBlockquote-93c27f6e.js", "assets/IconX-f6f2534f.js", "assets/IconSettings-b145c3ad.js", "assets/index-75aa899c.js", "assets/index-6e1689d3.js", "assets/index-3e5c8eb0.js", "assets/index-0e452f41.js", "assets/v4-4a60fe23.js", "assets/useMedia-691d1918.js", "assets/merlinIconCTA.tsx-c0c7e6cd.js", "assets/index-a295f481.js", "assets/purify.es-8e338605.js", "assets/index-d755fe75.js", "assets/index-876a044c.js", "assets/index-22b8c452.js", "assets/webAccessTooltip-c8969efc.js", "assets/backend-8962bc7f.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/useOnClickOutside-6cd227e1.js", "assets/useUserSettings-eb91a32a.js", "assets/index-43eb1423.js", "assets/IconRefresh-36ad111f.js", "assets/IconCopy-40883e9b.js", "assets/IconChevronUp-d94b2648.js", "assets/i18n-1581a855.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/languageLogoMap-4245085e.js", "assets/foyerLogo-c0f0d78f.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/IconChevronRight-3a7ad62a.js", "assets/IconCheck-c9ab9461.js", "assets/IconHeadset-4d4a643f.js", "assets/createLucideIcon-cc1e4b70.js", "assets/blogSummarizer.tsx-3cb9e00a.js", "assets/index-748a3c3d.js", "assets/index-756b2c38.js", "assets/IconPower-deb9d0d4.js", "assets/codeSummarizer.tsx-5a8dd7e9.js", "assets/script.ts-485857ac.js", "assets/aspect-ratio-ce518302.js", "assets/card-f3fcd9ce.js", "assets/index-958f621a.js", "assets/tutorial.tsx-e88c5367.js", "assets/Sentient-Variable-e0c1b99d.woff2", "assets/useSSE-a5deda20.js", "assets/utils-f7fcf05a.js", "assets/throttle-94919e3f.js", "assets/debounce-c70d88e0.js", "assets/previewLink.tsx-507c35cf.js", "assets/outofcredits-c3e03eee.svg", "assets/Combination-734d114c.js", "assets/fallbackErrorScreen-876b2aa4.js", "assets/webAccess-b75d05a0.js", "assets/form-7781f1ca.js", "assets/getYoutubeVideoContextData-d13789cd.js", "assets/postMessageConstants-e657f8b8.js", "assets/loader-7040aac5.js", "assets/IconSend-7465868f.js", "assets/index-9f256355.js", "assets/IconExclamationCircle-954ba15b.js", "assets/IconArrowUpRight-b2c79567.js", "assets/IconChevronDown-306a8eca.js", "assets/fuzzysort-6a5075ee.js", "assets/dropdown-menu-bf41fbb1.js", "assets/IconLoader-b8d41a97.js", "assets/input-9a173b93.js", "assets/IconBrandTwitter-c94f6091.js", "assets/IconBrandMedium-c9a73ae6.js", "assets/IconUser-917049b8.js", "assets/select-31f6dec3.js", "assets/atom-one-light-7372aee1.js", "assets/index-5468b753.js", "assets/chat.tsx-96942d3d.js", "assets/merlinUIComponentPortal.tsx-8a48ec39.js", "assets/face-in-cloud-b59024d8.gif", "assets/lightning-fb31413a.gif", "assets/index-5f29b16d.js", "assets/avatar-2c1c2e36.js", "assets/textarea-2abbddfa.js", "assets/quill.tsx-0b707dc7.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://www.youtube.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-5fbb8478.js", "assets/index-a295f481.js", "assets/analytics-4a9d4e40.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/postMessageConstants-e657f8b8.js", "assets/getYoutubeVideoContextData-d13789cd.js", "assets/backend-8962bc7f.js", "assets/index-d755fe75.js", "assets/index-876a044c.js", "assets/useTranslation-b0b08d2e.js", "assets/IconBrandTwitter-c94f6091.js", "assets/IconBrandMedium-c9a73ae6.js", "assets/motion-064cf623.js", "assets/IconRefresh-36ad111f.js", "assets/index-6be29c67.js", "assets/index-22b8c452.js", "assets/webAccessTooltip-c8969efc.js", "assets/useOnClickOutside-6cd227e1.js", "assets/index-82863451.js", "assets/IconCopy-40883e9b.js", "assets/IconChevronDown-306a8eca.js", "assets/createReactComponent-3abc0bad.js", "assets/IconBlockquote-93c27f6e.js", "assets/index-75aa899c.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/languageLogoMap-4245085e.js", "assets/foyerLogo-c0f0d78f.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/useUserSettings-eb91a32a.js", "assets/IconLanguage-d550ce4a.js", "assets/IconChevronRight-3a7ad62a.js", "assets/IconCheck-c9ab9461.js", "assets/IconSettings-b145c3ad.js", "assets/IconHeadset-4d4a643f.js", "assets/utils-01642ffa.js", "assets/button-5c866ab2.js", "assets/createLucideIcon-cc1e4b70.js", "assets/youtubeSummarizer.tsx-43e82fb2.js", "assets/themeContext-73b6440c.js", "assets/useWindowSize-35318f38.js", "assets/useMedia-691d1918.js", "assets/youtubeSummaryBtn.tsx-4a9c4f0d.js", "assets/youtubeSummaryBtnWithTweetify.tsx-11bc8607.js", "assets/IconLoader-b8d41a97.js", "assets/youtubeCommentSectionBtn.tsx-8acbd1c5.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://*.search.yahoo.com/*", "https://duckduckgo.com/*", "https://search.yahoo.com/*", "https://www.baidu.com/*", "https://www.bing.com/*", "https://www.google.com/*", "https://yandex.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-5fbb8478.js", "assets/Combination-734d114c.js", "assets/messageContext-b7a474d6.js", "assets/themeContext-73b6440c.js", "assets/index-a295f481.js", "assets/index-eb167f60.js", "assets/button-5c866ab2.js", "assets/input-9a173b93.js", "assets/utils-01642ffa.js", "assets/backend-8962bc7f.js", "assets/analytics-4a9d4e40.js", "assets/webAccess-b75d05a0.js", "assets/useSSE-a5deda20.js", "assets/merlin-logo-6bb5639f.js", "assets/useTranslation-b0b08d2e.js", "assets/index-9f256355.js", "assets/index-876a044c.js", "assets/utils-f7fcf05a.js", "assets/avatar-2c1c2e36.js", "assets/createLucideIcon-cc1e4b70.js", "assets/motion-064cf623.js", "assets/index-82863451.js", "assets/IconX-f6f2534f.js", "assets/switch-758eec2e.js", "assets/dropdown-menu-bf41fbb1.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/createReactComponent-3abc0bad.js", "assets/IconArrowUpRight-b2c79567.js", "assets/IconUser-917049b8.js", "assets/IconSettings-b145c3ad.js", "assets/atom-one-light-7372aee1.js", "assets/index-75aa899c.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/index-6e1689d3.js", "assets/index-3e5c8eb0.js", "assets/v4-4a60fe23.js", "assets/useMedia-691d1918.js", "assets/purify.es-8e338605.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/IconCheck-c9ab9461.js", "assets/IconCopy-40883e9b.js", "assets/index-5468b753.js", "assets/searchGPT.tsx-56156543.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://www.linkedin.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-2469c0ce.js", "assets/useUrlChange-bb39451e.js", "assets/useWindowSize-35318f38.js", "assets/useTranslation-b0b08d2e.js", "assets/index-5fbb8478.js", "assets/themeContext-73b6440c.js", "assets/backend-8962bc7f.js", "assets/index-75aa899c.js", "assets/v4-4a60fe23.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/index-a295f481.js", "assets/purify.es-8e338605.js", "assets/index-876a044c.js", "assets/button-5c866ab2.js", "assets/utils-01642ffa.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/createLucideIcon-cc1e4b70.js", "assets/index-eb167f60.js", "assets/analytics-4a9d4e40.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/useSSE-a5deda20.js", "assets/languageLogoMap-4245085e.js", "assets/createReactComponent-3abc0bad.js", "assets/index-5f29b16d.js", "assets/foyerLogo-c0f0d78f.js", "assets/index-958f621a.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/useOnClickOutside-6cd227e1.js", "assets/useUserSettings-eb91a32a.js", "assets/fuzzysort-6a5075ee.js", "assets/IconX-f6f2534f.js", "assets/IconCheck-c9ab9461.js", "assets/IconSend-7465868f.js", "assets/IconReload-76a665f0.js", "assets/IconExclamationCircle-954ba15b.js", "assets/IconChevronRight-3a7ad62a.js", "assets/IconLanguage-d550ce4a.js", "assets/IconSettings-b145c3ad.js", "assets/IconBulb-01a33b5a.js", "assets/IconHeadset-4d4a643f.js", "assets/useMedia-691d1918.js", "assets/linkedinStrip.tsx-a3c37fb7.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "https://outlook.live.com/*", "https://outlook.office.com/*" ],
+      "resources": [ "assets/client-64cc3330.js", "assets/index-1a12ff06.js", "assets/hook-90290a85.js", "assets/index-6400eb41.js", "assets/index-8e3fd625.js", "assets/index-2469c0ce.js", "assets/index-5fbb8478.js", "assets/themeContext-73b6440c.js", "assets/backend-8962bc7f.js", "assets/index-75aa899c.js", "assets/PersistQueryClientProvider-dcb1f9d7.js", "assets/index-a295f481.js", "assets/purify.es-8e338605.js", "assets/index-876a044c.js", "assets/button-5c866ab2.js", "assets/utils-01642ffa.js", "assets/useTranslation-b0b08d2e.js", "assets/index-82863451.js", "assets/motion-064cf623.js", "assets/createLucideIcon-cc1e4b70.js", "assets/index-eb167f60.js", "assets/analytics-4a9d4e40.js", "assets/useAsyncWithPromise-a02bc426.js", "assets/useSSE-a5deda20.js", "assets/languageLogoMap-4245085e.js", "assets/createReactComponent-3abc0bad.js", "assets/index-5f29b16d.js", "assets/foyerLogo-c0f0d78f.js", "assets/index-958f621a.js", "assets/useSharedUserSettings-15caf5a1.js", "assets/useOnClickOutside-6cd227e1.js", "assets/useUserSettings-eb91a32a.js", "assets/fuzzysort-6a5075ee.js", "assets/IconX-f6f2534f.js", "assets/IconCheck-c9ab9461.js", "assets/v4-4a60fe23.js", "assets/IconSend-7465868f.js", "assets/IconReload-76a665f0.js", "assets/IconExclamationCircle-954ba15b.js", "assets/IconChevronRight-3a7ad62a.js", "assets/IconLanguage-d550ce4a.js", "assets/IconSettings-b145c3ad.js", "assets/IconBulb-01a33b5a.js", "assets/IconHeadset-4d4a643f.js", "assets/useMedia-691d1918.js", "assets/outlookStrip.tsx-8ea2e801.js" ],
+      "use_dynamic_url": true
+   } ]
+}

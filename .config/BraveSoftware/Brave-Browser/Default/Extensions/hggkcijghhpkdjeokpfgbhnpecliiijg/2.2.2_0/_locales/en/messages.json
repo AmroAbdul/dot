@@ -1,0 +1,426 @@
+{
+   "April": {
+      "message": "April"
+   },
+   "August": {
+      "message": "August"
+   },
+   "December": {
+      "message": "December"
+   },
+   "Dhu_al_Hijjah": {
+      "message": "Dhū al-Ḥijjah"
+   },
+   "Dhu_al_Qa_dah": {
+      "message": "Dhū al-Qaʿdah"
+   },
+   "February": {
+      "message": "February"
+   },
+   "Friday": {
+      "message": "Friday"
+   },
+   "January": {
+      "message": "January"
+   },
+   "July": {
+      "message": "July"
+   },
+   "Jumada_al_akhirah": {
+      "message": "Jumādá-al-ākhirah"
+   },
+   "Jumada_al_ula": {
+      "message": "Jumādá al-ūlá"
+   },
+   "June": {
+      "message": "June"
+   },
+   "March": {
+      "message": "March"
+   },
+   "May": {
+      "message": "May"
+   },
+   "Monday": {
+      "message": "Monday"
+   },
+   "Muharram": {
+      "message": "Muḥarram"
+   },
+   "November": {
+      "message": "November"
+   },
+   "October": {
+      "message": "October"
+   },
+   "Rabi__al_awwal": {
+      "message": "Rabīʿ al-awwal"
+   },
+   "Rabi__al_thani": {
+      "message": "Rabīʿ al-thānī"
+   },
+   "Rajab": {
+      "message": "Rajab"
+   },
+   "Ramadan": {
+      "message": "Ramadan"
+   },
+   "Safar": {
+      "message": "Ṣafar"
+   },
+   "Saturday": {
+      "message": "Saturday"
+   },
+   "September": {
+      "message": "September"
+   },
+   "Sha_ban": {
+      "message": "Shaʿbān"
+   },
+   "Shawwal": {
+      "message": "Shawwāl"
+   },
+   "Sunday": {
+      "message": "Sunday"
+   },
+   "Thursday": {
+      "message": "Thursday"
+   },
+   "Tuesday": {
+      "message": "Tuesday"
+   },
+   "Wednesday": {
+      "message": "Wednesday"
+   },
+   "ar": {
+      "message": "Arabic"
+   },
+   "asr": {
+      "message": "Asr"
+   },
+   "athkar": {
+      "message": "Athkar"
+   },
+   "az": {
+      "message": "Azerbaijani"
+   },
+   "background_image": {
+      "message": "Background Image"
+   },
+   "bn": {
+      "message": "Bengali"
+   },
+   "calendar": {
+      "message": "Calendar"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "coffee": {
+      "message": "Buy me a Coffee"
+   },
+   "collection_id": {
+      "message": "Collection ID"
+   },
+   "contact_developer": {
+      "message": "Contact developer"
+   },
+   "cs": {
+      "message": "Czech"
+   },
+   "de": {
+      "message": "German"
+   },
+   "default": {
+      "message": "Default"
+   },
+   "dhuhr": {
+      "message": "Dhuhr"
+   },
+   "dv": {
+      "message": "Divehi"
+   },
+   "en": {
+      "message": "English"
+   },
+   "enable_notification_notice": {
+      "message": "Make sure to enable notifications for Sunnah Fasting days to receive a notification a day before!"
+   },
+   "error": {
+      "message": "An error occured, please try again later."
+   },
+   "es": {
+      "message": "Spanish"
+   },
+   "fa": {
+      "message": "Farsi"
+   },
+   "fajr": {
+      "message": "Fajr"
+   },
+   "fasting": {
+      "message": "Fasting"
+   },
+   "fasting_notification": {
+      "description": "Text of the notification that will be sent before a fasting day.",
+      "message": "Tomorrow is a Sunah Fasting Day"
+   },
+   "fasting_reminder_title": {
+      "message": "Fasting Reminder"
+   },
+   "favorites": {
+      "message": "Favorites"
+   },
+   "feedback": {
+      "message": "Give us your feedback"
+   },
+   "feedback_window_content": {
+      "message": "\u003Cp class='lead'>Thank you for using our extension. We want to keep improving and making this extension better for you \u003Cbr> Please give us your feedback by answering just few questions \u003Cb>\u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\" target=\"_blank\">here\u003C/a>\u003C/b>\u003C/p>"
+   },
+   "feedback_window_title": {
+      "message": "Give Us Your Feedback"
+   },
+   "file_error": {
+      "message": "Please choose a file"
+   },
+   "fr": {
+      "message": "French"
+   },
+   "general": {
+      "message": "General"
+   },
+   "ha": {
+      "message": "Hausa"
+   },
+   "hi": {
+      "message": "Hindi"
+   },
+   "id": {
+      "message": "Indonesian"
+   },
+   "image_source": {
+      "message": "Image Source"
+   },
+   "isha": {
+      "message": "Isha"
+   },
+   "it": {
+      "message": "Italian"
+   },
+   "ja": {
+      "message": "Japanese"
+   },
+   "ko": {
+      "message": "Korean"
+   },
+   "ku": {
+      "message": "Kurdish"
+   },
+   "maghrib": {
+      "message": "Maghrib"
+   },
+   "ml": {
+      "message": "Malayalam"
+   },
+   "new_feature_top_sites": {
+      "message": "You can now remove sites from the \"Top Sites\" list! Just hover the site and then click on the \"X\" icon that will appear. "
+   },
+   "new_features_calendar_content": {
+      "message": "We have added the following new features:\u003Cul>\u003Cli>\u003Cb>Calendar:\u003C/b> You can now view each gregorian month's calendar with the hijri dates by clicking on the calendar icon at the top right\u003C/li>\u003Cli>\u003Cb>Fasting Days and Holidays:\u003C/b> In the calendar you can see which days have holidays and/or have Sunnah Fasting Days\u003C/li>\u003Cli>\u003Cb>Notifications for Sunnah Fasting Days:\u003C/b> You can receive a notification a day before a sunnah fasting day by enabling it \u003Ca href=\"#\" class=\"notifications-reminder\">in the settings\u003C/a>\u003C/li>\u003C/ul>\u003Cb>Upcoming features:\u003C/b>\u003Cul>\u003Cli>We are working on translating this extension into different languages including Arabic, French, Indonesian, and other languages as well. If you would like to help please go \u003Ca href=\"https://crowdin.com/project/quran-in-new-tab-extension\">here\u003C/a>.\u003C/li>\u003Cli>Reminders/Notifications for prayer times\u003C/li>\u003C/ul>If you have any other ideas you would like to see \u003Ca href=\"https://shahednasser.typeform.com/to/Maf5wATU\">submit them in our survey.\u003C/a>\u003Cb/>Thank you for using Quran In New Tab extension!"
+   },
+   "new_features_title": {
+      "message": "New Features!"
+   },
+   "nl": {
+      "message": "Dutch"
+   },
+   "no": {
+      "message": "Norwegian"
+   },
+   "none": {
+      "message": "None"
+   },
+   "notification_setting": {
+      "message": "Send a Notification a Day before Sunnah Fasting"
+   },
+   "pl": {
+      "message": "Polish"
+   },
+   "prayer_times": {
+      "message": "Prayer Times"
+   },
+   "prayer_times_format": {
+      "message": "Prayer Times Format"
+   },
+   "prayer_times_hint": {
+      "message": "These might not be accurate. Please check the settings to change the method of calculation for a better result."
+   },
+   "prayer_times_method": {
+      "message": "Prayer Times Method"
+   },
+   "prayer_times_method_description": {
+      "message": "Since prayer times can be inaccurate, you can try adjusting the method to achieve the best result."
+   },
+   "pt": {
+      "message": "Portuguese"
+   },
+   "quran": {
+      "message": "Quran"
+   },
+   "quran_translation": {
+      "message": "Quran Translation"
+   },
+   "rate_extension": {
+      "message": "Rate This Extension"
+   },
+   "recitation": {
+      "message": "Recitation"
+   },
+   "refresh_every_tab": {
+      "message": "Should Refresh on Every New Tab"
+   },
+   "reload": {
+      "message": "Reload"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "remove_top_site_content": {
+      "message": "Are you sure you want to remove the site?"
+   },
+   "remove_top_site_title": {
+      "message": "Remove Top Site"
+   },
+   "report_bug": {
+      "message": "Report a bug"
+   },
+   "report_image": {
+      "message": "Report Image"
+   },
+   "report_image_window_content": {
+      "message": "If you think the image is inappropriate or you don't like it, please report the image and you will not see it anymore."
+   },
+   "report_image_window_title": {
+      "message": "Report Image"
+   },
+   "reporting_window_content": {
+      "message": "If there are any images that you don't like or find inappropriate, press the \u003Cb>Report\u003C/b> icon on the top left to report these images and never show them again!"
+   },
+   "reporting_window_title": {
+      "message": "You can now report images!"
+   },
+   "ro": {
+      "message": "Romanian"
+   },
+   "ru": {
+      "message": "Russian"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saved": {
+      "message": "Settings have been saved successfully"
+   },
+   "sd": {
+      "message": "Sindhi"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "show_hijri_date": {
+      "message": "Show Hijri Date"
+   },
+   "show_hijri_date_description": {
+      "message": "Checking this will show Hijri date with Gregorian date and holidays (if there are any on the day)."
+   },
+   "show_prayer_times": {
+      "message": "Show Prayer Times"
+   },
+   "show_prayer_times_description": {
+      "message": "Show Prayer Times. Prayer Times can be sometimes inaccurate."
+   },
+   "show_random_athkar": {
+      "message": "Show Random Athkar"
+   },
+   "show_search_bar": {
+      "message": "Show Google's Search Bar"
+   },
+   "show_tafseer": {
+      "message": "Show Tafseer"
+   },
+   "show_top_sites": {
+      "message": "Show Top Sites"
+   },
+   "show_top_sites_description": {
+      "message": "If you don't have top sites, none will show."
+   },
+   "show_translation": {
+      "message": "Show Translation"
+   },
+   "single_image": {
+      "message": "Single Image"
+   },
+   "single_image_description": {
+      "message": "Upload an image of your choice"
+   },
+   "single_image_file": {
+      "message": "Choose Image"
+   },
+   "so": {
+      "message": "Somali"
+   },
+   "sq": {
+      "message": "Albanian"
+   },
+   "sv": {
+      "message": "Swedish"
+   },
+   "sw": {
+      "message": "Swahili"
+   },
+   "ta": {
+      "message": "Tamil"
+   },
+   "tg": {
+      "message": "Tajik"
+   },
+   "th": {
+      "message": "Thau"
+   },
+   "tr": {
+      "message": "Turkish"
+   },
+   "translation_language": {
+      "message": "Translation Language"
+   },
+   "translation_link": {
+      "message": "Help in translating this extension"
+   },
+   "tt": {
+      "message": "Tatar"
+   },
+   "ug": {
+      "message": "Uyghur"
+   },
+   "unsplash_collection": {
+      "message": "Custom Unsplash Collection"
+   },
+   "unsplash_collection_description": {
+      "message": "Enter a collection ID for an Unsplash collection to see its images"
+   },
+   "unsplash_error": {
+      "message": "Please enter a collection ID"
+   },
+   "until": {
+      "message": "Until"
+   },
+   "ur": {
+      "message": "Urdu"
+   },
+   "uz": {
+      "message": "Uzbek"
+   },
+   "week_start_date": {
+      "message": "Week Start Day"
+   }
+}

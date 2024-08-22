@@ -1,0 +1,12 @@
+2024-07-15 20:17:08.437 [info] File sync client created: https://api2.cursor.sh
+2024-07-15 20:17:08.437 [info] File sync client created: https://api2.cursor.sh
+2024-07-15 20:17:09.033 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:22:09.647 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:27:09.250 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:32:09.216 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:37:09.278 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:42:09.422 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:47:09.274 [error] Failed to check if file sync is enabled for user {"name":"ConnectError","rawMessage":"Stream closed with error code NGHTTP2_REFUSED_STREAM","code":13,"metadata":{},"details":[],"cause":{"code":"ERR_HTTP2_STREAM_ERROR"}}
+2024-07-15 20:52:09.638 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 20:57:09.176 [info] [ENABLED STATUS] Filesync is NOT enabled.
+2024-07-15 21:02:09.227 [info] [ENABLED STATUS] Filesync is NOT enabled.

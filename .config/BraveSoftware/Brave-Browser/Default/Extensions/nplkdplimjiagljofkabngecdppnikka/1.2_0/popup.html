@@ -1,0 +1,59 @@
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="res/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="res/js/global.js"></script>
+    <script type="text/javascript" charset="utf-8" src="background.js"></script>
+    <script type="text/javascript" charset="utf-8" src="popup.js"></script>
+    <link href="res/css/custom.css" rel="stylesheet" />
+    <link href="res/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body style="direction:rtl;width:500px;" class="arabicLexicon_body">
+    <div id="header">      
+        <!-- <img src="res/img/logo-light.svg" style="float:right;width: 140px;">
+     
+        <img src="res/img/ksaa-light-logo.svg" style="float:left;width: 150px;"> -->
+    </div>
+    <div class="content">
+        <div id="ArabicLexiconDiv" class="b-white">
+            <div class="tip result plug">
+                <audio id="ArabicLexiconSound">
+                    <source src="" type="audio/mpeg" id="mp3">
+                    <source src="" type="audio/ogg" id="ogg">
+                </audio>
+                <audio id="EnArabicLexiconSound">
+                        <source src="" type="audio/mpeg" id="ENmp3">
+                        <source src="" type="audio/ogg" id="ENogg">
+                </audio>
+                <div class="search" dir="rtl">                       
+                    <input type="search" name="txtSearch" id="txtSearch" />        
+                    <button id="btnSearch">ابحث</button>       
+                </div>
+            </div>
+            <div style="padding:20px 10px;">
+                <div>
+                    <a id="siteLink" href="#" style="margin: 0px 0px;" target="_blank">                    
+                        <span id="title">
+                        </span>
+                    </a>
+                    <a href="#" id="playAudio">
+                        <img  class="GraySpeaker" src="res/img/volume.png"  aria-hidden="true" alt="..."  style="vertical-align: middle;">
+                    </a>
+                    <span id="mInfo"></span>
+                </div>
+                <div class="sense-wrap">
+                    <div style="text-align:right;" id="sense"></div>
+                    <div style="direction: ltr;text-align: left;">                    
+                        <span  id="englishTranslation"></span>
+                        <a href="#" id="EnPlayAudio">
+                            <img  class="GraySpeaker" src="res/img/volume.png"  aria-hidden="true" alt="..."  style="vertical-align: middle;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

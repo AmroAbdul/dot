@@ -1,0 +1,30 @@
+2024/06/13-21:32:29.736 c0cb Creating DB /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2024/06/13-21:32:29.739 c0cb Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/13-21:32:35.328 c0f9 Level-0 table #5: started
+2024/06/13-21:32:35.350 c0f9 Level-0 table #5: 1577045 bytes OK
+2024/06/13-21:32:35.352 c0f9 Delete type=0 #3
+2024/06/13-21:32:35.450 c0f9 Level-0 table #7: started
+2024/06/13-21:32:35.472 c0f9 Level-0 table #7: 1379900 bytes OK
+2024/06/13-21:32:35.475 c0f9 Delete type=0 #4
+2024/06/13-21:32:35.564 c0ca Level-0 table #9: started
+2024/06/13-21:32:35.583 c0ca Level-0 table #9: 987098 bytes OK
+2024/06/13-21:32:35.585 c0ca Delete type=0 #6
+2024/06/13-21:32:35.588 c0ca Compacting 1@0 + 1@1 files
+2024/06/13-21:32:35.630 c0ca Generated table #10@0: 12607 keys, 2146678 bytes
+2024/06/13-21:32:35.637 c0ca Generated table #11@0: 1912 keys, 188194 bytes
+2024/06/13-21:32:35.637 c0ca Compacted 1@0 + 1@1 files => 2334872 bytes
+2024/06/13-21:32:35.639 c0ca compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/06/13-21:32:35.639 c0ca Delete type=2 #7
+2024/06/13-21:32:35.639 c0ca Delete type=2 #9
+2024/06/13-21:32:35.642 c0ca Expanding@1 1+1 (188194+1577045 bytes) to 2+1 (2334872+1577045 bytes)
+2024/06/13-21:32:35.643 c0ca Compacting 2@1 + 1@2 files
+2024/06/13-21:32:35.687 c0ca Generated table #12@1: 14023 keys, 2144835 bytes
+2024/06/13-21:32:35.715 c0ca Generated table #13@1: 7417 keys, 1470409 bytes
+2024/06/13-21:32:35.715 c0ca Compacted 2@1 + 1@2 files => 3615244 bytes
+2024/06/13-21:32:35.717 c0ca compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/06/13-21:32:35.717 c0ca Delete type=2 #5
+2024/06/13-21:32:35.718 c0ca Delete type=2 #10
+2024/06/13-21:32:35.718 c0ca Delete type=2 #11
+2024/06/13-21:32:36.993 c0ca Level-0 table #15: started
+2024/06/13-21:32:37.011 c0ca Level-0 table #15: 1083967 bytes OK
+2024/06/13-21:32:37.014 c0ca Delete type=0 #8

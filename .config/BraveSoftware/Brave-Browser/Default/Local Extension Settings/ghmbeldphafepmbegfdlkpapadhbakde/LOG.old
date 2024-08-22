@@ -1,0 +1,27 @@
+2024/08/21-13:07:11.317 2c91 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/ghmbeldphafepmbegfdlkpapadhbakde/MANIFEST-000001
+2024/08/21-13:07:11.318 2c91 Recovering log #377
+2024/08/21-13:07:11.329 2c91 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/ghmbeldphafepmbegfdlkpapadhbakde/000377.log 
+2024/08/21-13:07:12.841 2c7a Level-0 table #381: started
+2024/08/21-13:07:12.853 2c7a Level-0 table #381: 1785013 bytes OK
+2024/08/21-13:07:12.856 2c7a Delete type=0 #377
+2024/08/21-13:16:27.956 2c79 Level-0 table #383: started
+2024/08/21-13:16:27.963 2c79 Level-0 table #383: 1021488 bytes OK
+2024/08/21-13:16:27.965 2c79 Delete type=0 #380
+2024/08/21-14:46:45.561 2c79 Level-0 table #385: started
+2024/08/21-14:46:45.566 2c79 Level-0 table #385: 637223 bytes OK
+2024/08/21-14:46:45.568 2c79 Delete type=0 #382
+2024/08/21-14:46:45.569 2c79 Compacting 4@0 + 1@1 files
+2024/08/21-14:46:45.580 2c79 Generated table #386@0: 10 keys, 482660 bytes
+2024/08/21-14:46:45.580 2c79 Compacted 4@0 + 1@1 files => 482660 bytes
+2024/08/21-14:46:45.581 2c79 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/21-14:46:45.581 2c79 Delete type=2 #375
+2024/08/21-14:46:45.581 2c79 Delete type=2 #378
+2024/08/21-14:46:45.581 2c79 Delete type=2 #381
+2024/08/21-14:46:45.581 2c79 Delete type=2 #383
+2024/08/21-14:46:45.581 2c79 Delete type=2 #385
+2024/08/21-15:02:56.520 2c79 Level-0 table #388: started
+2024/08/21-15:02:56.528 2c79 Level-0 table #388: 1377336 bytes OK
+2024/08/21-15:02:56.530 2c79 Delete type=0 #384
+2024/08/21-15:21:21.699 2c79 Level-0 table #390: started
+2024/08/21-15:21:21.705 2c79 Level-0 table #390: 636860 bytes OK
+2024/08/21-15:21:21.707 2c79 Delete type=0 #387

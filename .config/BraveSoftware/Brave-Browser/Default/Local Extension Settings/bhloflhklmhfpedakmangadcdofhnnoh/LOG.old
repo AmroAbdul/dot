@@ -1,0 +1,42 @@
+2024/08/21-13:07:16.957 2c92 Reusing MANIFEST /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bhloflhklmhfpedakmangadcdofhnnoh/MANIFEST-000001
+2024/08/21-13:07:16.958 2c92 Recovering log #383
+2024/08/21-13:07:16.971 2c92 Reusing old log /home/amro/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/bhloflhklmhfpedakmangadcdofhnnoh/000383.log 
+2024/08/21-13:07:21.969 2c91 Level-0 table #387: started
+2024/08/21-13:07:21.993 2c91 Level-0 table #387: 4577346 bytes OK
+2024/08/21-13:07:21.998 2c91 Delete type=0 #383
+2024/08/21-13:10:06.395 2c79 Level-0 table #389: started
+2024/08/21-13:10:06.410 2c79 Level-0 table #389: 4328458 bytes OK
+2024/08/21-13:10:06.412 2c79 Delete type=0 #386
+2024/08/21-13:10:06.413 2c79 Compacting 4@0 + 1@1 files
+2024/08/21-13:10:06.430 2c79 Generated table #390@0: 3 keys, 2472543 bytes
+2024/08/21-13:10:06.438 2c79 Compacted 4@0 + 1@1 files => 2472543 bytes
+2024/08/21-13:10:06.439 2c79 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/21-13:10:06.440 2c79 Delete type=2 #379
+2024/08/21-13:10:06.440 2c79 Delete type=2 #381
+2024/08/21-13:10:06.440 2c79 Delete type=2 #384
+2024/08/21-13:10:06.440 2c79 Delete type=2 #387
+2024/08/21-13:10:06.440 2c79 Delete type=2 #389
+2024/08/21-13:13:28.684 2c79 Level-0 table #392: started
+2024/08/21-13:13:28.701 2c79 Level-0 table #392: 4528240 bytes OK
+2024/08/21-13:13:28.704 2c79 Delete type=0 #388
+2024/08/21-14:27:26.011 2c79 Level-0 table #394: started
+2024/08/21-14:27:26.027 2c79 Level-0 table #394: 4465290 bytes OK
+2024/08/21-14:27:26.030 2c79 Delete type=0 #391
+2024/08/21-14:52:54.521 2c79 Level-0 table #396: started
+2024/08/21-14:52:54.537 2c79 Level-0 table #396: 5072835 bytes OK
+2024/08/21-14:52:54.540 2c79 Delete type=0 #393
+2024/08/21-15:01:14.295 2c79 Level-0 table #398: started
+2024/08/21-15:01:14.315 2c79 Level-0 table #398: 4699764 bytes OK
+2024/08/21-15:01:14.318 2c79 Delete type=0 #395
+2024/08/21-15:01:14.319 2c79 Compacting 4@0 + 1@1 files
+2024/08/21-15:01:14.337 2c79 Generated table #399@0: 3 keys, 2686221 bytes
+2024/08/21-15:01:14.345 2c79 Compacted 4@0 + 1@1 files => 2686221 bytes
+2024/08/21-15:01:14.347 2c79 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/21-15:01:14.347 2c79 Delete type=2 #390
+2024/08/21-15:01:14.347 2c79 Delete type=2 #392
+2024/08/21-15:01:14.347 2c79 Delete type=2 #394
+2024/08/21-15:01:14.348 2c79 Delete type=2 #396
+2024/08/21-15:01:14.348 2c79 Delete type=2 #398
+2024/08/21-15:15:45.760 2c79 Level-0 table #401: started
+2024/08/21-15:15:45.777 2c79 Level-0 table #401: 4530081 bytes OK
+2024/08/21-15:15:45.780 2c79 Delete type=0 #397
